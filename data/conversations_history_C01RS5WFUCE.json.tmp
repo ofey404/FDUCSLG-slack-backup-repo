@@ -1,0 +1,70 @@
+{
+  "channel": "C01RS5WFUCE",
+  "messages": [
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617619942.000200",
+      "user": "U01TZBL3PH6",
+      "text": "<@U01TZBL3PH6> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617164120.000400",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617164105.000200",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "bot_id": "B01RZ2YE8GK",
+      "type": "message",
+      "text": "I'm here! :huaji:",
+      "user": "U01S51JHGQL",
+      "ts": "1616335944.000700",
+      "team": "T019A14BB9T",
+      "bot_profile": {
+        "id": "B01RZ2YE8GK",
+        "deleted": false,
+        "name": "Starter Bot of ofey404",
+        "updated": 1616327879,
+        "app_id": "A01RS2B9XJA",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "team_id": "T019A14BB9T"
+      }
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1616335942.000600",
+      "user": "U01S51JHGQL",
+      "text": "<@U01S51JHGQL> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_purpose",
+      "ts": "1616335633.000300",
+      "user": "U01F73964V6",
+      "text": "<@U01F73964V6> set the channel description: Shooting range for new born slack bots. Be aware of mumbling!",
+      "purpose": "Shooting range for new born slack bots. Be aware of mumbling!"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1616335631.000200",
+      "user": "U01F73964V6",
+      "text": "<@U01F73964V6> has joined the channel"
+    }
+  ]
+}

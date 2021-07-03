@@ -1,0 +1,661 @@
+{
+  "channel": "C01LWMRMKV4",
+  "reply_threads": [
+    {
+      "ts": "1613550920.005800",
+      "channel": "C01LWMRMKV4",
+      "messages": [
+        {
+          "client_msg_id": "9d9f4e72-1790-463d-932b-6c3b99183fe7",
+          "type": "message",
+          "text": "真的好喜欢戴森球开发组啊，热衷于输出开发过程中的实现细节：<https://store.steampowered.com/newshub/app/1366540/view/5405978592538174217> 开发日志这件事很多国外开发组都会认真去做，国内似乎较为少见",
+          "user": "U01B4UX4K8T",
+          "ts": "1613550920.005800",
+          "team": "T019A14BB9T",
+          "attachments": [
+            {
+              "title": "Dyson Sphere Program - How the Dyson Sphere Program Universe was Created? Dev Log#2 - Steam News",
+              "title_link": "https://store.steampowered.com/newshub/app/1366540/view/5405978592538174217",
+              "text": "Hi, engineers! Attention, this is not an update log - We Are Still On Holidays! But we never forget our dearest engineers, so we would like to present the Dev Log #2 for you as a holiday book. Hope this log can bring you a new perspective of the Dyson Sphere Program. (Click here to read Dev Log #1) Dev’s Log 02 - Create A Universe! Development Dyson Sphere Program has been a long journey.",
+              "fallback": "Dyson Sphere Program - How the Dyson Sphere Program Universe was Created? Dev Log#2 - Steam News",
+              "image_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/38718364/64c41dc514b8744b58f7c2583138d5c54e32a6fe.jpg",
+              "ts": 1613477972,
+              "from_url": "https://store.steampowered.com/newshub/app/1366540/view/5405978592538174217",
+              "image_width": 444,
+              "image_height": 250,
+              "image_bytes": 305004,
+              "service_name": "store.steampowered.com",
+              "id": 1,
+              "original_url": "https://store.steampowered.com/newshub/app/1366540/view/5405978592538174217"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZpIs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "真的好喜欢戴森球开发组啊，热衷于输出开发过程中的实现细节："
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://store.steampowered.com/newshub/app/1366540/view/5405978592538174217"
+                    },
+                    {
+                      "type": "text",
+                      "text": " 开发日志这件事很多国外开发组都会认真去做，国内似乎较为少见"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613550920.005800",
+          "reply_count": 1,
+          "reply_users_count": 1,
+          "latest_reply": "1613551111.006700",
+          "reply_users": [
+            "U0194L0FW5U"
+          ],
+          "is_locked": false,
+          "subscribed": false,
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U0194L0FW5U"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8D16B7C9-B2EE-4B3F-A1E9-D86A1580E4DB",
+          "type": "message",
+          "text": "正在玩就看到这个2333",
+          "user": "U0194L0FW5U",
+          "ts": "1613551111.006700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "V6Bt8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "正在玩就看到这个2333"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613550920.005800",
+          "parent_user_id": "U01B4UX4K8T"
+        }
+      ]
+    },
+    {
+      "ts": "1618474533.000700",
+      "channel": "C01LWMRMKV4",
+      "messages": [
+        {
+          "client_msg_id": "f98f9ee9-04c4-4d71-ba3e-a9c5452d27b8",
+          "type": "message",
+          "text": "来玩开源游戏：endlesssky\n<http://endless-sky.github.io/>",
+          "user": "U01D2DSJ7EC",
+          "ts": "1618474533.000700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "54S",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "来玩开源游戏：endlesssky\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://endless-sky.github.io/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "reply_count": 10,
+          "reply_users_count": 3,
+          "latest_reply": "1618559489.005800",
+          "reply_users": [
+            "U01D2DSJ7EC",
+            "U01F73964V6",
+            "U01A611AJ81"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "de7e0459-99fc-4951-a030-3fb91b7d77af",
+          "type": "message",
+          "text": "2D 超简单版开飞机",
+          "user": "U01D2DSJ7EC",
+          "ts": "1618474576.000800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3GL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "2D 超简单版开飞机"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "B51D94C1-154D-45FC-9AC2-B736AEB36163",
+          "type": "message",
+          "text": "开源游戏有个有名的：像素地牢",
+          "user": "U01F73964V6",
+          "ts": "1618479155.001300",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VNnPA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "开源游戏有个有名的：像素地牢"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "b4285521-2cd6-410b-bc28-cafac9467e40",
+          "type": "message",
+          "text": "上学期期末我找到个 GPLv3 开源的游戏：Mindustry",
+          "user": "U01A611AJ81",
+          "ts": "1618479459.001500",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SzAEe",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "上学期期末我找到个 GPLv3 开源的游戏：Mindustry"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC",
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U01D2DSJ7EC"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "client_msg_id": "44a93d37-ff04-4167-b5e3-08d2ae8d8062",
+          "type": "message",
+          "text": "Factorio 式的塔防",
+          "user": "U01A611AJ81",
+          "ts": "1618479488.001700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "t4+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Factorio 式的塔防"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "F1818887-3BF9-4858-A658-B7C87FDB504E",
+          "type": "message",
+          "text": "像素地牢有好多个版本，然后被移植到了iOS，安卓和电脑上，生态很繁荣：<https://pixeldungeon.fandom.com/wiki/Main_Page|https://pixeldungeon.fandom.com/wiki/Main_Page>",
+          "user": "U01F73964V6",
+          "ts": "1618479879.002900",
+          "team": "T019A14BB9T",
+          "attachments": [
+            {
+              "title": "Pixel Dungeon Wiki | Fandom",
+              "title_link": "https://pixeldungeon.fandom.com/wiki/Main_Page",
+              "text": "Pixel Dungeon Wiki | Fandom",
+              "fallback": "Pixel Dungeon Wiki | Fandom",
+              "thumb_url": "https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/b/bc/Wiki.png/revision/latest/zoom-crop/width/200/height/200?cb=20200817122948",
+              "from_url": "https://pixeldungeon.fandom.com/wiki/Main_Page",
+              "thumb_width": 200,
+              "thumb_height": 200,
+              "service_icon": "https://static.wikia.nocookie.net/pixeldungeon/images/6/64/Favicon.ico/revision/latest?cb=20130513214353",
+              "service_name": "pixeldungeon.fandom.com",
+              "id": 1,
+              "original_url": "https://pixeldungeon.fandom.com/wiki/Main_Page"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ywcs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "像素地牢有好多个版本，然后被移植到了iOS，安卓和电脑上，生态很繁荣："
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://pixeldungeon.fandom.com/wiki/Main_Page",
+                      "text": "https://pixeldungeon.fandom.com/wiki/Main_Page"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC",
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U01D2DSJ7EC"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "client_msg_id": "52682ef5-b7f5-4185-814c-1c92c2af9fe6",
+          "type": "message",
+          "text": "用 Java 写就能轻松跨平台了:rockyou:",
+          "user": "U01A611AJ81",
+          "ts": "1618479931.003200",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rzDx8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "用 Java 写就能轻松跨平台了"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "rockyou"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "76DAC427-BEB4-44AD-9576-6D85F3E33746",
+          "type": "message",
+          "text": "像素地牢最有意思的一点是，它有很多很多distribution，比如破碎像素地牢、发芽像素地牢之类的，都是在原版的基础上改进的，感觉是开源游戏的活力了(￣∇￣)",
+          "user": "U01F73964V6",
+          "ts": "1618480000.004700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "itN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "像素地牢最有意思的一点是，它有很多很多distribution，比如破碎像素地牢、发芽像素地牢之类的，都是在原版的基础上改进的，感觉是开源游戏的活力了(￣∇￣)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "efc75f97-eb98-4d32-87d0-c6bd66f638f7",
+          "type": "message",
+          "text": "啊这，我觉得有些人可能就会诟病开源的 fork 机制了:huaji:",
+          "user": "U01A611AJ81",
+          "ts": "1618480209.004900",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pDh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "啊这，我觉得有些人可能就会诟病开源的 fork 机制了"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "huaji"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "90128fd5-62b4-4264-a9b9-80bb82692d7a",
+          "type": "message",
+          "text": "为啥不是 mod 呢",
+          "user": "U01A611AJ81",
+          "ts": "1618480215.005100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "HailL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "为啥不是 mod 呢"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "bcbc35d7-7bdb-4ffb-9c57-046c9663dc89",
+          "type": "message",
+          "text": "不同的 fork 好像各自有一套核心机制（我只玩过原版和破碎，感觉有些其他的，比如发芽，已经对原版魔改到机制层面了",
+          "user": "U01F73964V6",
+          "ts": "1618559489.005800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rMvd",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "不同的 fork 好像各自有一套核心机制（我只玩过原版和破碎，感觉有些其他的，比如发芽，已经对原版魔改到机制层面了"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618474533.000700",
+          "parent_user_id": "U01D2DSJ7EC"
+        }
+      ]
+    },
+    {
+      "ts": "1618918700.006500",
+      "channel": "C01LWMRMKV4",
+      "messages": [
+        {
+          "client_msg_id": "e0fb12a8-a097-401d-8a3e-870645ca0299",
+          "type": "message",
+          "text": "<https://github.com/veloren/veloren> rust 版 minecraft",
+          "user": "U019BJ60Q2X",
+          "ts": "1618918700.006500",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2mPL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/veloren/veloren"
+                    },
+                    {
+                      "type": "text",
+                      "text": " rust 版 minecraft"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618918700.006500",
+          "reply_count": 4,
+          "reply_users_count": 2,
+          "latest_reply": "1619077530.007700",
+          "reply_users": [
+            "U01D2DSJ7EC",
+            "U01A611AJ81"
+          ],
+          "is_locked": false,
+          "subscribed": false,
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U01D2DSJ7EC"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e2db0ca6-7e97-4add-82fc-0b640b4708f9",
+          "type": "message",
+          "text": "看起来很好玩的样子，谁上手了来介绍介绍入坑:huaji:",
+          "user": "U01D2DSJ7EC",
+          "ts": "1618921774.006800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bUk1z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "看起来很好玩的样子，谁上手了来介绍介绍入坑"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "huaji"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618918700.006500",
+          "parent_user_id": "U019BJ60Q2X"
+        },
+        {
+          "client_msg_id": "8bb2ec8d-fa30-4799-b652-b7606906a59c",
+          "type": "message",
+          "text": "<https://aur.archlinux.org/packages/veloren-bin/>\n\n挺吃资源的，我的垃圾核显只有 17fps\n然后反锯齿做的一般般......远景的 aliasing 比较严重\n默认是第三人称视角的，不知道怎么调（",
+          "user": "U01A611AJ81",
+          "ts": "1618926775.007000",
+          "team": "T019A14BB9T",
+          "attachments": [
+            {
+              "title": "AUR (en) - veloren-bin",
+              "title_link": "https://aur.archlinux.org/packages/veloren-bin/",
+              "text": "An open-world, open-source multiplayer voxel RPG",
+              "fallback": "AUR (en) - veloren-bin",
+              "from_url": "https://aur.archlinux.org/packages/veloren-bin/",
+              "service_name": "aur.archlinux.org",
+              "id": 1,
+              "original_url": "https://aur.archlinux.org/packages/veloren-bin/"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eJb2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://aur.archlinux.org/packages/veloren-bin/"
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\n挺吃资源的，我的垃圾核显只有 17fps\n然后反锯齿做的一般般......远景的 aliasing 比较严重\n默认是第三人称视角的，不知道怎么调（"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618918700.006500",
+          "parent_user_id": "U019BJ60Q2X",
+          "reactions": [
+            {
+              "name": "sweat_smile",
+              "users": [
+                "U01D2DSJ7EC",
+                "U0194L0FW5U"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e52d4cfc-1e9f-4f21-b55e-278c80bb1a9b",
+          "type": "message",
+          "text": "我的破电脑也跑不动。。。",
+          "user": "U01D2DSJ7EC",
+          "ts": "1619077303.007500",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "x4lsN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "我的破电脑也跑不动。。。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618918700.006500",
+          "parent_user_id": "U019BJ60Q2X"
+        },
+        {
+          "client_msg_id": "4a2b287e-40c3-47a5-9a61-40e6228c094c",
+          "type": "message",
+          "text": "我是要开独显才能跑到 80fps（",
+          "user": "U01A611AJ81",
+          "ts": "1619077530.007700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pE3CB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "我是要开独显才能跑到 80fps（"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618918700.006500",
+          "parent_user_id": "U019BJ60Q2X"
+        }
+      ]
+    }
+  ]
+}

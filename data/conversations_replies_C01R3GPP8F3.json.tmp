@@ -1,0 +1,527 @@
+{
+  "channel": "C01R3GPP8F3",
+  "reply_threads": [
+    {
+      "ts": "1615372112.001000",
+      "channel": "C01R3GPP8F3",
+      "messages": [
+        {
+          "client_msg_id": "f9296edd-70a6-4b2c-b076-94bb95033e52",
+          "type": "message",
+          "text": "依稀记得某场多校赛有这样一个图论问题：\n给出一个n*m的网格图\n每个格点与自己距离为1的格点相连\n然后挖去图中第x行第y列的点\n判断该网格图是否存在哈密顿路径\n\n但是找了一下没找到，网上题解也没查到，不知道有没有相关的文章对类似问题做过解析？",
+          "user": "U01LLTLR9MJ",
+          "ts": "1615372112.001000",
+          "team": "T019A14BB9T",
+          "edited": {
+            "user": "U01LLTLR9MJ",
+            "ts": "1615372168.000000"
+          },
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WHjkq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "依稀记得某场多校赛有这样一个图论问题：\n给出一个n*m的网格图\n每个格点与自己距离为1的格点相连\n然后挖去图中第x行第y列的点\n判断该网格图是否存在哈密顿路径\n\n但是找了一下没找到，网上题解也没查到，不知道有没有相关的文章对类似问题做过解析？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1615372112.001000",
+          "reply_count": 1,
+          "reply_users_count": 1,
+          "latest_reply": "1616566853.000100",
+          "reply_users": [
+            "U01Q1UFCQFK"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "type": "message",
+          "text": "",
+          "files": [
+            {
+              "id": "F01S8NLSEE7",
+              "created": 1616566844,
+              "timestamp": 1616566844,
+              "name": "IMG_7378(20210324-141541).PNG",
+              "title": "IMG_7378(20210324-141541).PNG",
+              "mimetype": "image/jpeg",
+              "filetype": "jpg",
+              "pretty_type": "JPEG",
+              "user": "U01Q1UFCQFK",
+              "editable": false,
+              "size": 589034,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01S8NLSEE7/img_7378_20210324-141541_.png",
+              "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01S8NLSEE7/download/img_7378_20210324-141541_.png",
+              "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01S8NLSEE7-2b26bb5a04/img_7378_20210324-141541__64.jpg",
+              "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01S8NLSEE7-2b26bb5a04/img_7378_20210324-141541__80.jpg",
+              "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01S8NLSEE7-2b26bb5a04/img_7378_20210324-141541__360.jpg",
+              "thumb_360_w": 360,
+              "thumb_360_h": 287,
+              "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01S8NLSEE7-2b26bb5a04/img_7378_20210324-141541__480.jpg",
+              "thumb_480_w": 480,
+              "thumb_480_h": 382,
+              "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01S8NLSEE7-2b26bb5a04/img_7378_20210324-141541__160.jpg",
+              "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01S8NLSEE7-2b26bb5a04/img_7378_20210324-141541__720.jpg",
+              "thumb_720_w": 720,
+              "thumb_720_h": 573,
+              "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01S8NLSEE7-2b26bb5a04/img_7378_20210324-141541__800.jpg",
+              "thumb_800_w": 800,
+              "thumb_800_h": 637,
+              "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01S8NLSEE7-2b26bb5a04/img_7378_20210324-141541__960.jpg",
+              "thumb_960_w": 960,
+              "thumb_960_h": 765,
+              "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01S8NLSEE7-2b26bb5a04/img_7378_20210324-141541__1024.jpg",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 816,
+              "original_w": 1125,
+              "original_h": 896,
+              "thumb_tiny": "AwAmADC4wz2phx0pzE9hSHGe2aAG8elNyOODTyQD0FRtj0FAATSUmRRmkMnYUn8QP9KG6/8A66Q8HP8AQ0xCkc5qNhSlSTnikbPqKAIzTc0rZ9qac0AXMc96Qr1x39adSUAM247mmke5qQ0w0AREY70w1I1RmgD/2Q==",
+              "permalink": "https://fducslg.slack.com/files/U01Q1UFCQFK/F01S8NLSEE7/img_7378_20210324-141541_.png",
+              "permalink_public": "https://slack-files.com/T019A14BB9T-F01S8NLSEE7-bca933d3de",
+              "is_starred": false,
+              "has_rich_preview": false
+            }
+          ],
+          "upload": false,
+          "user": "U01Q1UFCQFK",
+          "display_as_bot": false,
+          "ts": "1616566853.000100",
+          "thread_ts": "1615372112.001000",
+          "parent_user_id": "U01LLTLR9MJ",
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U01LLTLR9MJ"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "1618842124.000500",
+      "channel": "C01R3GPP8F3",
+      "messages": [
+        {
+          "client_msg_id": "34b05a3a-6fe4-45a1-904a-e88aef1526ab",
+          "type": "message",
+          "text": "复旦ACM队该何去何从？大家有什么想法吗？",
+          "user": "U01KLTDG64D",
+          "ts": "1618842124.000500",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "czpA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "复旦ACM队该何去何从？大家有什么想法吗？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618842124.000500",
+          "reply_count": 2,
+          "reply_users_count": 2,
+          "latest_reply": "1619349795.000400",
+          "reply_users": [
+            "U01LLTLR9MJ",
+            "U01A611AJ81"
+          ],
+          "is_locked": false,
+          "subscribed": false,
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U01LLTLR9MJ",
+                "U01D2DSJ7EC",
+                "U01A611AJ81"
+              ],
+              "count": 3
+            }
+          ]
+        },
+        {
+          "client_msg_id": "72c3679f-f0ca-46b7-9020-23be6cedc801",
+          "type": "message",
+          "text": "感觉下个赛季没什么人了？",
+          "user": "U01LLTLR9MJ",
+          "ts": "1618843186.000700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+ey",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "感觉下个赛季没什么人了？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618842124.000500",
+          "parent_user_id": "U01KLTDG64D"
+        },
+        {
+          "client_msg_id": "659ace81-fc10-4bb8-8650-ed86b1041ede",
+          "type": "message",
+          "text": "变成复旦 XCPC 社团",
+          "user": "U01A611AJ81",
+          "ts": "1619349795.000400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5Ku",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "变成复旦 XCPC 社团"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618842124.000500",
+          "parent_user_id": "U01KLTDG64D"
+        }
+      ]
+    },
+    {
+      "ts": "1619447704.000100",
+      "channel": "C01R3GPP8F3",
+      "messages": [
+        {
+          "client_msg_id": "e8c1f034-d526-4340-92a2-8ab17ac91b6a",
+          "type": "message",
+          "text": "给定数组，有正有负，求 min(abs(val1+ val2)) 大家有好想法嘛:sweat_smile:",
+          "user": "U01D2DSJ7EC",
+          "ts": "1619447704.000100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6Rz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "给定数组，有正有负，求 min(abs(val1+ val2)) 大家有好想法嘛"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sweat_smile"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1619447704.000100",
+          "reply_count": 2,
+          "reply_users_count": 2,
+          "latest_reply": "1619493853.000100",
+          "reply_users": [
+            "U01Q1UFCQFK",
+            "U01KLTDG64D"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "1c16c734-d327-4842-92a9-4bc3761a0689",
+          "type": "message",
+          "text": "从小到大排序，i=1,j=n，j向左走，直到a[j]&lt;-a[i]&lt;=a[j+1]，得到一个数取a[i]时的min，i向右一步",
+          "user": "U01Q1UFCQFK",
+          "ts": "1619483191.000100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xi9V6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "从小到大排序，i=1,j=n，j向左走，直到a[j]<-a[i]<=a[j+1]，得到一个数取a[i]时的min，i向右一步"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1619447704.000100",
+          "parent_user_id": "U01D2DSJ7EC",
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U01LLTLR9MJ"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2881107b-3424-4bc8-9217-9b4f85fb9b58",
+          "type": "message",
+          "text": "直接按绝对值排序，然后依次检验相邻的两个数貌似也行",
+          "user": "U01KLTDG64D",
+          "ts": "1619493853.000100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iLs/0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "直接按绝对值排序，然后依次检验相邻的两个数貌似也行"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1619447704.000100",
+          "parent_user_id": "U01D2DSJ7EC",
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U01LLTLR9MJ"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "1621125466.000500",
+      "channel": "C01R3GPP8F3",
+      "messages": [
+        {
+          "type": "message",
+          "text": "Codejam 的收奖地址可以这样填吗？",
+          "files": [
+            {
+              "id": "F021LC1MT8F",
+              "created": 1621125427,
+              "timestamp": 1621125427,
+              "name": "屏幕快照 2021-05-16 上午8.36.51.png",
+              "title": "屏幕快照 2021-05-16 上午8.36.51.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U01LLTLR9MJ",
+              "editable": false,
+              "size": 150304,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F021LC1MT8F/_____________2021-05-16_______8.36.51.png",
+              "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F021LC1MT8F/download/_____________2021-05-16_______8.36.51.png",
+              "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F021LC1MT8F-f30b884d99/_____________2021-05-16_______8.36.51_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F021LC1MT8F-f30b884d99/_____________2021-05-16_______8.36.51_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F021LC1MT8F-f30b884d99/_____________2021-05-16_______8.36.51_360.png",
+              "thumb_360_w": 346,
+              "thumb_360_h": 360,
+              "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F021LC1MT8F-f30b884d99/_____________2021-05-16_______8.36.51_480.png",
+              "thumb_480_w": 462,
+              "thumb_480_h": 480,
+              "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F021LC1MT8F-f30b884d99/_____________2021-05-16_______8.36.51_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F021LC1MT8F-f30b884d99/_____________2021-05-16_______8.36.51_720.png",
+              "thumb_720_w": 693,
+              "thumb_720_h": 720,
+              "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F021LC1MT8F-f30b884d99/_____________2021-05-16_______8.36.51_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 832,
+              "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F021LC1MT8F-f30b884d99/_____________2021-05-16_______8.36.51_960.png",
+              "thumb_960_w": 924,
+              "thumb_960_h": 960,
+              "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F021LC1MT8F-f30b884d99/_____________2021-05-16_______8.36.51_1024.png",
+              "thumb_1024_w": 985,
+              "thumb_1024_h": 1024,
+              "original_w": 1216,
+              "original_h": 1264,
+              "thumb_tiny": "AwAwAC7TNFITRn6fnQAtFJn6fnRn6fnQAtFFFACEj2oyPagmjI9aADg+lLSZHrS9aACiiigBCaM0GjPsaADI96Wkz9aM+xoAWijOaKAP/9k=",
+              "permalink": "https://fducslg.slack.com/files/U01LLTLR9MJ/F021LC1MT8F/_____________2021-05-16_______8.36.51.png",
+              "permalink_public": "https://slack-files.com/T019A14BB9T-F021LC1MT8F-a305076725",
+              "is_starred": false,
+              "has_rich_preview": false
+            }
+          ],
+          "upload": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "B7I",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Codejam 的收奖地址可以这样填吗？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "user": "U01LLTLR9MJ",
+          "display_as_bot": false,
+          "ts": "1621125466.000500",
+          "thread_ts": "1621125466.000500",
+          "reply_count": 3,
+          "reply_users_count": 3,
+          "latest_reply": "1622170822.000100",
+          "reply_users": [
+            "U01LLTLR9MJ",
+            "U01KLTDG64D",
+            "U01LF90AVL0"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "b8aca34d-0160-41bc-a15f-47e67a88f9f5",
+          "type": "message",
+          "text": "有幸卡进前1000",
+          "user": "U01LLTLR9MJ",
+          "ts": "1621125494.000800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7b7A",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "有幸卡进前1000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1621125466.000500",
+          "parent_user_id": "U01LLTLR9MJ"
+        },
+        {
+          "client_msg_id": "8a69bfd6-cd98-4953-92fa-46c599d05036",
+          "type": "message",
+          "text": "我填的虹口区",
+          "user": "U01KLTDG64D",
+          "ts": "1621129593.001000",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vpbl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "我填的虹口区"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1621125466.000500",
+          "parent_user_id": "U01LLTLR9MJ"
+        },
+        {
+          "client_msg_id": "e5ee8b11-a2c2-46b8-a3cd-33e592b3bd12",
+          "type": "message",
+          "text": "好像还需要在邮箱里收google的邮件下单？",
+          "user": "U01LF90AVL0",
+          "ts": "1622170822.000100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dgM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "好像还需要在邮箱里收google的邮件下单？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1621125466.000500",
+          "parent_user_id": "U01LLTLR9MJ",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "users": [
+                "U01KLTDG64D"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

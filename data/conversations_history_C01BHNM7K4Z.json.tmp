@@ -1,0 +1,891 @@
+{
+  "channel": "C01BHNM7K4Z",
+  "messages": [
+    {
+      "client_msg_id": "0b12a3a4-d285-48d0-8e62-01fa9aadb9f7",
+      "type": "message",
+      "text": "这类需求等后端开源就做成 issue 放出来",
+      "user": "U019BC1VCM8",
+      "ts": "1618042074.007200",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U019BC1VCM8",
+        "ts": "1618042096.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "z9I",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这类需求等后端开源就做成 issue 放出来"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618042074.007200",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1618042084.007500",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "50174bfb-2e74-4e5c-b370-4804ece073ce",
+      "type": "message",
+      "text": "fdxk 后端需求：参照前端，给后端的 husky 添加 commit message 检查和提交 PR 的 template参照：\n\n要求：\n\n1. 前端提交 commit 的时候会通过 husky 检查 commit message，规范化 commit message；后端目前已经有 husky，希望参照前端 husky 配置引入 commit message 检查，参考：<https://github.com/CLDXiang/today-frontend/tree/master/.husky> (前端 husky） <https://github.com/conventional-changelog/commitlint/#what-is-commitlint> （commitlint）\n2. 为后端的 issue 和 PR 添加 github 模板，参考 <https://github.com/CLDXiang/today-frontend/tree/master/.github>\n技能需求及难度：了解基础的 git 工作流程，了解 github 工作流程，1 星难度",
+      "user": "U019BC1VCM8",
+      "ts": "1618041996.006100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+PP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "fdxk 后端需求：参照前端，给后端的 husky 添加 commit message 检查和提交 PR 的 template参照：\n\n要求：\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "前端提交 commit 的时候会通过 husky 检查 commit message，规范化 commit message；后端目前已经有 husky，希望参照前端 husky 配置引入 commit message 检查，参考："
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/CLDXiang/today-frontend/tree/master/.husky"
+                    },
+                    {
+                      "type": "text",
+                      "text": " (前端 husky） "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/conventional-changelog/commitlint/#what-is-commitlint"
+                    },
+                    {
+                      "type": "text",
+                      "text": " （commitlint）"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "为后端的 issue 和 PR 添加 github 模板，参考 "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/CLDXiang/today-frontend/tree/master/.github"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n技能需求及难度：了解基础的 git 工作流程，了解 github 工作流程，1 星难度"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618041996.006100",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1618140857.008100",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U01QXR6CA0L",
+        "U01BUUXU524"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "pinned_to": [
+        "C01BHNM7K4Z"
+      ],
+      "pinned_info": {
+        "channel": "C01BHNM7K4Z",
+        "pinned_by": "U019BC1VCM8",
+        "pinned_ts": 1618042064
+      }
+    },
+    {
+      "client_msg_id": "43c4a48e-b35b-42b7-9c0c-50b0ba79dd5c",
+      "type": "message",
+      "text": "fdxk 后端需求：通过 decorator 给 controller 的所有调用加 log\n\n要求：\n\n1. 通过装饰器修饰的所有 controller 的 API 接口在被调用的时候打印调用日志，包括调用者和参数\n2. 开发模式日志输出到屏幕，production 模式日志输出到 rotational log file\n技能需求及难度：需要对 ts 的 decorator 以及对代码中的日志模块的了解（可以学），3 星难度",
+      "user": "U019BC1VCM8",
+      "ts": "1618041574.003200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XCO7b",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "fdxk 后端需求：通过 decorator 给 controller 的所有调用加 log\n\n要求：\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "通过装饰器修饰的所有 controller 的 API 接口在被调用的时候打印调用日志，包括调用者和参数"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "开发模式日志输出到屏幕，production 模式日志输出到 rotational log file"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n技能需求及难度：需要对 ts 的 decorator 以及对代码中的日志模块的了解（可以学），3 星难度"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618041574.003200",
+      "reply_count": 5,
+      "reply_users_count": 1,
+      "latest_reply": "1618445923.000700",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "pinned_to": [
+        "C01BHNM7K4Z"
+      ],
+      "pinned_info": {
+        "channel": "C01BHNM7K4Z",
+        "pinned_by": "U019BC1VCM8",
+        "pinned_ts": 1618042061
+      }
+    },
+    {
+      "client_msg_id": "bd8b027e-1274-48f5-896a-4644048c3432",
+      "type": "message",
+      "text": "okok我今晚看下！",
+      "user": "U01QXR6CA0L",
+      "ts": "1617268254.001500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5DAMg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "okok我今晚看下！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "e44cca94-fb72-40f5-a60f-52ef1714d3d2",
+      "type": "message",
+      "text": "<https://github.com/FDUCSLG/fducslg/pull/8> <@U01BUUXU524> <@U01RFM0F9T2> <@U01QXR6CA0L> 三位麻烦也一起帮忙 review 一下吧~ 因为你们是目标受众，如果有觉得没讲清楚的地方我好修改~",
+      "user": "U019BC1VCM8",
+      "ts": "1617265845.001000",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "author_name": "ichn-hu",
+          "fallback": "[FDUCSLG/fducslg] #8 Create 2021-03-12-dockerfile.md WIP DNM",
+          "text": "rt",
+          "title": "#8 Create 2021-03-12-dockerfile.md WIP DNM",
+          "footer": "<https://github.com/FDUCSLG/fducslg|FDUCSLG/fducslg>",
+          "id": 1,
+          "title_link": "https://github.com/FDUCSLG/fducslg/pull/8",
+          "author_link": "https://github.com/ichn-hu",
+          "author_icon": "https://avatars.githubusercontent.com/u/29735669?v=4",
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1615509987,
+          "color": "36a64f",
+          "fields": [
+            {
+              "title": "Comments",
+              "value": "1",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/FDUCSLG/fducslg/pull/8",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "PX9p=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/FDUCSLG/fducslg/pull/8"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01BUUXU524"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01RFM0F9T2"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01QXR6CA0L"
+                },
+                {
+                  "type": "text",
+                  "text": " 三位麻烦也一起帮忙 review 一下吧~ 因为你们是目标受众，如果有觉得没讲清楚的地方我好修改~"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617265845.001000",
+      "reply_count": 7,
+      "reply_users_count": 2,
+      "latest_reply": "1617869888.000300",
+      "reply_users": [
+        "U01BUUXU524",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617163884.000200",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617032280.000800",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617014302.000400",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617014294.000200",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615609328.000200",
+      "user": "U01RFM0F9T2",
+      "text": "<@U01RFM0F9T2> has joined the channel"
+    },
+    {
+      "client_msg_id": "2922a3c4-3cee-4015-bbbe-4fa069dd39c0",
+      "type": "message",
+      "text": "用来面向 cslg 同学分享技术吧",
+      "user": "U019BC1VCM8",
+      "ts": "1615459345.001800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1y1w",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "用来面向 cslg 同学分享技术吧"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "807f94a2-03d7-4625-99ab-3821bec7e53c",
+      "type": "message",
+      "text": "这个 channel 一般用来讨论啥？",
+      "user": "U01B4UX4K8T",
+      "ts": "1615458627.001300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "QVzj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这个 channel 一般用来讨论啥？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615364849.001300",
+      "user": "U01QXR6CA0L",
+      "text": "<@U01QXR6CA0L> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615362844.001000",
+      "user": "U01LLTLR9MJ",
+      "text": "<@U01LLTLR9MJ> has joined the channel"
+    },
+    {
+      "type": "message",
+      "text": "<@U018WKP8CJK> 简单 show case 一下，用 typeorm 比不用的好处（",
+      "files": [
+        {
+          "id": "F01QFPYTQHG",
+          "created": 1615171656,
+          "timestamp": 1615171656,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 154191,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01QFPYTQHG/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01QFPYTQHG/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 168,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 224,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 336,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 373,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 448,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 478,
+          "original_w": 2250,
+          "original_h": 1050,
+          "thumb_tiny": "AwAWADDQpaSloGFLSUooAMUUtFAhNtGKWigBMUc0tFACc0tFFAH/2Q==",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01QFPYTQHG/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01QFPYTQHG-7009143fd5",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eXYT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U018WKP8CJK"
+                },
+                {
+                  "type": "text",
+                  "text": " 简单 show case 一下，用 typeorm 比不用的好处（"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1615171671.000400",
+      "thread_ts": "1615171671.000400",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1615171685.000700",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1614761770.002300",
+      "user": "U01PLFRBF7Y",
+      "text": "<@U01PLFRBF7Y> has joined the channel"
+    },
+    {
+      "client_msg_id": "3f8dc19a-05ec-4565-afff-211837ba422a",
+      "type": "message",
+      "text": "<@U01B4UX4K8T> <@U018WKP8CJK> <@U0194L0FW5U>",
+      "user": "U019BC1VCM8",
+      "ts": "1614737669.001700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/r5",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01B4UX4K8T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U018WKP8CJK"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0194L0FW5U"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "acd18814-4a45-4798-ab51-9f3549c46a8e",
+      "type": "message",
+      "text": "譬如我们的会议记录啥的",
+      "user": "U019BC1VCM8",
+      "ts": "1614737663.001400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rM1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "譬如我们的会议记录啥的"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1614737663.001400",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1614738058.002000",
+      "reply_users": [
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "f4de8911-86a6-4845-8935-3de46bee3553",
+      "type": "message",
+      "text": "我们之后从 fdxk 那边 sink 一些内容过来？",
+      "user": "U019BC1VCM8",
+      "ts": "1614737655.001100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "mduI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我们之后从 fdxk 那边 sink 一些内容过来？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "3135ec46-163a-4b28-8eb2-1556da09a048",
+      "type": "message",
+      "text": "或者保持 sig-fdxk",
+      "user": "U019BC1VCM8",
+      "ts": "1614737635.000500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aFKQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "或者保持 sig-fdxk"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "ad442a74-dcff-4d7d-b184-96b5a5dd1e6d",
+      "type": "message",
+      "text": "我在想要不把这个 channel 改成 sig-backend?",
+      "user": "U019BC1VCM8",
+      "ts": "1614737629.000300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Uoxb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我在想要不把这个 channel 改成 sig-backend?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1614583800.000200",
+      "user": "U01M9BV1B3L",
+      "text": "<@U01M9BV1B3L> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1613644625.001500",
+      "user": "U01NWJEQ5U1",
+      "text": "<@U01NWJEQ5U1> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1612086359.001200",
+      "user": "U01KWBQAPV0",
+      "text": "<@U01KWBQAPV0> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611924478.001000",
+      "user": "U01LPR47XQR",
+      "text": "<@U01LPR47XQR> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611910234.000600",
+      "user": "U01LAB2FX1Q",
+      "text": "<@U01LAB2FX1Q> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611579424.000400",
+      "user": "U01KALAHJ0P",
+      "text": "<@U01KALAHJ0P> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611542187.000200",
+      "user": "U01KLTDG64D",
+      "text": "<@U01KLTDG64D> has joined the channel"
+    },
+    {
+      "client_msg_id": "96dee785-19a8-468a-a3c4-0033dddebab1",
+      "type": "message",
+      "text": "这周大家都有啥开发任务呀？",
+      "user": "U01G663G3J9",
+      "ts": "1607440547.001300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "EeIve",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这周大家都有啥开发任务呀？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607440547.001300",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1607484272.001400",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607272158.000400",
+      "user": "U01G663G3J9",
+      "text": "<@U01G663G3J9> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607260768.000200",
+      "user": "U01C60CQD0E",
+      "text": "<@U01C60CQD0E> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1602253856.000200",
+      "user": "U01BU8HU22Z",
+      "text": "<@U01BU8HU22Z> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1601785147.000600",
+      "user": "U01BWLXJJF4",
+      "text": "<@U01BWLXJJF4> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1601738704.000400",
+      "user": "U018WKP8CJK",
+      "text": "<@U018WKP8CJK> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1601732635.000200",
+      "user": "U0194L0FW5U",
+      "text": "<@U0194L0FW5U> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1600947730.000200",
+      "user": "U01BARL28RY",
+      "text": "<@U01BARL28RY> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1600774804.001500",
+      "user": "U01B22SKPFX",
+      "text": "<@U01B22SKPFX> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1600774703.001200",
+      "user": "U01BUUXU524",
+      "text": "<@U01BUUXU524> has joined the channel",
+      "inviter": "U019BC1VCM8"
+    },
+    {
+      "client_msg_id": "ffc62134-9db6-4e29-95bb-74631c5a8225",
+      "type": "message",
+      "text": "有加入兴趣的小朋友拉到这里吧~ <@U01B4UX4K8T>",
+      "user": "U019BC1VCM8",
+      "ts": "1600773180.000900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xSq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "有加入兴趣的小朋友拉到这里吧~ "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01B4UX4K8T"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "ok_hand",
+          "users": [
+            "U01B4UX4K8T"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1600773167.000500",
+      "user": "U01B4UX4K8T",
+      "text": "<@U01B4UX4K8T> has joined the channel",
+      "inviter": "U019BC1VCM8"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_purpose",
+      "ts": "1600773161.000300",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> set the channel description: <http://fdxk.info|fdxk.info> 开发关注~",
+      "purpose": "<http://fdxk.info|fdxk.info> 开发关注~"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1600773160.000200",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> has joined the channel"
+    }
+  ]
+}

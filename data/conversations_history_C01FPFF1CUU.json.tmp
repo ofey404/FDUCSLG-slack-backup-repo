@@ -1,0 +1,276 @@
+{
+  "channel": "C01FPFF1CUU",
+  "messages": [
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1623140048.001400",
+      "user": "U01D4V2UV3M",
+      "text": "<@U01D4V2UV3M> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1622734139.001100",
+      "user": "U01LF90AVL0",
+      "text": "<@U01LF90AVL0> has joined the channel"
+    },
+    {
+      "client_msg_id": "89add41c-c85b-44a6-9ac8-ef841780f73a",
+      "type": "message",
+      "text": "有人上过颜波的编译吗……",
+      "user": "U01BARL28RY",
+      "ts": "1622122413.000500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0EiH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "有人上过颜波的编译吗……"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1622122413.000500",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1622182229.000800",
+      "reply_users": [
+        "U0194L0FW5U"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617619939.001500",
+      "user": "U01TZBL3PH6",
+      "text": "<@U01TZBL3PH6> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617163865.001200",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617032261.000900",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617009699.000400",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1616140195.000200",
+      "user": "U01C9SUVAHG",
+      "text": "<@U01C9SUVAHG> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615362829.000200",
+      "user": "U01LLTLR9MJ",
+      "text": "<@U01LLTLR9MJ> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1614603765.000200",
+      "user": "U01BARL28RY",
+      "text": "<@U01BARL28RY> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1613545051.007700",
+      "user": "U01BKHW1V7E",
+      "text": "<@U01BKHW1V7E> has joined the channel"
+    },
+    {
+      "client_msg_id": "E9F15AB1-8556-4E5C-9B02-5448112885E8",
+      "type": "message",
+      "text": "帮你抓个人 <@U019BJ60Q2X> ",
+      "user": "U019BC1VCM8",
+      "ts": "1613531164.002200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "JNRrD",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "帮你抓个人 "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019BJ60Q2X"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "rockyou",
+          "users": [
+            "U01F73964V6"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "BE0F69D9-705B-4096-AD7E-5196B65F22BB",
+      "type": "message",
+      "text": "有话说同学能让我咨询一下yacc怎么消除移进/归约冲突，和其他相关的问题么？（自己在看虎书，做了三个lab，感觉调试有点小难）（请喝奶茶:cup_with_straw:（cc sig-random",
+      "user": "U01F73964V6",
+      "ts": "1613530669.001800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "iKS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "有话说同学能让我咨询一下yacc怎么消除移进/归约冲突，和其他相关的问题么？（自己在看虎书，做了三个lab，感觉调试有点小难）（请喝奶茶"
+                },
+                {
+                  "type": "emoji",
+                  "name": "cup_with_straw"
+                },
+                {
+                  "type": "text",
+                  "text": "（cc sig-random"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1613530669.001800",
+      "reply_count": 10,
+      "reply_users_count": 2,
+      "latest_reply": "1613536284.007400",
+      "reply_users": [
+        "U019BJ60Q2X",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1613529439.001400",
+      "user": "U01F73964V6",
+      "text": "<@U01F73964V6> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1612111635.001100",
+      "user": "U01LF9GNT24",
+      "text": "<@U01LF9GNT24> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1612096527.000800",
+      "user": "U01L0SS1U79",
+      "text": "<@U01L0SS1U79> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611924472.000600",
+      "user": "U01LPR47XQR",
+      "text": "<@U01LPR47XQR> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611885425.000400",
+      "user": "U01KRDN40EN",
+      "text": "<@U01KRDN40EN> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611579419.000200",
+      "user": "U01KALAHJ0P",
+      "text": "<@U01KALAHJ0P> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607260924.000600",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607260408.000400",
+      "user": "U0194L0FW5U",
+      "text": "<@U0194L0FW5U> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1606296011.000600",
+      "user": "U019BJ60Q2X",
+      "text": "<@U019BJ60Q2X> has joined the channel",
+      "inviter": "U018WKP8CJK"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1606295989.000400",
+      "user": "U018WKP8CJK",
+      "text": "<@U018WKP8CJK> has joined the channel",
+      "inviter": "U019BC1VCM8"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1606295983.000200",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> has joined the channel"
+    }
+  ]
+}

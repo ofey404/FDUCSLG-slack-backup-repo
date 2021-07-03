@@ -1,0 +1,300 @@
+{
+  "channel": "C01E6B4E0SG",
+  "reply_threads": [
+    {
+      "ts": "1606789791.000200",
+      "channel": "C01E6B4E0SG",
+      "messages": [
+        {
+          "client_msg_id": "3685c0d2-410b-444a-9e86-6aeced71678d",
+          "type": "message",
+          "text": "可以看最近的计算机病毒<http://www.cverc.org.cn/>",
+          "user": "U01BARL28RY",
+          "ts": "1606789791.000200",
+          "team": "T019A14BB9T",
+          "edited": {
+            "user": "U01BARL28RY",
+            "ts": "1606789899.000000"
+          },
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8Wh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "可以看最近的计算机病毒"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://www.cverc.org.cn/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1606789791.000200",
+          "reply_count": 3,
+          "reply_users_count": 2,
+          "latest_reply": "1606789855.001300",
+          "reply_users": [
+            "U01C9SUVAHG",
+            "U01BARL28RY"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "79726d7a-bcf0-4c2c-9231-325edbeb7a37",
+          "type": "message",
+          "text": "您这就开始传播病毒了？",
+          "user": "U01C9SUVAHG",
+          "ts": "1606789813.000900",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1d4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "您这就开始传播病毒了？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1606789791.000200",
+          "parent_user_id": "U01BARL28RY"
+        },
+        {
+          "client_msg_id": "8b053786-da34-46fd-a4d2-c110c8f53102",
+          "type": "message",
+          "text": "？？？",
+          "user": "U01BARL28RY",
+          "ts": "1606789845.001100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "oknH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "？？？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1606789791.000200",
+          "parent_user_id": "U01BARL28RY"
+        },
+        {
+          "client_msg_id": "19c2343f-3208-45cd-80e0-ae8aed081f23",
+          "type": "message",
+          "text": ":scream_cat:",
+          "user": "U01BARL28RY",
+          "ts": "1606789855.001300",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "D=k",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "scream_cat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1606789791.000200",
+          "parent_user_id": "U01BARL28RY"
+        }
+      ]
+    },
+    {
+      "ts": "1607341823.000500",
+      "channel": "C01E6B4E0SG",
+      "messages": [
+        {
+          "client_msg_id": "13b6fc25-f9e3-4c9c-9e21-0a6accb0fe82",
+          "type": "message",
+          "text": "腾讯安全的病毒研究报告<https://s.tencent.com/research/report/>",
+          "user": "U01BARL28RY",
+          "ts": "1607341823.000500",
+          "team": "T019A14BB9T",
+          "attachments": [
+            {
+              "title": "威胁研究首页_威胁检测平台_联合实验室_研究报告_威胁通告_荣誉认证 - 腾讯安全",
+              "title_link": "https://s.tencent.com/research/report/",
+              "text": "腾讯安全官网网站威胁研究首页，提供网络病毒木马在线检测中心，在线安全账号保护，申诉举报，诈骗信息查询，全面保护用户电脑安全、财产安全。木马病毒查杀，web互联网在线支付环境安全，腾讯安全提供全方位漏洞分析报告，专业的技术分析文章。",
+              "fallback": "威胁研究首页_威胁检测平台_联合实验室_研究报告_威胁通告_荣誉认证 - 腾讯安全",
+              "from_url": "https://s.tencent.com/research/report/",
+              "service_icon": "https://s.tencent.com/favicon.ico",
+              "service_name": "s.tencent.com",
+              "id": 1,
+              "original_url": "https://s.tencent.com/research/report/"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "h9m",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "腾讯安全的病毒研究报告"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://s.tencent.com/research/report/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607341823.000500",
+          "reply_count": 1,
+          "reply_users_count": 1,
+          "latest_reply": "1607341885.000800",
+          "reply_users": [
+            "U01C9SUVAHG"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "fd02e7dc-2f71-49fc-93c4-9ae933b98dff",
+          "type": "message",
+          "text": "韩老师牛逼！",
+          "user": "U01C9SUVAHG",
+          "ts": "1607341885.000800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5xK+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "韩老师牛逼！"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607341823.000500",
+          "parent_user_id": "U01BARL28RY"
+        }
+      ]
+    },
+    {
+      "ts": "1607401179.000200",
+      "channel": "C01E6B4E0SG",
+      "messages": [
+        {
+          "client_msg_id": "fee89edc-4e10-4112-b840-e12b35d9d237",
+          "type": "message",
+          "text": "<https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2>",
+          "user": "U01C9SUVAHG",
+          "ts": "1607401179.000200",
+          "team": "T019A14BB9T",
+          "attachments": [
+            {
+              "title": "衝擊波蠕蟲",
+              "title_link": "https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2",
+              "from_url": "https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2",
+              "author_name": "Wikipedia",
+              "author_link": "https://zh.wikipedia.org/",
+              "text": "衝擊波蠕蟲（Worm.Blaster或Lovesan，也有譯為「疾風病毒」）是一種散播於Microsoft作業系統，Windows XP與Windows 2000的蠕虫病毒，爆發於2003年8月。\n本蠕蟲第一次被注意並如燎原火般散佈，是在2003年的8月11日。它不斷繁殖並感染，在8月13日達到高峰，之後藉助ISP與網路上散佈的治療方法阻止了此蠕蟲的散佈。\n在2003年8月29日，一個來自美國明尼蘇達州的18歲年輕人Jeffrey Lee Parson由於創造了Blaster.B變種而被逮捕；他在2005年被判處十八個月的有期徒刑。",
+              "fallback": "wikipedia: 衝擊波蠕蟲",
+              "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/wikipedia.png",
+              "id": 1,
+              "original_url": "https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JkK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607401179.000200",
+          "reply_count": 1,
+          "reply_users_count": 1,
+          "latest_reply": "1607401228.000400",
+          "reply_users": [
+            "U01C9SUVAHG"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "b59fe64b-a61f-46e2-abb5-fc3ca8a89c62",
+          "type": "message",
+          "text": "这个趣闻里面说人家把名字内嵌在了代码里",
+          "user": "U01C9SUVAHG",
+          "ts": "1607401228.000400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WkO9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "这个趣闻里面说人家把名字内嵌在了代码里"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607401179.000200",
+          "parent_user_id": "U01C9SUVAHG"
+        }
+      ]
+    }
+  ]
+}

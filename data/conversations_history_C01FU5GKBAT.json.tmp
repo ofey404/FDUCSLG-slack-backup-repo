@@ -1,0 +1,687 @@
+{
+  "channel": "C01FU5GKBAT",
+  "messages": [
+    {
+      "client_msg_id": "844a175a-3847-43b0-8627-0336d3a9e14a",
+      "type": "message",
+      "text": "请问大家，手机上 chrome 群组可否命名，好像没有找到",
+      "user": "U01D2DSJ7EC",
+      "ts": "1618375537.000300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lCDf",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "请问大家，手机上 chrome 群组可否命名，好像没有找到"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617163881.000200",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617032274.002800",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617014009.002500",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "text": "slackbot 用来做一个轻量级 reminder 还挺香的，输入 `/remind` 查看命令提示",
+      "files": [
+        {
+          "id": "F01RKU0CLPR",
+          "created": 1616410608,
+          "timestamp": 1616410608,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U01B4UX4K8T",
+          "editable": false,
+          "size": 44753,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01RKU0CLPR/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01RKU0CLPR/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01RKU0CLPR-3c8f06b040/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01RKU0CLPR-3c8f06b040/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01RKU0CLPR-3c8f06b040/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 95,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01RKU0CLPR-3c8f06b040/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 126,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01RKU0CLPR-3c8f06b040/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01RKU0CLPR-3c8f06b040/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 190,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01RKU0CLPR-3c8f06b040/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 211,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01RKU0CLPR-3c8f06b040/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 253,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01RKU0CLPR-3c8f06b040/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 270,
+          "original_w": 1048,
+          "original_h": 276,
+          "thumb_tiny": "AwAMADCpktyaMD0oXpQRQAmP84pOfT9KSigBcH0owfSkooA//9k=",
+          "permalink": "https://fducslg.slack.com/files/U01B4UX4K8T/F01RKU0CLPR/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01RKU0CLPR-c2a4e02ff1",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "iQr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "slackbot 用来做一个轻量级 reminder 还挺香的，输入 "
+                },
+                {
+                  "type": "text",
+                  "text": "/remind",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " 查看命令提示"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01B4UX4K8T",
+      "display_as_bot": false,
+      "ts": "1616410622.001300",
+      "reactions": [
+        {
+          "name": "thumbsup_all",
+          "users": [
+            "U01D2DSJ7EC",
+            "U0194L0FW5U",
+            "U019BC1VCM8"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "client_msg_id": "8be3115d-eb1a-40ac-b1a3-13d956e7baf6",
+      "type": "message",
+      "text": "<https://www.reddit.com/r/Notion/comments/m80k8o/widgets_are_now_available_on_android/?utm_medium=android_app&amp;utm_source=share|https://www.reddit.com/r/Notion/comments/m80k8o/widgets_are_now_available_on_android/?utm_medium=android_app&amp;utm_source=share>",
+      "user": "U01D2DSJ7EC",
+      "ts": "1616143263.000400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "reddit",
+          "title": "Widgets are now available on Android !",
+          "title_link": "https://www.reddit.com/r/Notion/comments/m80k8o/widgets_are_now_available_on_android/?utm_medium=android_app&utm_source=share",
+          "text": "Posted in r/Notion by u/LavarockSG • 156 points and 19 comments",
+          "fallback": "reddit: Widgets are now available on Android !",
+          "image_url": "https://external-preview.redd.it/7zCwxMSODE0E28YUy7_MQw9uBBzHJrQClOTk1fhjIIs.jpg?width=1200&height=628.272251309&auto=webp&crop=1200:628.272251309,smart&s=2032d66bce92696466923306530229bab3af98d5",
+          "image_width": 478,
+          "image_height": 250,
+          "from_url": "https://www.reddit.com/r/Notion/comments/m80k8o/widgets_are_now_available_on_android/?utm_medium=android_app&utm_source=share",
+          "image_bytes": 174795,
+          "service_icon": "http://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png",
+          "id": 1,
+          "original_url": "https://www.reddit.com/r/Notion/comments/m80k8o/widgets_are_now_available_on_android/?utm_medium=android_app&amp;utm_source=share"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6oN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://www.reddit.com/r/Notion/comments/m80k8o/widgets_are_now_available_on_android/?utm_medium=android_app&utm_source=share",
+                  "text": "https://www.reddit.com/r/Notion/comments/m80k8o/widgets_are_now_available_on_android/?utm_medium=android_app&utm_source=share"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1616140203.000200",
+      "user": "U01C9SUVAHG",
+      "text": "<@U01C9SUVAHG> has joined the channel"
+    },
+    {
+      "client_msg_id": "14a13e97-891e-47a4-a966-45a0bbd862c5",
+      "type": "message",
+      "text": "请问大家，如果想要将电脑上的打开的网页标签发送到手机，有没有啥便捷的方法；发到一个 IM 再打开当然可以，但是感觉有点太麻烦了:sweat_smile:",
+      "user": "U01D2DSJ7EC",
+      "ts": "1614764368.002100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Yt6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "请问大家，如果想要将电脑上的打开的网页标签发送到手机，有没有啥便捷的方法；发到一个 IM 再打开当然可以，但是感觉有点太麻烦了"
+                },
+                {
+                  "type": "emoji",
+                  "name": "sweat_smile"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1614764368.002100",
+      "reply_count": 12,
+      "reply_users_count": 3,
+      "latest_reply": "1614774960.004700",
+      "reply_users": [
+        "U01B4UX4K8T",
+        "U0194L0FW5U",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1613640672.002300",
+      "user": "U01L7MWKS78",
+      "text": "<@U01L7MWKS78> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1612365416.002000",
+      "user": "U01KNB3BKEH",
+      "text": "<@U01KNB3BKEH> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1612096723.001800",
+      "user": "U01L0SS1U79",
+      "text": "<@U01L0SS1U79> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611998691.001400",
+      "user": "U01KXJGV2JY",
+      "text": "<@U01KXJGV2JY> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611924476.001200",
+      "user": "U01LPR47XQR",
+      "text": "<@U01LPR47XQR> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611654888.001000",
+      "user": "U01KALA83DM",
+      "text": "<@U01KALA83DM> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611584750.000800",
+      "user": "U01LF900J72",
+      "text": "<@U01LF900J72> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611584382.000600",
+      "user": "U01KRQS3ND8",
+      "text": "<@U01KRQS3ND8> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611579423.000400",
+      "user": "U01KALAHJ0P",
+      "text": "<@U01KALAHJ0P> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611578972.000200",
+      "user": "U01LF9GNT24",
+      "text": "<@U01LF9GNT24> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607616738.012300",
+      "user": "U01C37VFWKA",
+      "text": "<@U01C37VFWKA> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607426641.012100",
+      "user": "U01BKHW1V7E",
+      "text": "<@U01BKHW1V7E> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607340672.010500",
+      "user": "U01G664F28M",
+      "text": "<@U01G664F28M> has joined the channel",
+      "inviter": "U0194L0FW5U"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607340672.010300",
+      "user": "U01G664F28M",
+      "text": "<@U01G664F28M> has joined the channel",
+      "inviter": "U0194L0FW5U"
+    },
+    {
+      "client_msg_id": "2E46A2A7-F266-411F-8FEC-1D0EBEAFA4DF",
+      "type": "message",
+      "text": "flomo 用 <https://flomoapp.com/register2/?Mg|https://flomoapp.com/register2/?Mg> 注册就好",
+      "user": "U019BC1VCM8",
+      "ts": "1607305752.010000",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "flomo",
+          "title_link": "https://flomoapp.com/register2/?Mg",
+          "text": "无压笔记，随机漫步，记录你想法的川流",
+          "fallback": "flomo",
+          "from_url": "https://flomoapp.com/register2/?Mg",
+          "service_name": "flomoapp.com",
+          "id": 1,
+          "original_url": "https://flomoapp.com/register2/?Mg"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "saEk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "flomo 用 "
+                },
+                {
+                  "type": "link",
+                  "url": "https://flomoapp.com/register2/?Mg",
+                  "text": "https://flomoapp.com/register2/?Mg"
+                },
+                {
+                  "type": "text",
+                  "text": " 注册就好"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607305752.010000",
+      "reply_count": 3,
+      "reply_users_count": 1,
+      "latest_reply": "1607348568.011800",
+      "reply_users": [
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "34BE5723-4AAA-4C30-9706-678ACD923B6E",
+      "type": "message",
+      "text": "<@U01D2DSJ7EC> <@U019BC1VCM8> 求推荐信息源",
+      "user": "U01B4UX4K8T",
+      "ts": "1607262700.006800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "chSdO",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01D2DSJ7EC"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019BC1VCM8"
+                },
+                {
+                  "type": "text",
+                  "text": " 求推荐信息源"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607262700.006800",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1607263220.008600",
+      "reply_users": [
+        "U0194L0FW5U",
+        "U01B4UX4K8T",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U0194L0FW5U"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "545d856d-45d8-4ee5-abe3-fe3d16124d19",
+      "type": "message",
+      "text": "好的，明天试试",
+      "user": "U0194L0FW5U",
+      "ts": "1607262304.005300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Af/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "好的，明天试试"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a9738ec0-0336-43b9-b6ea-743f574c8dc2",
+      "type": "message",
+      "text": "早上干活效率贼高",
+      "user": "U019BC1VCM8",
+      "ts": "1607262251.005000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "G8g0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "早上干活效率贼高"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "d528239e-e9a0-4fea-89be-07e96b5e3add",
+      "type": "message",
+      "text": "还有就是，建议养成早睡早起的好习惯:huaji:",
+      "user": "U019BC1VCM8",
+      "ts": "1607262246.004700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C12Ri",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "还有就是，建议养成早睡早起的好习惯"
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "huaji",
+          "users": [
+            "U0194L0FW5U",
+            "U01D2DSJ7EC"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "00c1ecb3-6461-42d9-a35e-831168895468",
+      "type": "message",
+      "text": "按优先级和困难程度两个维度分个类",
+      "user": "U019BC1VCM8",
+      "ts": "1607262209.003600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YMhtK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "按优先级和困难程度两个维度分个类"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "1c2fcdd0-e445-4abd-a8fc-862c7446598f",
+      "type": "message",
+      "text": "我感觉我陷入一种，事情太多不知道要怎么安排的困境之中，对完成所有身上的事情有点看不到希望，大家有什么经验和方法可以分享吗 ovo",
+      "user": "U0194L0FW5U",
+      "ts": "1607262159.002900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GDoP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我感觉我陷入一种，事情太多不知道要怎么安排的困境之中，对完成所有身上的事情有点看不到希望，大家有什么经验和方法可以分享吗 ovo"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607262159.002900",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1607262311.005400",
+      "reply_users": [
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607260615.001500",
+      "user": "U01C60CQD0E",
+      "text": "<@U01C60CQD0E> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607260401.001300",
+      "user": "U0194L0FW5U",
+      "text": "<@U0194L0FW5U> has joined the channel"
+    },
+    {
+      "client_msg_id": "3d9f1999-9114-4f0e-a738-1112103866ab",
+      "type": "message",
+      "text": "<http://flomo.app|flomo.app>",
+      "user": "U019BC1VCM8",
+      "ts": "1607260349.001100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aSj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "flomo.app"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607260349.001100",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1607266535.009300",
+      "reply_users": [
+        "U0194L0FW5U"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607260311.000900",
+      "user": "U01B4UX4K8T",
+      "text": "<@U01B4UX4K8T> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607260302.000700",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607235072.000500",
+      "user": "U018WKP8CJK",
+      "text": "<@U018WKP8CJK> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_purpose",
+      "ts": "1607225601.000300",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> set the channel description: Introducing efficiency boost products, practice and knowledge",
+      "purpose": "Introducing efficiency boost products, practice and knowledge"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607225601.000200",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> has joined the channel"
+    }
+  ]
+}

@@ -1,0 +1,4782 @@
+{
+  "channel": "C01DQ1TEAAC",
+  "messages": [
+    {
+      "client_msg_id": "f3d267f9-29c1-4a54-8459-22181875ae83",
+      "type": "message",
+      "text": "大家有什么建议都可以说",
+      "user": "U019BC1VCM8",
+      "ts": "1625123572.013800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fiAx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "大家有什么建议都可以说"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1625123572.013800",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1625126035.015100",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U019BC1VCM8",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "461e9390-dfb9-4938-8ac9-fe5c6c7c9f14",
+      "type": "message",
+      "text": "打算把这个 feed 放到 share 这个 channel 里面，大家可以在 feed 里面的 thread 讨论",
+      "user": "U019BC1VCM8",
+      "ts": "1625123546.013400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1qx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "打算把这个 feed 放到 share 这个 channel 里面，大家可以在 feed 里面的 thread 讨论"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "",
+      "user": "U019BC1VCM8",
+      "ts": "1625123522.013000",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "fallback": "[July 1st, 2021 3:07 PM] zfhu16: 不知道大家平时都通过什么信息源获取信息，我平时会看 hackernews 以及一些我关注的博客",
+          "ts": "1625123252.014300",
+          "author_id": "U019BC1VCM8",
+          "author_subname": "Jeff Hu",
+          "channel_id": "C0194KZD6P8",
+          "channel_name": "general",
+          "is_msg_unfurl": true,
+          "is_thread_root_unfurl": true,
+          "text": "不知道大家平时都通过什么信息源获取信息，我平时会看 hackernews 以及一些我关注的博客",
+          "author_name": "Jeff Hu",
+          "author_link": "https://fducslg.slack.com/team/U019BC1VCM8",
+          "author_icon": "https://avatars.slack-edge.com/2020-08-23/1317627662403_018af31867d8661da6b4_48.png",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "color": "D0D0D0",
+          "from_url": "https://fducslg.slack.com/archives/C0194KZD6P8/p1625123252014300?thread_ts=1625123252014300&cid=C0194KZD6P8",
+          "is_share": true,
+          "footer": "Thread in #general"
+        }
+      ]
+    },
+    {
+      "client_msg_id": "12b11c5e-8566-4624-be80-4ecbc30ff706",
+      "type": "message",
+      "text": "<https://www.codingame.com/> <@U0194L0FW5U> 又一个游戏化编程教学网站",
+      "user": "U01B4UX4K8T",
+      "ts": "1625040013.008500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "CodinGame",
+          "title": "Coding Games and Programming Challenges to Code Better",
+          "title_link": "https://www.codingame.com/",
+          "text": "CodinGame is a challenge-based training platform for programmers where you can play with the hottest programming topics. Solve games, code AI bots, learn from your peers, have fun.",
+          "fallback": "CodinGame: Coding Games and Programming Challenges to Code Better",
+          "image_url": "https://files.codingame.com/codingame/codingame_share_pics.jpg",
+          "from_url": "https://www.codingame.com/",
+          "image_width": 444,
+          "image_height": 250,
+          "image_bytes": 69971,
+          "service_icon": "https://static-aznet.codingame.com/assets/apple-touch-icon-192x192.0172d90b.png",
+          "id": 1,
+          "original_url": "https://www.codingame.com/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "PzIf",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://www.codingame.com/"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0194L0FW5U"
+                },
+                {
+                  "type": "text",
+                  "text": " 又一个游戏化编程教学网站"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1625040013.008500",
+      "reply_count": 19,
+      "reply_users_count": 3,
+      "latest_reply": "1625055806.012800",
+      "reply_users": [
+        "U01B4UX4K8T",
+        "U0194L0FW5U",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U0194L0FW5U"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "310d5aec-aaf7-41db-9763-e7c7a248a6bb",
+      "type": "message",
+      "text": "<https://github.com/RustMagazine/rust_magazine_2021>\n说实话我是在 GitHub 上看到罗翔学长 star 才发现的:huaji:",
+      "user": "U01D2DSJ7EC",
+      "ts": "1622365408.006500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "fallback": "RustMagazine/rust_magazine_2021",
+          "text": "RustMagazine 2021 期刊",
+          "title": "RustMagazine/rust_magazine_2021",
+          "id": 1,
+          "color": "24292f",
+          "fields": [
+            {
+              "title": "Website",
+              "value": "<https://rustmagazine.github.io/rust_magazine_2021/>",
+              "short": true
+            },
+            {
+              "title": "Stars",
+              "value": "270",
+              "short": true
+            }
+          ],
+          "bot_id": "B01UTGY5PQA",
+          "app_unfurl_url": "https://github.com/RustMagazine/rust_magazine_2021",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KiFWo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/RustMagazine/rust_magazine_2021"
+                },
+                {
+                  "type": "text",
+                  "text": "\n说实话我是在 GitHub 上看到罗翔学长 star 才发现的"
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1622365408.006500",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1622427698.006800",
+      "reply_users": [
+        "U0194L0FW5U"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "fencer",
+          "users": [
+            "U018WKP8CJK",
+            "U01V8P2P41L"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "C8777BD9-C29D-4C33-8D84-1AC64413821E",
+      "type": "message",
+      "text": "分享一个类似 GSOC 的中国项目：<https://summer.iscas.ac.cn/help/en/|https://summer.iscas.ac.cn/help/en/> 看了一下参与社区，以国内的为主，不过也有 wine 这样的项目。不知道有没有同学感兴趣？",
+      "user": "U01F73964V6",
+      "ts": "1622172576.003800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VesQv",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "分享一个类似 GSOC 的中国项目："
+                },
+                {
+                  "type": "link",
+                  "url": "https://summer.iscas.ac.cn/help/en/",
+                  "text": "https://summer.iscas.ac.cn/help/en/"
+                },
+                {
+                  "type": "text",
+                  "text": " 看了一下参与社区，以国内的为主，不过也有 wine 这样的项目。不知道有没有同学感兴趣？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1622172576.003800",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1622221693.004900",
+      "reply_users": [
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "ec5f77ab-8fae-4214-975d-190bc90b2208",
+      "type": "message",
+      "text": "我前几天在 PingCAP 内部做了 Hekaton: SQL Server’s Memory-Optimized OLTP Engine，一篇对 SQL Server 的内存 OLTP 引擎的介绍论文的分享，明天 B 站会有播放，大家感兴趣可以提前在这里看（前几分钟跳过）：\n\n与查看者共享录制文件：\n<https://zoom.us/rec/share/VS6FqTv4G4GIkQz03LxdZBv4zy2ODhxhMis1ta2ml8HfiezUlB6MQcmEwE3qlRsK.apGp6qWFEU7UngIt> (访问密码: Nr@#pR#6)",
+      "user": "U019BC1VCM8",
+      "ts": "1621424839.001800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8pyA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我前几天在 PingCAP 内部做了 Hekaton: SQL Server’s Memory-Optimized OLTP Engine，一篇对 SQL Server 的内存 OLTP 引擎的介绍论文的分享，明天 B 站会有播放，大家感兴趣可以提前在这里看（前几分钟跳过）：\n\n与查看者共享录制文件：\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://zoom.us/rec/share/VS6FqTv4G4GIkQz03LxdZBv4zy2ODhxhMis1ta2ml8HfiezUlB6MQcmEwE3qlRsK.apGp6qWFEU7UngIt"
+                },
+                {
+                  "type": "text",
+                  "text": " (访问密码: Nr@#pR#6)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "clap",
+          "users": [
+            "U01F73964V6",
+            "U01D2DSJ7EC",
+            "U01KALA83DM",
+            "U0194L0FW5U"
+          ],
+          "count": 4
+        }
+      ]
+    },
+    {
+      "client_msg_id": "5c2eb84b-4357-4315-843c-a4c8e39a2291",
+      "type": "message",
+      "text": "<https://web.eecs.utk.edu/~azh/publications.html|https://web.eecs.utk.edu/~azh/publications.html> 讲人是怎么找信息的, 挺有意思",
+      "user": "U01D2DSJ7EC",
+      "ts": "1619704387.017200",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "Publications - Austin Z. Henley",
+          "title_link": "https://web.eecs.utk.edu/~azh/publications.html",
+          "text": "Assistant Professor of Computer Science, researching the usability of software engineering tools.",
+          "fallback": "Publications - Austin Z. Henley",
+          "from_url": "https://web.eecs.utk.edu/~azh/publications.html",
+          "service_name": "web.eecs.utk.edu",
+          "id": 1,
+          "original_url": "https://web.eecs.utk.edu/~azh/publications.html"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+W4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://web.eecs.utk.edu/~azh/publications.html",
+                  "text": "https://web.eecs.utk.edu/~azh/publications.html"
+                },
+                {
+                  "type": "text",
+                  "text": " 讲人是怎么找信息的, 挺有意思"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "7e3c548f-9a1c-4c9d-a7e2-4c081398c8f9",
+      "type": "message",
+      "text": "<https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html>\n\nC++ 20 新特性的 overview。开头的 concept、lambda 和 constexpr/consteval/constinit 看得我头皮发麻:huaji:",
+      "user": "U01A611AJ81",
+      "ts": "1619590951.016000",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "Oleksandr Koval’s blog",
+          "title": "All C++20 core language features with examples",
+          "title_link": "https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html",
+          "text": "Introduction",
+          "fallback": "Oleksandr Koval’s blog: All C++20 core language features with examples",
+          "ts": 1617361920,
+          "from_url": "https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html",
+          "id": 1,
+          "original_url": "https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TxO",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nC++ 20 新特性的 overview。开头的 concept、lambda 和 constexpr/consteval/constinit 看得我头皮发麻"
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1619590951.016000",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1619704478.017400",
+      "reply_users": [
+        "U01A611AJ81",
+        "U01LF9GNT24"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC",
+            "U01LF9GNT24",
+            "U019BJ60Q2X",
+            "U019BC1VCM8"
+          ],
+          "count": 4
+        }
+      ]
+    },
+    {
+      "client_msg_id": "fb5d140e-e238-4b05-b332-9d41665233ae",
+      "type": "message",
+      "text": "<https://github.com/caronc/apprise|https://github.com/caronc/apprise> 很多平台的消息推送，有做 tg-bot slack-bot 等等等等的同学可以看看",
+      "user": "U01D2DSJ7EC",
+      "ts": "1619533243.014900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZKV4F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/caronc/apprise",
+                  "text": "https://github.com/caronc/apprise"
+                },
+                {
+                  "type": "text",
+                  "text": " 很多平台的消息推送，有做 tg-bot slack-bot 等等等等的同学可以看看"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01F73964V6"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "E637D0FF-1C85-49B6-BF51-532BB7E55382",
+      "type": "message",
+      "text": "<https://replit.com/kaboom|https://replit.com/kaboom> hacker news上看到的，intro video 挺可爱（对教育软件有兴趣的可以看看？",
+      "user": "U01F73964V6",
+      "ts": "1618323075.014300",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "replit",
+          "title": "Kaboom!!",
+          "title_link": "https://replit.com/kaboom",
+          "text": "a fun JavaScript game programming library &amp; environment",
+          "fallback": "replit: Kaboom!!",
+          "thumb_url": "https://replit.com/public/images/sm.png",
+          "from_url": "https://replit.com/kaboom",
+          "thumb_width": 1659,
+          "thumb_height": 1658,
+          "service_icon": "https://replit.com/public/images/sm.png",
+          "id": 1,
+          "original_url": "https://replit.com/kaboom"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CdVBm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://replit.com/kaboom",
+                  "text": "https://replit.com/kaboom"
+                },
+                {
+                  "type": "text",
+                  "text": " hacker news上看到的，intro video 挺可爱（对教育软件有兴趣的可以看看？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "34a71d9e-5673-42cd-92a6-62bd0de3839a",
+      "type": "message",
+      "text": "<https://space.bilibili.com/612932327/>",
+      "user": "U019BC1VCM8",
+      "ts": "1618150004.012500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "老石谈芯的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili",
+          "title_link": "https://space.bilibili.com/612932327/",
+          "text": "UP主：老石谈芯，bilibili 知名科普UP主；个人简介：芯片相关的科普、硬核、以及偶尔极度硬核的内容；粉丝数：105503；你感兴趣的视频都在B站。",
+          "fallback": "老石谈芯的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili",
+          "from_url": "https://space.bilibili.com/612932327/",
+          "service_icon": "http://i2.hdslb.com/bfs/face/b7d1228d4df6bcea8f1b9eb01545bb0b02a2aa65.jpg",
+          "service_name": "space.bilibili.com",
+          "id": 1,
+          "original_url": "https://space.bilibili.com/612932327/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VOc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://space.bilibili.com/612932327/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "2acbcc15-8237-48fb-9eeb-7b80c1ff7c71",
+      "type": "message",
+      "text": "&gt; Instead of taking an expensive algorithm and throwing the whole world of system optimization at it, I'm saying, 'Let's revisit the algorithm. \n&gt; The study <https://proceedings.mlsys.org/paper/2021/file/3636638817772e42b59d74cff571fbb3-Paper.pdf|they'll present this week at MLSys 2021>\n<https://techxplore.com/news/2021-04-rice-intel-optimize-ai-commodity.html>",
+      "user": "U01F73964V6",
+      "ts": "1617936015.011400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "CPU algorithm trains deep neural nets up to 15 times faster than top GPU trainers",
+          "title_link": "https://techxplore.com/news/2021-04-rice-intel-optimize-ai-commodity.html",
+          "text": "Rice University computer scientists have demonstrated artificial intelligence (AI) software that runs on commodity processors and trains deep neural networks 15 times faster than platforms based on graphics processors.",
+          "fallback": "CPU algorithm trains deep neural nets up to 15 times faster than top GPU trainers",
+          "image_url": "https://scx2.b-cdn.net/gfx/news/hires/2021/riceintelopt.jpg",
+          "from_url": "https://techxplore.com/news/2021-04-rice-intel-optimize-ai-commodity.html",
+          "image_width": 375,
+          "image_height": 250,
+          "image_bytes": 146277,
+          "service_icon": "https://techxplore.com/favicon.ico",
+          "service_name": "techxplore.com",
+          "id": 1,
+          "original_url": "https://techxplore.com/news/2021-04-rice-intel-optimize-ai-commodity.html"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yU=2",
+          "elements": [
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Instead of taking an expensive algorithm and throwing the whole world of system optimization at it, I'm saying, 'Let's revisit the algorithm. \nThe study "
+                },
+                {
+                  "type": "link",
+                  "url": "https://proceedings.mlsys.org/paper/2021/file/3636638817772e42b59d74cff571fbb3-Paper.pdf",
+                  "text": "they'll present this week at MLSys 2021"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://techxplore.com/news/2021-04-rice-intel-optimize-ai-commodity.html"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617936015.011400",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1617937991.012200",
+      "reply_users": [
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "5dd0afd7-dc30-4c50-a282-03d83c822c0a",
+      "type": "message",
+      "text": "将 FPGA 作为加速卡部署到数据中心在微软的运用实例\n<https://b23.tv/xSedcU|https://b23.tv/xSedcU>",
+      "user": "U018WKP8CJK",
+      "ts": "1617548146.009100",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "微软如何成为这个AI芯片的全球第一大客户？_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+          "title_link": "https://b23.tv/xSedcU",
+          "text": "微软FPGA项目的前世今生",
+          "fallback": "微软如何成为这个AI芯片的全球第一大客户？_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+          "image_url": "http://i1.hdslb.com/bfs/archive/015e77d1c62e9cff9a13b43b7795e8365bfaf7ab.jpg",
+          "from_url": "https://b23.tv/xSedcU",
+          "image_width": 400,
+          "image_height": 250,
+          "image_bytes": 809827,
+          "service_icon": "http://i1.hdslb.com/bfs/archive/015e77d1c62e9cff9a13b43b7795e8365bfaf7ab.jpg@57w_57h_1c.png",
+          "service_name": "bilibili.com",
+          "id": 1,
+          "original_url": "https://b23.tv/xSedcU"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "77X2+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "将 FPGA 作为加速卡部署到数据中心在微软的运用实例\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://b23.tv/xSedcU",
+                  "text": "https://b23.tv/xSedcU"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617548146.009100",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1617549589.009300",
+      "reply_users": [
+        "U01LF9GNT24"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "6a8a6c39-fd1e-4cc9-962d-c15f3fbcc99d",
+      "type": "message",
+      "text": "<https://github.com/ruanyf/document-style-guide> 中文排版指南",
+      "user": "U01D2DSJ7EC",
+      "ts": "1617368270.008900",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "fallback": "ruanyf/document-style-guide",
+          "text": "中文技术文档的写作规范",
+          "title": "ruanyf/document-style-guide",
+          "footer": "<https://github.com/ruanyf/document-style-guide|ruanyf/document-style-guide>",
+          "id": 1,
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1476272996,
+          "color": "24292f",
+          "fields": [
+            {
+              "title": "Stars",
+              "value": "8087",
+              "short": true
+            },
+            {
+              "title": "Last updated",
+              "value": "32 minutes ago",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text",
+            "fields"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/ruanyf/document-style-guide",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9qW",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/ruanyf/document-style-guide"
+                },
+                {
+                  "type": "text",
+                  "text": " 中文排版指南"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617163858.008000",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617032251.007600",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617007733.007100",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "client_msg_id": "36ff1642-e7df-4bac-80bc-c066b10b9bc6",
+      "type": "message",
+      "text": "<https://rms-open-letter.github.io/> 好像是个大新闻",
+      "user": "U01D2DSJ7EC",
+      "ts": "1616668509.004800",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "rms-open-letter.github.io",
+          "title": "An open letter to remove Richard M. Stallman from all leadership positions",
+          "title_link": "https://rms-open-letter.github.io/",
+          "text": "We, the undersigned, call for the entire Board of the FSF to step down and for Richard M. Stallman to be removed from all leadership positions. We will not continue suffering his behavior, giving him a leadership role, or otherwise holding him and his hurtful and dangerous ideology as acceptable.",
+          "fallback": "rms-open-letter.github.io: An open letter to remove Richard M. Stallman from all leadership positions",
+          "image_url": "https://rms-open-letter.github.io/assets/og-image.png",
+          "from_url": "https://rms-open-letter.github.io/",
+          "image_width": 510,
+          "image_height": 250,
+          "image_bytes": 43947,
+          "id": 1,
+          "original_url": "https://rms-open-letter.github.io/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8ctmH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://rms-open-letter.github.io/"
+                },
+                {
+                  "type": "text",
+                  "text": " 好像是个大新闻"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616668509.004800",
+      "reply_count": 9,
+      "reply_users_count": 4,
+      "latest_reply": "1616680239.006800",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01A611AJ81",
+        "U01B4UX4K8T",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "20A09CF8-DA2E-4B1A-A3CE-4A3EC8F42109",
+      "type": "message",
+      "text": "好玩的组件，想用— <https://xtermjs.org|https://xtermjs.org>",
+      "user": "U01F73964V6",
+      "ts": "1616561211.003700",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "Xterm.js",
+          "title_link": "https://xtermjs.org/",
+          "text": "Terminal front-end component written in JavaScript that works in the browser.",
+          "fallback": "Xterm.js",
+          "from_url": "https://xtermjs.org/",
+          "service_icon": "https://xtermjs.org/images/favicon.png",
+          "service_name": "xtermjs.org",
+          "id": 1,
+          "original_url": "https://xtermjs.org"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "hUr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "好玩的组件，想用— "
+                },
+                {
+                  "type": "link",
+                  "url": "https://xtermjs.org",
+                  "text": "https://xtermjs.org"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616561211.003700",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1616584700.004400",
+      "reply_users": [
+        "U01B4UX4K8T"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC",
+            "U019BJ60Q2X"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "9723aefc-7d49-4cf2-9618-925904169da7",
+      "type": "message",
+      "text": "<http://go-database-sql.org/index.html>\nGolang SQL 入门 guide",
+      "user": "U01D2DSJ7EC",
+      "ts": "1616496810.003000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Y09K",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "http://go-database-sql.org/index.html"
+                },
+                {
+                  "type": "text",
+                  "text": "\nGolang SQL 入门 guide"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U01F73964V6"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "f6511bc8-b0f2-4695-a219-87f2ac593a23",
+      "type": "message",
+      "text": "<https://rebootcat.com/archives/page/3/>",
+      "user": "U01KNB3BKEH",
+      "ts": "1616332980.002000",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "林夕水共",
+          "title_link": "https://rebootcat.com/archives/page/3/",
+          "text": "人至贱则无敌",
+          "fallback": "林夕水共",
+          "from_url": "https://rebootcat.com/archives/page/3/",
+          "service_icon": "https://rebootcat.com/favicon.ico",
+          "service_name": "rebootcat.com",
+          "id": 1,
+          "original_url": "https://rebootcat.com/archives/page/3/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "d7KIN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://rebootcat.com/archives/page/3/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616332980.002000",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1616333060.002200",
+      "reply_users": [
+        "U01KNB3BKEH"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC",
+            "U01F73964V6"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "b449a7ef-b47e-4464-9ed7-cc458527840e",
+      "type": "message",
+      "text": "我现在的老板最近让我看到过一篇文章叫Strong Inference,也是在解释科研是在做什么（是1964年的文章，到现在已经有4000引用了），我觉得写的还挺有意义的：\n<http://houdekpetr.cz/!data/papers/Platt%201964.pdf>",
+      "user": "U01LF9GNT24",
+      "ts": "1615889891.000800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wh/p",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我现在的老板最近让我看到过一篇文章叫Strong Inference,也是在解释科研是在做什么（是1964年的文章，到现在已经有4000引用了），我觉得写的还挺有意义的：\n"
+                },
+                {
+                  "type": "link",
+                  "url": "http://houdekpetr.cz/!data/papers/Platt%201964.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC",
+            "U0194L0FW5U",
+            "U01KNB3BKEH"
+          ],
+          "count": 3
+        },
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U01D2DSJ7EC"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "7269e67b-23f0-449a-b092-337ceb24160f",
+      "type": "message",
+      "text": "现代科研指北，分享给所有有志搞科研的朋友\n\n<https://bookdown.org/yufree/sciguide/>",
+      "user": "U019BC1VCM8",
+      "ts": "1615854932.000500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "现代科研指北",
+          "title_link": "https://bookdown.org/yufree/sciguide/",
+          "text": "才疏学浅，不知何为真，仅通少错之法，故不敢言南，仅指北。或曰：现代科研挖坑／跳坑指南。",
+          "fallback": "现代科研指北",
+          "from_url": "https://bookdown.org/yufree/sciguide/",
+          "service_icon": "https://bookdown.org/favicon.ico",
+          "service_name": "bookdown.org",
+          "id": 1,
+          "original_url": "https://bookdown.org/yufree/sciguide/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MI39",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "现代科研指北，分享给所有有志搞科研的朋友\n\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://bookdown.org/yufree/sciguide/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01G663G3J9",
+            "U01C37VFWKA",
+            "U01KNB3BKEH",
+            "U01D2DSJ7EC",
+            "U01F73964V6"
+          ],
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "最近在关注计算机网络相关的技术，然后看到这家叫 tailscale 的公司，基于 wireguard 提供了一个能替代企业 vpn 的工具，感觉非常有潜力。这篇文章介绍了他们产品的工作原理。\n<https://tailscale.com/blog/how-tailscale-works/>",
+      "user": "U019BC1VCM8",
+      "ts": "1615778820.017400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "Tailscale",
+          "title": "How Tailscale works",
+          "title_link": "https://tailscale.com/blog/how-tailscale-works/",
+          "text": "People often ask us for an overview of how Tailscale works. We&amp;rsquo;ve been",
+          "fallback": "Tailscale: How Tailscale works",
+          "image_url": "https://tailscale.com/blog/how-tailscale-works/social.png",
+          "from_url": "https://tailscale.com/blog/how-tailscale-works/",
+          "image_width": 475,
+          "image_height": 250,
+          "image_bytes": 33693,
+          "service_icon": "https://tailscale.com/files/apple-touch-icon.png",
+          "id": 1,
+          "original_url": "https://tailscale.com/blog/how-tailscale-works/"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U0194L0FW5U",
+            "U01RFM0F9T2",
+            "U01D2DSJ7EC"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615765776.017300",
+      "user": "U01BUUXU524",
+      "text": "<@U01BUUXU524> has joined the channel",
+      "inviter": "U019BC1VCM8"
+    },
+    {
+      "client_msg_id": "1f61a366-4a4c-4e2a-ad31-ad83530df360",
+      "type": "message",
+      "text": "<https://devblogs.microsoft.com/typescript/announcing-the-new-typescript-handbook/>\n\ntypescript handbook 最近有过一次更新，我看到 <@U018WKP8CJK> <@U0194L0FW5U> 等几个同学都在看，我也准备抽时间看一遍",
+      "user": "U019BC1VCM8",
+      "ts": "1615765706.016300",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "TypeScript",
+          "title": "Announcing the New TypeScript Handbook | TypeScript",
+          "title_link": "https://devblogs.microsoft.com/typescript/announcing-the-new-typescript-handbook/",
+          "text": "Hey folks, we’re happy to announce that a fresh re-write of the TypeScript Handbook is out of beta and is now our website’s primary resource for learning TypeScript! Read the handbook on Web / Epub / PDF In the last year,",
+          "fallback": "TypeScript: Announcing the New TypeScript Handbook | TypeScript",
+          "image_url": "https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2018/08/typescriptfeature.png",
+          "image_width": 401,
+          "image_height": 250,
+          "fields": [
+            {
+              "title": "Written by",
+              "value": "Orta Therox",
+              "short": true
+            },
+            {
+              "title": "Est. reading time",
+              "value": "4 minutes",
+              "short": true
+            }
+          ],
+          "ts": 1614980396,
+          "from_url": "https://devblogs.microsoft.com/typescript/announcing-the-new-typescript-handbook/",
+          "image_bytes": 23340,
+          "service_icon": "https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2018/10/Microsoft-Favicon.png",
+          "id": 1,
+          "original_url": "https://devblogs.microsoft.com/typescript/announcing-the-new-typescript-handbook/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8uk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://devblogs.microsoft.com/typescript/announcing-the-new-typescript-handbook/"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\ntypescript handbook 最近有过一次更新，我看到 "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U018WKP8CJK"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0194L0FW5U"
+                },
+                {
+                  "type": "text",
+                  "text": " 等几个同学都在看，我也准备抽时间看一遍"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1615765706.016300",
+      "reply_count": 3,
+      "reply_users_count": 1,
+      "latest_reply": "1615765770.017000",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "b59645a7-86d9-4e1b-8bb6-bec40e5538d3",
+      "type": "message",
+      "text": "edge 能够把标签页放在侧边了！太爽了吧",
+      "user": "U0194L0FW5U",
+      "ts": "1615729365.006500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "s8F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "edge 能够把标签页放在侧边了！太爽了吧"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1615729365.006500",
+      "reply_count": 37,
+      "reply_users_count": 3,
+      "latest_reply": "1615732453.014800",
+      "reply_users": [
+        "U01B4UX4K8T",
+        "U0194L0FW5U",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "3ca9173f-f143-421d-b0b4-9ea306cf2dd5",
+      "type": "message",
+      "text": "最近在看协程相关的资料，譬如有栈无栈的区别，以下是我收集的一些资料，感兴趣的同学可以和我一起看（对头，我目前只收集了，还没看）：\n\n1. 有栈协程与无栈协程 (<https://mthli.xyz/stackful-stackless/>)\n2. 理解有栈无栈协程 (<https://zhuanlan.zhihu.com/p/65956116>)\n3. 浅谈有栈协程与无栈协程 (<https://zhuanlan.zhihu.com/p/347445164>)\n4. How do stackless coroutines differ from stackful coroutines? (<https://stackoverflow.com/questions/28977302/how-do-stackless-coroutines-differ-from-stackful-coroutines>)\n5. 使用 C 语言实现协程 (<https://mthli.xyz/coroutines-in-c/>)\n6. 破解 Kotlin 协程 番外篇(2) - 协程的几类常见的实现 (<https://www.bennyhuo.com/2019/12/01/coroutine-implementations/>)\n7. Asio无栈协程导引 (<https://www.jianshu.com/p/0395a068e8df>)\n8. 无栈协程 | Rust学习笔记 (<https://segmentfault.com/a/1190000024462355>)",
+      "user": "U019BC1VCM8",
+      "ts": "1615430743.005500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "L/d",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "最近在看协程相关的资料，譬如有栈无栈的区别，以下是我收集的一些资料，感兴趣的同学可以和我一起看（对头，我目前只收集了，还没看）：\n\n1. 有栈协程与无栈协程 ("
+                },
+                {
+                  "type": "link",
+                  "url": "https://mthli.xyz/stackful-stackless/"
+                },
+                {
+                  "type": "text",
+                  "text": ")\n2. 理解有栈无栈协程 ("
+                },
+                {
+                  "type": "link",
+                  "url": "https://zhuanlan.zhihu.com/p/65956116"
+                },
+                {
+                  "type": "text",
+                  "text": ")\n3. 浅谈有栈协程与无栈协程 ("
+                },
+                {
+                  "type": "link",
+                  "url": "https://zhuanlan.zhihu.com/p/347445164"
+                },
+                {
+                  "type": "text",
+                  "text": ")\n4. How do stackless coroutines differ from stackful coroutines? ("
+                },
+                {
+                  "type": "link",
+                  "url": "https://stackoverflow.com/questions/28977302/how-do-stackless-coroutines-differ-from-stackful-coroutines"
+                },
+                {
+                  "type": "text",
+                  "text": ")\n5. 使用 C 语言实现协程 ("
+                },
+                {
+                  "type": "link",
+                  "url": "https://mthli.xyz/coroutines-in-c/"
+                },
+                {
+                  "type": "text",
+                  "text": ")\n6. 破解 Kotlin 协程 番外篇(2) - 协程的几类常见的实现 ("
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.bennyhuo.com/2019/12/01/coroutine-implementations/"
+                },
+                {
+                  "type": "text",
+                  "text": ")\n7. Asio无栈协程导引 ("
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.jianshu.com/p/0395a068e8df"
+                },
+                {
+                  "type": "text",
+                  "text": ")\n8. 无栈协程 | Rust学习笔记 ("
+                },
+                {
+                  "type": "link",
+                  "url": "https://segmentfault.com/a/1190000024462355"
+                },
+                {
+                  "type": "text",
+                  "text": ")"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC",
+            "U0194L0FW5U",
+            "U01LF9GNT24"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "用 game of life 画 mona lisa\n<http://avinayak.github.io/algorithms/programming/2021/02/19/finding-mona-lisa-in-the-game-of-life.html>",
+      "user": "U019BC1VCM8",
+      "ts": "1615357350.002600",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "¬",
+          "title": "Finding Mona Lisa in the Game of Life",
+          "title_link": "http://avinayak.github.io/algorithms/programming/2021/02/19/finding-mona-lisa-in-the-game-of-life.html",
+          "text": "Atul's Programming Journals. A blog where I explore programming &amp; Design",
+          "fallback": "¬: Finding Mona Lisa in the Game of Life",
+          "thumb_url": "http://avinayak.github.io/favicons/favicon-96x96.png",
+          "from_url": "http://avinayak.github.io/algorithms/programming/2021/02/19/finding-mona-lisa-in-the-game-of-life.html",
+          "thumb_width": 96,
+          "thumb_height": 96,
+          "service_icon": "http://avinayak.github.io/favicons/favicon.ico",
+          "id": 1,
+          "original_url": "http://avinayak.github.io/algorithms/programming/2021/02/19/finding-mona-lisa-in-the-game-of-life.html"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "100 跳的 ipv6 mesh 的搭建\n<https://www.thingsquare.com/blog/articles/100-hops-ipv6-mesh/>",
+      "user": "U019BC1VCM8",
+      "ts": "1615356871.002400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "Thingsquare",
+          "title": "What Happens Inside a 100-hop IPv6 Wireless Mesh Network?",
+          "title_link": "https://www.thingsquare.com/blog/articles/100-hops-ipv6-mesh/",
+          "text": "Wireless Networking in the Extreme",
+          "fallback": "Thingsquare: What Happens Inside a 100-hop IPv6 Wireless Mesh Network?",
+          "thumb_url": "https://www.thingsquare.com/blog/articles/100-hops-ipv6-mesh/picture.jpg",
+          "ts": 1504742400,
+          "from_url": "https://www.thingsquare.com/blog/articles/100-hops-ipv6-mesh/",
+          "thumb_width": 600,
+          "thumb_height": 600,
+          "service_icon": "https://www.thingsquare.com/style/img/apple-touch-icon-144-precomposed.png",
+          "id": 1,
+          "original_url": "https://www.thingsquare.com/blog/articles/100-hops-ipv6-mesh/"
+        }
+      ]
+    },
+    {
+      "client_msg_id": "723ee137-58f8-4f4b-aef4-e3adc6e73f1c",
+      "type": "message",
+      "text": "<https://mp.weixin.qq.com/s/3ej6Z_Ery4L26GVIpQH26w>\n后天一个南大老师要做的关于MIP*=RE的报告，大概是计算复杂性相关的一些东西\n\n话说这种有时效性的应该放到<#C01DQ1TEAAC|share> 里面还是<#C019HHJ7KAQ|random> 里面？",
+      "user": "U01LF90AVL0",
+      "ts": "1615302582.001700",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "微信公众平台",
+          "title": "MIP*=RE 介绍 #FLSeminar",
+          "title_link": "https://mp.weixin.qq.com/s/3ej6Z_Ery4L26GVIpQH26w",
+          "text": "3月11日（周四）晚上18:30，南京大学喻良教授讲座：MIP*=RE 介绍。地点：光华楼西辅楼402室。",
+          "fallback": "微信公众平台: MIP*=RE 介绍 #FLSeminar",
+          "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/Diba98TpCj2PuDlsQKiaPAZ3OGA11EOlIpv4GhJ2kokXnWAAINuoQGdmmicO0iaW3el3ehxoaJFoXIMO0FFFK3hZwA/0?wx_fmt=jpeg",
+          "from_url": "https://mp.weixin.qq.com/s/3ej6Z_Ery4L26GVIpQH26w",
+          "thumb_width": 1280,
+          "thumb_height": 545,
+          "service_icon": "http://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png",
+          "id": 1,
+          "original_url": "https://mp.weixin.qq.com/s/3ej6Z_Ery4L26GVIpQH26w"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "E=mg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://mp.weixin.qq.com/s/3ej6Z_Ery4L26GVIpQH26w"
+                },
+                {
+                  "type": "text",
+                  "text": "\n后天一个南大老师要做的关于MIP*=RE的报告，大概是计算复杂性相关的一些东西\n\n话说这种有时效性的应该放到"
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C01DQ1TEAAC"
+                },
+                {
+                  "type": "text",
+                  "text": " 里面还是"
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C019HHJ7KAQ"
+                },
+                {
+                  "type": "text",
+                  "text": " 里面？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1615302582.001700",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1615302797.001800",
+      "reply_users": [
+        "U01LF90AVL0"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U01D2DSJ7EC",
+            "U01PLFRBF7Y"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "client_msg_id": "b85221e7-514c-472f-80e4-d0e40d7963da",
+      "type": "message",
+      "text": "<https://chrome.google.com/webstore/detail/devo/elkhalpmbmbaeoemecpcfdcoekmpgmdm?hl=en> 更聚焦的信息聚合， GitHub trendy, Hackernews, ProductHunt, etc.",
+      "user": "U01D2DSJ7EC",
+      "ts": "1615122735.010900",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U01D2DSJ7EC",
+        "ts": "1615122776.000000"
+      },
+      "attachments": [
+        {
+          "title": "Devo",
+          "title_link": "https://chrome.google.com/webstore/detail/devo/elkhalpmbmbaeoemecpcfdcoekmpgmdm?hl=en",
+          "text": "GitHub Trending, Hacker News and Product Hunt, on every new tab!",
+          "fallback": "Devo",
+          "from_url": "https://chrome.google.com/webstore/detail/devo/elkhalpmbmbaeoemecpcfdcoekmpgmdm?hl=en",
+          "thumb_url": "https://lh3.googleusercontent.com/Ve02fc7c70oLGMCPqU83jPrSXudQ3x7MFNmfNXGKke_9uTt5aGmUJHG_cd9vGgtaLRTl1Fi3uWG8NBBvkr_Xe5lq",
+          "thumb_width": 128,
+          "thumb_height": 128,
+          "service_icon": "https://www.google.com/images/icons/product/chrome_web_store-32.png",
+          "service_name": "chrome.google.com",
+          "id": 1,
+          "original_url": "https://chrome.google.com/webstore/detail/devo/elkhalpmbmbaeoemecpcfdcoekmpgmdm?hl=en"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KBGi1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://chrome.google.com/webstore/detail/devo/elkhalpmbmbaeoemecpcfdcoekmpgmdm?hl=en"
+                },
+                {
+                  "type": "text",
+                  "text": " 更聚焦的信息聚合， GitHub trendy, Hackernews, ProductHunt, etc."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01A611AJ81"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "e762a8fa-52e8-4061-83bf-6ab4600af595",
+      "type": "message",
+      "text": "<https://github.com/trending>",
+      "user": "U019BC1VCM8",
+      "ts": "1615122678.010700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CA/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/trending"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "一本新书推荐给大家，关于最近三四年很火的DLSystem，看了下目录确实是很新，很多cutting-edge的东西也有讲，如果对这个方向感兴趣的话，应该可以作为一个很好的学习材料。",
+      "files": [
+        {
+          "id": "F01Q0MSUH6H",
+          "created": 1614823432,
+          "timestamp": 1614823432,
+          "name": "DeepLearningSystems.pdf",
+          "title": "DeepLearningSystems.pdf",
+          "mimetype": "application/pdf",
+          "filetype": "pdf",
+          "pretty_type": "PDF",
+          "user": "U01KRDN40EN",
+          "editable": false,
+          "size": 20443598,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01Q0MSUH6H/deeplearningsystems.pdf",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01Q0MSUH6H/download/deeplearningsystems.pdf",
+          "thumb_pdf": "https://files.slack.com/files-tmb/T019A14BB9T-F01Q0MSUH6H-1fb2ea99a9/deeplearningsystems_thumb_pdf.png",
+          "thumb_pdf_w": 826,
+          "thumb_pdf_h": 1015,
+          "permalink": "https://fducslg.slack.com/files/U01KRDN40EN/F01Q0MSUH6H/deeplearningsystems.pdf",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01Q0MSUH6H-22789eafd1",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "WnrHG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "一本新书推荐给大家，关于最近三四年很火的DLSystem，看了下目录确实是很新，很多cutting-edge的东西也有讲，如果对这个方向感兴趣的话，应该可以作为一个很好的学习材料。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01KRDN40EN",
+      "display_as_bot": false,
+      "ts": "1614823594.007400",
+      "thread_ts": "1614823594.007400",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1615089753.010300",
+      "reply_users": [
+        "U01A611AJ81",
+        "U01KRDN40EN"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "exploding_head",
+          "users": [
+            "U019BC1VCM8",
+            "U01G663G3J9"
+          ],
+          "count": 2
+        },
+        {
+          "name": "kissing_heart",
+          "users": [
+            "U019BC1VCM8",
+            "U01D2DSJ7EC",
+            "U01KQD64PLK"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "client_msg_id": "77dbe1b6-9b13-4d60-93c2-b15794278d51",
+      "type": "message",
+      "text": "一些通过文字描述flowchart的东西，虽然我没有get到它的逻辑 :joy:\n<https://github.com/tone-row/flowchart-fun>",
+      "user": "U01LF9GNT24",
+      "ts": "1614796563.004700",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "fallback": "tone-row/flowchart-fun",
+          "text": "A small app for making quick flowcharts from text ⿻",
+          "title": "tone-row/flowchart-fun",
+          "footer": "<https://github.com/tone-row/flowchart-fun|tone-row/flowchart-fun>",
+          "id": 1,
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1614563723,
+          "color": "24292f",
+          "fields": [
+            {
+              "title": "Website",
+              "value": "<https://flowchart.fun/>",
+              "short": true
+            },
+            {
+              "title": "Stars",
+              "value": "592",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text",
+            "fields"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/tone-row/flowchart-fun",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kWX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "一些通过文字描述flowchart的东西，虽然我没有get到它的逻辑 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "joy"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/tone-row/flowchart-fun"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        },
+        {
+          "name": "exploding_head",
+          "users": [
+            "U019BC1VCM8"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "8EE38064-A05A-4E6F-9C27-7CCADFD9594C",
+      "type": "message",
+      "text": "<https://www.hi-linux.com/posts/26571.html|https://www.hi-linux.com/posts/26571.html> 计算机网络中，单播，组播，广播和任播的区别",
+      "user": "U019BC1VCM8",
+      "ts": "1614565922.002500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Xm/F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://www.hi-linux.com/posts/26571.html",
+                  "text": "https://www.hi-linux.com/posts/26571.html"
+                },
+                {
+                  "type": "text",
+                  "text": " 计算机网络中，单播，组播，广播和任播的区别"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "3a7e1e42-bf04-456d-be66-c42590dbbf0e",
+      "type": "message",
+      "text": "新版 chrome 终于有了 group tap！妙啊",
+      "user": "U0194L0FW5U",
+      "ts": "1613965150.001000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KQ=l",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "新版 chrome 终于有了 group tap！妙啊"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC",
+            "U01KQD64PLK"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "这是在 reddit 上关于这篇文章的讨论，有一个很有意思的 comment\n\nfun fact i just learned: the “Blood Moon” event in Breath of the Wild is actually resetting the world state and doing garbage collection. so if you failed to throw some rock into a korok seed target in a lake, the blood moon event is resetting that rock’s location.\n\n<https://www.reddit.com/r/programming/comments/kzqcjz/rust_is_a_hard_way_to_make_a_web_api/>",
+      "user": "U019BC1VCM8",
+      "ts": "1613872219.000300",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "reddit",
+          "title": "Rust is a hard way to make a web API",
+          "title_link": "https://www.reddit.com/r/programming/comments/kzqcjz/rust_is_a_hard_way_to_make_a_web_api/",
+          "text": "Posted in r/programming by u/WoodenKatana • 424 points and 287 comments",
+          "fallback": "reddit: Rust is a hard way to make a web API",
+          "thumb_url": "https://www.redditstatic.com/new-icon.png",
+          "from_url": "https://www.reddit.com/r/programming/comments/kzqcjz/rust_is_a_hard_way_to_make_a_web_api/",
+          "thumb_width": 256,
+          "thumb_height": 256,
+          "service_icon": "http://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png",
+          "id": 1,
+          "original_url": "https://www.reddit.com/r/programming/comments/kzqcjz/rust_is_a_hard_way_to_make_a_web_api/"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "作者介绍了现阶段用 rust 写后端 api 服务的一些缺陷，包括生态不成熟，过于底层需要考虑很多细节问题，工具链不完善等等。不过在最后还是乐观地认为，随着 rust 社区的发展，未来会更好。\n<https://macwright.com/2021/01/15/rust.html>",
+      "user": "U019BC1VCM8",
+      "ts": "1613872098.000100",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "macwright.com",
+          "title": "Rust is a hard way to make a web API",
+          "title_link": "https://macwright.com/2021/01/15/rust.html",
+          "text": "It is not just the borrow checker",
+          "fallback": "macwright.com: Rust is a hard way to make a web API",
+          "from_url": "https://macwright.com/2021/01/15/rust.html",
+          "service_icon": "https://macwright.com/favicon.ico",
+          "id": 1,
+          "original_url": "https://macwright.com/2021/01/15/rust.html"
+        }
+      ]
+    },
+    {
+      "client_msg_id": "2c0af1ec-3611-49a7-ac35-194a9493c9f0",
+      "type": "message",
+      "text": "<https://neven.hashnode.dev/101-github-repos-absolute-list-of-useful-repos|https://neven.hashnode.dev/101-github-repos-absolute-list-of-useful-repos> 101 GitHub repos, nb le ...",
+      "user": "U01D2DSJ7EC",
+      "ts": "1613526802.039600",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "DevThings",
+          "title": "101 GitHub Repos - Absolute List Of Useful Repos",
+          "title_link": "https://neven.hashnode.dev/101-github-repos-absolute-list-of-useful-repos",
+          "text": "This is a list that I compiled over the years, it contains everything I found to be useful or interesting. There is no special categorization, it flows a bit to JS side but there little bit of everything. Please feel free to comment and add your fa...",
+          "fallback": "DevThings: 101 GitHub Repos - Absolute List Of Useful Repos",
+          "image_url": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1613426554312%2F06EUFW_gN.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%26fm%3Dpng",
+          "from_url": "https://neven.hashnode.dev/101-github-repos-absolute-list-of-useful-repos",
+          "image_width": 476,
+          "image_height": 250,
+          "image_bytes": 23800,
+          "service_icon": "https://cdn.hashnode.com/res/hashnode/image/upload/v1608140517316/QEaUaoQ65.png?auto=compress&amp;fm=png",
+          "id": 1,
+          "original_url": "https://neven.hashnode.dev/101-github-repos-absolute-list-of-useful-repos"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "I1leT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://neven.hashnode.dev/101-github-repos-absolute-list-of-useful-repos",
+                  "text": "https://neven.hashnode.dev/101-github-repos-absolute-list-of-useful-repos"
+                },
+                {
+                  "type": "text",
+                  "text": " 101 GitHub repos, nb le ..."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "63064913-763b-4b20-b777-38b4b9acaa4f",
+      "type": "message",
+      "text": "<#C01LWMRMKV4|sig-game-dev>\nstanford 出品，C++ + unreal 4 游戏开发课程，epic 工程师手把手带你开发游戏\n<https://www.tomlooman.com/stanford-cs193u/>",
+      "user": "U019BC1VCM8",
+      "ts": "1613523725.038500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "Tom Looman",
+          "title": "Stanford CS193u: Video Game Development in C++ and Unreal Engine – Tom Looman",
+          "title_link": "https://www.tomlooman.com/stanford-cs193u/",
+          "text": "Instructor: Tom LoomanTerm: Fall 2020Lecture times: Monday/Wednesday/Friday - 10:00 - 11:00 AM PDT (via Zoom)Kick-off: 14th September Hands-on game development in C++ using Unreal Engine 4, the game engine that triple-A games like Fortnite, PUBG, and Gears of War are all built on. Students will be introduced to the Unreal editor, game frameworks, physics, AI, multiplayer and networking, UI, and profiling and optimization. A project-based course where you build your own games and gain a solid foundation in Unreal's architecture that will apply to any future game projects. Note: The recorded classes are not yet...",
+          "fallback": "Tom Looman: Stanford CS193u: Video Game Development in C++ and Unreal Engine – Tom Looman",
+          "image_url": "https://i0.wp.com/www.tomlooman.com/wp-content/uploads/2017/09/cropped-unreal_engine_favicon.png?fit=500%2C500&ssl=1",
+          "from_url": "https://www.tomlooman.com/stanford-cs193u/",
+          "image_width": 250,
+          "image_height": 250,
+          "image_bytes": 9712,
+          "service_icon": "https://i0.wp.com/www.tomlooman.com/wp-content/uploads/2017/09/cropped-unreal_engine_favicon.png?fit=180%2C180&#038;ssl=1",
+          "id": 1,
+          "original_url": "https://www.tomlooman.com/stanford-cs193u/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0oOs",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "channel",
+                  "channel_id": "C01LWMRMKV4"
+                },
+                {
+                  "type": "text",
+                  "text": "\nstanford 出品，C++ + unreal 4 游戏开发课程，epic 工程师手把手带你开发游戏\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.tomlooman.com/stanford-cs193u/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1613523725.038500",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1613544952.039900",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U01B4UX4K8T"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "text": "Python compiler bomb, 16 byte 代码编译生成 32t 结果（手动狗头\n<https://codegolf.stackexchange.com/questions/69189/build-a-compiler-bomb/69415#69415>",
+      "user": "U019BC1VCM8",
+      "ts": "1613518119.037700",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "Code Golf Stack Exchange",
+          "title": "Build a Compiler Bomb",
+          "title_link": "https://codegolf.stackexchange.com/questions/69189/build-a-compiler-bomb/69415#69415",
+          "text": "Introduction You're probably familiar with zip bombs, XML bombs, etc. Put simply, they are (relatively) small files which produce enormous output when interpreted by naïve software. The challenge ...",
+          "fallback": "Code Golf Stack Exchange: Build a Compiler Bomb",
+          "thumb_url": "https://cdn.sstatic.net/Sites/codegolf/Img/apple-touch-icon@2.png?v=ed60a1645c65",
+          "from_url": "https://codegolf.stackexchange.com/questions/69189/build-a-compiler-bomb/69415#69415",
+          "thumb_width": 316,
+          "thumb_height": 316,
+          "service_icon": "https://cdn.sstatic.net/Sites/codegolf/Img/apple-touch-icon.png?v=53b5e16c7d06",
+          "id": 1,
+          "original_url": "https://codegolf.stackexchange.com/questions/69189/build-a-compiler-bomb/69415#69415"
+        }
+      ]
+    },
+    {
+      "client_msg_id": "1dc4c491-9988-4469-9106-9221a2c1324c",
+      "type": "message",
+      "text": "一个靠逆向工程还原的GTA3. (手动PANZER\n<https://github.com/GTAmodding/re3>",
+      "user": "U01LF9GNT24",
+      "ts": "1613408772.037400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "fallback": "GTAmodding/re3",
+          "text": "GTA III, Vice City",
+          "title": "GTAmodding/re3",
+          "footer": "<https://github.com/GTAmodding/re3|GTAmodding/re3>",
+          "id": 1,
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1557931895,
+          "color": "24292f",
+          "fields": [
+            {
+              "title": "Stars",
+              "value": "2064",
+              "short": true
+            },
+            {
+              "title": "Language",
+              "value": "C++",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text",
+            "fields"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/GTAmodding/re3",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Buv",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "一个靠逆向工程还原的GTA3. (手动PANZER\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/GTAmodding/re3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "77ecb65b-8bc8-4ac5-aee6-de688af74dd8",
+      "type": "message",
+      "text": "本文介绍了 DI（dependency injection 依赖注入）和其背后的 IoC 思想（Inversion of Control）。DI 是复杂后端项目开发中非常常用的设计模式，通过 DI 容器来集中管理对象的创建和注入，而不是在每个使用（或者说依赖）的地方单独实例化。\n\nTake aways:\n\n&gt; DI: *transferring the task of creating the object to someone else and directly using the dependency*\n常见的注入方式为 constructor 注入。\n\n&gt; IoC: a class should concentrate on fulfilling its responsibilities and not on creating objects that it requires to fulfill those responsibilities.\n*Benefits of using DI*\n1. Helps in Unit testing.\n2. Boiler plate code is reduced, as initializing of dependencies is done by the injector component.\n3. Extending the application becomes easier.\n4. Helps to enable loose coupling, which is important in application programming.\n*Disadvantages of DI*\n1. It’s a bit complex to learn, and if overused can lead to management issues and other problems.\n2. Many compile time errors are pushed to run-time.\n3. Dependency injection frameworks are implemented with reflection or dynamic programming. This can hinder use of IDE automation, such as “find references”, “show call hierarchy” and safe refactoring.\nJava 的 Spring, Node.js 的 Nestjs，甚至是 Unity 都运用了 DI。\n\n<https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/>",
+      "user": "U019BC1VCM8",
+      "ts": "1613025198.035500",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U019BC1VCM8",
+        "ts": "1613025715.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nfy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "本文介绍了 DI（dependency injection 依赖注入）和其背后的 IoC 思想（Inversion of Control）。DI 是复杂后端项目开发中非常常用的设计模式，通过 DI 容器来集中管理对象的创建和注入，而不是在每个使用（或者说依赖）的地方单独实例化。\n\nTake aways:\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "DI: "
+                },
+                {
+                  "type": "text",
+                  "text": "transferring the task of creating the object to someone else and directly using the dependency",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n常见的注入方式为 constructor 注入。\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "IoC: a class should concentrate on fulfilling its responsibilities and not on creating objects that it requires to fulfill those responsibilities."
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Benefits of using DI",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Helps in Unit testing."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Boiler plate code is reduced, as initializing of dependencies is done by the injector component."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Extending the application becomes easier."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Helps to enable loose coupling, which is important in application programming."
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Disadvantages of DI",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It’s a bit complex to learn, and if overused can lead to management issues and other problems."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Many compile time errors are pushed to run-time."
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Dependency injection frameworks are implemented with reflection or dynamic programming. This can hinder use of IDE automation, such as “find references”, “show call hierarchy” and safe refactoring."
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nJava 的 Spring, Node.js 的 Nestjs，甚至是 Unity 都运用了 DI。\n\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "37abec29-1780-4660-8a26-c51170d70d0e",
+      "type": "message",
+      "text": "一秒内用 web vscode 打开一个 github 项目。\n\n在 github 链接域名里面加 +1s 即可\n\n<https://github1s.com/conwnet/github1s>",
+      "user": "U019BC1VCM8",
+      "ts": "1612948760.031900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "i94u+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "一秒内用 web vscode 打开一个 github 项目。\n\n在 github 链接域名里面加 +1s 即可\n\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github1s.com/conwnet/github1s"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyeglasses",
+          "users": [
+            "U01LF9GNT24",
+            "U01KALA83DM",
+            "U019T22A1JN"
+          ],
+          "count": 3
+        },
+        {
+          "name": "huaji",
+          "users": [
+            "U01C37VFWKA",
+            "U01KALA83DM"
+          ],
+          "count": 2
+        },
+        {
+          "name": "rockyou",
+          "users": [
+            "U01D2DSJ7EC",
+            "U01KALA83DM"
+          ],
+          "count": 2
+        },
+        {
+          "name": "+1",
+          "users": [
+            "U01KRDN40EN",
+            "U01A611AJ81",
+            "U01L0SS1U79",
+            "U01KALA83DM",
+            "U01M9BV1B3L"
+          ],
+          "count": 5
+        }
+      ]
+    },
+    {
+      "client_msg_id": "c271ff41-ca54-41c6-81f5-6bc3da23064c",
+      "type": "message",
+      "text": "<https://matklad.github.io//2021/02/06/ARCHITECTURE.md.html> Write architecture document in your code base",
+      "user": "U01D2DSJ7EC",
+      "ts": "1612670818.030500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "ARCHITECTURE.md",
+          "title_link": "https://matklad.github.io//2021/02/06/ARCHITECTURE.md.html",
+          "text": "If you maintain an open-source project in the range of 10k-200k lines of code, I strongly encourage you to add an ARCHITECTURE document next to README and CO...",
+          "fallback": "ARCHITECTURE.md",
+          "from_url": "https://matklad.github.io//2021/02/06/ARCHITECTURE.md.html",
+          "service_icon": "https://matklad.github.io/favicon.ico",
+          "service_name": "matklad.github.io",
+          "id": 1,
+          "original_url": "https://matklad.github.io//2021/02/06/ARCHITECTURE.md.html"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YpFc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://matklad.github.io//2021/02/06/ARCHITECTURE.md.html"
+                },
+                {
+                  "type": "text",
+                  "text": " Write architecture document in your code base"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "5c7722b2-cd62-472c-9a75-df4e9ff26a81",
+      "type": "message",
+      "text": "看到一个开源的UI原型设计工具，类似于Adobe的XD这种。我好奇的是现代前端的workflow中真的需要这种工具么？\n<https://github.com/penpot/penpot>",
+      "user": "U01LF9GNT24",
+      "ts": "1612463982.027100",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "GitHub",
+          "title": "penpot/penpot",
+          "title_link": "https://github.com/penpot/penpot",
+          "text": "Penpot - The Open-Source prototyping tool. Contribute to penpot/penpot development by creating an account on GitHub.",
+          "fallback": "GitHub: penpot/penpot",
+          "thumb_url": "https://avatars.githubusercontent.com/u/30179644?s=400&v=4",
+          "from_url": "https://github.com/penpot/penpot",
+          "thumb_width": 400,
+          "thumb_height": 400,
+          "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/github.png",
+          "id": 1,
+          "original_url": "https://github.com/penpot/penpot"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SVli",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "看到一个开源的UI原型设计工具，类似于Adobe的XD这种。我好奇的是现代前端的workflow中真的需要这种工具么？\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/penpot/penpot"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1612463982.027100",
+      "reply_count": 5,
+      "reply_users_count": 5,
+      "latest_reply": "1612683500.030700",
+      "reply_users": [
+        "U01L0SS1U79",
+        "U01DT3J2ALQ",
+        "U019BC1VCM8",
+        "U01LF9GNT24",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "9aaedaad-3ac7-4280-b01b-bce477737b45",
+      "type": "message",
+      "text": "看到一个和github集成的比较好的时间管理/Todo List软件。\n<https://github.com/johannesjo/super-productivity>",
+      "user": "U01LF9GNT24",
+      "ts": "1612347402.025200",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "GitHub",
+          "title": "johannesjo/super-productivity",
+          "title_link": "https://github.com/johannesjo/super-productivity",
+          "text": "To-do list &amp; time tracker for programmers and other digital workers with Jira, Github, and Gitlab integration - johannesjo/super-productivity",
+          "fallback": "GitHub: johannesjo/super-productivity",
+          "from_url": "https://github.com/johannesjo/super-productivity",
+          "thumb_url": "https://repository-images.githubusercontent.com/78243781/bb7d3780-b996-11ea-9f85-9e995e2ff375",
+          "thumb_width": 500,
+          "thumb_height": 250,
+          "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/github.png",
+          "id": 1,
+          "original_url": "https://github.com/johannesjo/super-productivity"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kSd6F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "看到一个和github集成的比较好的时间管理/Todo List软件。\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/johannesjo/super-productivity"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC",
+            "U019BC1VCM8"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "一个学习FPGA的材料，听讲座的时候演讲人推荐的，应该还不错。",
+      "files": [
+        {
+          "id": "F01LN0XFB6E",
+          "created": 1612249467,
+          "timestamp": 1612249467,
+          "name": "WechatIMG87.jpeg",
+          "title": "WechatIMG87.jpeg",
+          "mimetype": "image/jpeg",
+          "filetype": "jpg",
+          "pretty_type": "JPEG",
+          "user": "U01KRDN40EN",
+          "editable": false,
+          "size": 99564,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01LN0XFB6E/wechatimg87.jpeg",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01LN0XFB6E/download/wechatimg87.jpeg",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01LN0XFB6E-75546694bc/wechatimg87_64.jpg",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01LN0XFB6E-75546694bc/wechatimg87_80.jpg",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01LN0XFB6E-75546694bc/wechatimg87_360.jpg",
+          "thumb_360_w": 166,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01LN0XFB6E-75546694bc/wechatimg87_480.jpg",
+          "thumb_480_w": 222,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01LN0XFB6E-75546694bc/wechatimg87_160.jpg",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01LN0XFB6E-75546694bc/wechatimg87_720.jpg",
+          "thumb_720_w": 332,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01LN0XFB6E-75546694bc/wechatimg87_800.jpg",
+          "thumb_800_w": 800,
+          "thumb_800_h": 1733,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01LN0XFB6E-75546694bc/wechatimg87_960.jpg",
+          "thumb_960_w": 443,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01LN0XFB6E-75546694bc/wechatimg87_1024.jpg",
+          "thumb_1024_w": 473,
+          "thumb_1024_h": 1024,
+          "original_w": 1080,
+          "original_h": 2340,
+          "thumb_tiny": "AwAwABbNBI70lFFAAST1ooooA2f7Nt84w/51GllaOCV3nBxwamWdfOyZl25P8YxTklUKRJcxuc8cgYoAiGn2x7SfnR/Z1v6SfnU4nhH/AC1j/wC+hS+fD/z1j/76FAHP0Uu1sZwcUlABRRRQB//Z",
+          "permalink": "https://fducslg.slack.com/files/U01KRDN40EN/F01LN0XFB6E/wechatimg87.jpeg",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01LN0XFB6E-4224d828fc",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1/lE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "一个学习FPGA的材料，听讲座的时候演讲人推荐的，应该还不错。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01KRDN40EN",
+      "display_as_bot": false,
+      "ts": "1612249496.021900",
+      "thread_ts": "1612249496.021900",
+      "reply_count": 8,
+      "reply_users_count": 4,
+      "latest_reply": "1612261549.024000",
+      "reply_users": [
+        "U019T22A1JN",
+        "U01KRDN40EN",
+        "U01LF9GNT24",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "Steve Jobs 07 年介绍 iPhone 的发布会片段\n\n<https://youtube.com/watch?v=MnrJzXM7a6o&amp;feature=share>",
+      "user": "U019BC1VCM8",
+      "ts": "1612078683.020300",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "YouTube",
+          "service_url": "https://www.youtube.com/",
+          "title": "Steve Jobs introduces iPhone in 2007",
+          "title_link": "https://youtube.com/watch?v=MnrJzXM7a6o&amp;feature=share",
+          "author_name": "John Schroter",
+          "author_link": "https://www.youtube.com/c/JohnSchroter",
+          "thumb_url": "https://i.ytimg.com/vi/MnrJzXM7a6o/hqdefault.jpg",
+          "thumb_width": 480,
+          "thumb_height": 360,
+          "fallback": "YouTube Video: Steve Jobs introduces iPhone in 2007",
+          "video_html": "<iframe width=\"400\" height=\"225\" src=\"https://www.youtube.com/embed/MnrJzXM7a6o?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+          "video_html_width": 400,
+          "video_html_height": 225,
+          "from_url": "https://youtube.com/watch?v=MnrJzXM7a6o&amp;feature=share",
+          "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/youtube.png",
+          "id": 1,
+          "original_url": "https://youtube.com/watch?v=MnrJzXM7a6o&amp;feature=share"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "win10 开发环境的配置，采用 wsl2，windows terminal 和 vscode\n<https://chimerical.ca/posts/creating-my-awesome-windows-10-dev-setup>",
+      "user": "U019BC1VCM8",
+      "ts": "1612070774.020100",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "Creating my awesome Windows 10 dev setup",
+          "title_link": "https://chimerical.ca/posts/creating-my-awesome-windows-10-dev-setup",
+          "text": "Blake Mealey's digital garden",
+          "fallback": "Creating my awesome Windows 10 dev setup",
+          "from_url": "https://chimerical.ca/posts/creating-my-awesome-windows-10-dev-setup",
+          "service_icon": "https://chimerical.ca/icons/icon-48x48.png?v=4a9773549091c227cd2eb82ccd9c5e3a",
+          "service_name": "chimerical.ca",
+          "id": 1,
+          "original_url": "https://chimerical.ca/posts/creating-my-awesome-windows-10-dev-setup"
+        }
+      ]
+    },
+    {
+      "client_msg_id": "9981f214-a606-4800-b805-04eb21d79cdf",
+      "type": "message",
+      "text": "<https://sel4.systems/>",
+      "user": "U01LF9GNT24",
+      "ts": "1611906075.019200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8xik",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://sel4.systems/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "b37f8b6e-3895-4e49-9180-9f6621c9fe18",
+      "type": "message",
+      "text": "看到一个安全经过formal验证的微内核的OS内核。如果要做什么OS内核实验的话可以考虑一下～",
+      "user": "U01LF9GNT24",
+      "ts": "1611906061.019000",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U01LF9GNT24",
+        "ts": "1611906081.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "EhI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "看到一个安全经过formal验证的微内核的OS内核。如果要做什么OS内核实验的话可以考虑一下～"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U019BJ60Q2X"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "eb6cdd4d-4399-42b0-b947-21a059c12a38",
+      "type": "message",
+      "text": "Main take aways:\n• WebRTC 是一种即时通信协议，常常用于视频通话，目前已经被 W3C 和 IETF 标准化，意即可以在各大浏览器中见到标准化的支持\n• `RTCPeerConnection`<https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection| API> 允许 P2P 的交流，除了传输音频视频外，可以通过 DataChannel 传输任意二进制，通信天然加密\n• WebRTC 允许了低延时的通信，如 remote surgery, system monitoring, and remote control of autonomous cars, and voice or video calls，具体来说，几乎所有网络视频通话都走的 WebRTC 框架，而 Google Stadia 这种游戏云游戏平台也是通过 WebRTC 实现的数据传输\n<https://web.dev/webrtc-standard-announcement/>",
+      "user": "U019BC1VCM8",
+      "ts": "1611814708.017200",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U019BC1VCM8",
+        "ts": "1611814776.000000"
+      },
+      "attachments": [
+        {
+          "title": "RTCPeerConnection - Web APIs | MDN",
+          "title_link": "https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection",
+          "text": "The RTCPeerConnection interface represents a WebRTC connection between the local computer and a remote peer. It provides methods to connect to a remote peer, maintain and monitor the connection, and close the connection once it's no longer needed.",
+          "fallback": "RTCPeerConnection - Web APIs | MDN",
+          "from_url": "https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection",
+          "service_icon": "https://developer.mozilla.org/favicon144.png",
+          "service_name": "developer.mozilla.org",
+          "id": 1,
+          "original_url": "https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection"
+        },
+        {
+          "service_name": "web.dev",
+          "title": "WebRTC is now a W3C and IETF standard",
+          "title_link": "https://web.dev/webrtc-standard-announcement/",
+          "text": "A brief overview of the history, architecture, use cases, and future of WebRTC.",
+          "fallback": "web.dev: WebRTC is now a W3C and IETF standard",
+          "image_url": "https://webdev.imgix.net/images/social.png?auto=format&fit=max&w=1200",
+          "from_url": "https://web.dev/webrtc-standard-announcement/",
+          "image_width": 250,
+          "image_height": 250,
+          "image_bytes": 23201,
+          "service_icon": "https://web.dev/images/apple-touch-icon.png",
+          "id": 2,
+          "original_url": "https://web.dev/webrtc-standard-announcement/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "h2=r+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Main take aways:\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "WebRTC 是一种即时通信协议，常常用于视频通话，目前已经被 W3C 和 IETF 标准化，意即可以在各大浏览器中见到标准化的支持"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "RTCPeerConnection",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection",
+                      "text": " API"
+                    },
+                    {
+                      "type": "text",
+                      "text": " 允许 P2P 的交流，除了传输音频视频外，可以通过 DataChannel 传输任意二进制，通信天然加密"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "WebRTC 允许了低延时的通信，如 remote surgery, system monitoring, and remote control of autonomous cars, and voice or video calls，具体来说，几乎所有网络视频通话都走的 WebRTC 框架，而 Google Stadia 这种游戏云游戏平台也是通过 WebRTC 实现的数据传输"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://web.dev/webrtc-standard-announcement/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U01KRDN40EN"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "48019cfd-a91d-4a9c-bc05-c3a049bc2713",
+      "type": "message",
+      "text": "<http://15462.courses.cs.cmu.edu/fall2020/>\n<https://www.youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E>\n\n推荐一下 CMU 15-462 计算机图形学课程。去年因为疫情原因，国外大学多实行网课。这使得一些本来只公开文字资料的课程，在去年也公开了讲课视频。个人觉得体验还是相当不错的。\n\nPJ 一共有四个：光栅化（画 SVG）、建模（mesh）、光追（Monte Carlo 路径追踪）和动画。用 C++ 编写。前三个 PJ 我自己做了。除了光追的文档不是很详细，导致我时不时要去查 _Physically Based Rendering_（<http://www.pbr-book.org/>）才知道该怎么做外，前两个 PJ 都非常好。动画因时间原因没有做，不好评价。可能因为动画本身理论高深，我看配套的课件基本上是科普性质的。\n视频在 YouTube 上。国内也有人搬运到了 Bilibili。老师发音比较标准，YouTube 自动生成的字幕还挺实用:eyes:",
+      "user": "U01A611AJ81",
+      "ts": "1611308649.008700",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "YouTube",
+          "title": "Computer Graphics (CMU 15-462/662)",
+          "title_link": "https://www.youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E",
+          "text": "Lecture videos for the introductory Computer Graphics class at Carnegie Mellon University. For more information see: http ://15462.courses.cs.cmu.edu/",
+          "fallback": "YouTube: Computer Graphics (CMU 15-462/662)",
+          "thumb_url": "https://i.ytimg.com/vi/W6yEALqsD7k/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLCO5_iNVYNIDGLgtDVK9AWMDcjAwA&days_since_epoch=18649",
+          "from_url": "https://www.youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E",
+          "thumb_width": 168,
+          "thumb_height": 94,
+          "service_icon": "https://www.youtube.com/s/desktop/b70e86a1/img/favicon.ico",
+          "id": 1,
+          "original_url": "https://www.youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1QZH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "http://15462.courses.cs.cmu.edu/fall2020/"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n推荐一下 CMU 15-462 计算机图形学课程。去年因为疫情原因，国外大学多实行网课。这使得一些本来只公开文字资料的课程，在去年也公开了讲课视频。个人觉得体验还是相当不错的。\n\nPJ 一共有四个：光栅化（画 SVG）、建模（mesh）、光追（Monte Carlo 路径追踪）和动画。用 C++ 编写。前三个 PJ 我自己做了。除了光追的文档不是很详细，导致我时不时要去查 "
+                },
+                {
+                  "type": "text",
+                  "text": "Physically Based Rendering",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "（"
+                },
+                {
+                  "type": "link",
+                  "url": "http://www.pbr-book.org/"
+                },
+                {
+                  "type": "text",
+                  "text": "）才知道该怎么做外，前两个 PJ 都非常好。动画因时间原因没有做，不好评价。可能因为动画本身理论高深，我看配套的课件基本上是科普性质的。\n视频在 YouTube 上。国内也有人搬运到了 Bilibili。老师发音比较标准，YouTube 自动生成的字幕还挺实用"
+                },
+                {
+                  "type": "emoji",
+                  "name": "eyes"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BJ60Q2X",
+            "U019BC1VCM8",
+            "U01C37VFWKA"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "thread_broadcast",
+      "text": "<http://blog.lidaobing.com/2013/09/14/no-gamble-on-bug.html>\n\n这个 slides 补充了 fix in the root cause 的原因，还举了几个查具体 bug 的例子，值得一看",
+      "user": "U019BC1VCM8",
+      "ts": "1609835894.000100",
+      "thread_ts": "1609645250.036500",
+      "root": {
+        "client_msg_id": "4f19e910-8e02-4351-9528-2f80677523ae",
+        "type": "message",
+        "text": "避免 overkill 和 fix in the root cause 对于程序员来说都是很重要的能力呢\n<https://www.kawabangga.com/posts/4145>\n<https://coolshell.cn/articles/4576.html>",
+        "user": "U018WKP8CJK",
+        "ts": "1609645250.036500",
+        "team": "T019A14BB9T",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "LPsfM",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "避免 overkill 和 fix in the root cause 对于程序员来说都是很重要的能力呢\n"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://www.kawabangga.com/posts/4145"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://coolshell.cn/articles/4576.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "thread_ts": "1609645250.036500",
+        "reply_count": 4,
+        "reply_users_count": 1,
+        "latest_reply": "1609835894.000100",
+        "reply_users": [
+          "U019BC1VCM8"
+        ],
+        "is_locked": false,
+        "subscribed": false
+      },
+      "attachments": [
+        {
+          "title": "出了问题不要靠猜 - LI Daobing's Blog",
+          "title_link": "http://blog.lidaobing.com/2013/09/14/no-gamble-on-bug.html",
+          "text": "LI Daobing's Blog 出了问题不要靠猜",
+          "fallback": "出了问题不要靠猜 - LI Daobing's Blog",
+          "from_url": "http://blog.lidaobing.com/2013/09/14/no-gamble-on-bug.html",
+          "service_name": "blog.lidaobing.com",
+          "id": 1,
+          "original_url": "http://blog.lidaobing.com/2013/09/14/no-gamble-on-bug.html"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Yo3H",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "http://blog.lidaobing.com/2013/09/14/no-gamble-on-bug.html"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n这个 slides 补充了 fix in the root cause 的原因，还举了几个查具体 bug 的例子，值得一看"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "client_msg_id": "f7ca4634-fcca-4f6b-b323-d8037b5579f5",
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "4f19e910-8e02-4351-9528-2f80677523ae",
+      "type": "message",
+      "text": "避免 overkill 和 fix in the root cause 对于程序员来说都是很重要的能力呢\n<https://www.kawabangga.com/posts/4145>\n<https://coolshell.cn/articles/4576.html>",
+      "user": "U018WKP8CJK",
+      "ts": "1609645250.036500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LPsfM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "避免 overkill 和 fix in the root cause 对于程序员来说都是很重要的能力呢\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.kawabangga.com/posts/4145"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://coolshell.cn/articles/4576.html"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1609645250.036500",
+      "reply_count": 4,
+      "reply_users_count": 1,
+      "latest_reply": "1609835894.000100",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "0a306975-1587-4a87-b1c5-673a959ed68f",
+      "type": "message",
+      "text": "<https://mp.weixin.qq.com/s/fpaBPrF40eL9oIw_lSrgdA|https://mp.weixin.qq.com/s/fpaBPrF40eL9oIw_lSrgdA> 今年的 os 大赛似乎题目已经发布了，感兴趣的同学可以关注一下",
+      "user": "U018WKP8CJK",
+      "ts": "1609384633.034500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "微信公众平台",
+          "title": "2021系统能力大赛操作系统设计赛研讨会隆重举行",
+          "title_link": "https://mp.weixin.qq.com/s/fpaBPrF40eL9oIw_lSrgdA",
+          "text": "为吸引全国高校学生对操作系统的关注与兴趣，培养我国急需的操作系统研发人才，助力国产操作系统的发展，全国高等学",
+          "fallback": "微信公众平台: 2021系统能力大赛操作系统设计赛研讨会隆重举行",
+          "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/D8ouEWrnfxkn4jsTr5ZNByPv1VicVmWibkQAiao4mAONluib7I5pz2d7IZafboPVibCW3PGYMU7qVbK9441a1q9ickicA/0?wx_fmt=jpeg",
+          "from_url": "https://mp.weixin.qq.com/s/fpaBPrF40eL9oIw_lSrgdA",
+          "thumb_width": 572,
+          "thumb_height": 244,
+          "service_icon": "http://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png",
+          "id": 1,
+          "original_url": "https://mp.weixin.qq.com/s/fpaBPrF40eL9oIw_lSrgdA"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "z5Z6Q",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://mp.weixin.qq.com/s/fpaBPrF40eL9oIw_lSrgdA",
+                  "text": "https://mp.weixin.qq.com/s/fpaBPrF40eL9oIw_lSrgdA"
+                },
+                {
+                  "type": "text",
+                  "text": " 今年的 os 大赛似乎题目已经发布了，感兴趣的同学可以关注一下"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1609384633.034500",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1609418340.035500",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U01BKHW1V7E",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "c5dd0ba8-844d-43fd-bf51-ccb62b7260c6",
+      "type": "message",
+      "text": "讲了个读书的飞轮理论，感觉蛮有收获的，现在我看新的东西也是经常会尝试和我已经知道的东西进行类比，但是对于不懂的东西还是会花大量的时间去查证，那像作者说的，一个东西值不值得立刻搞懂，应该是通过一个类似于 pagerank 的算法来决定的\n<https://zhuanlan.zhihu.com/p/55804099|https://zhuanlan.zhihu.com/p/55804099>",
+      "user": "U018WKP8CJK",
+      "ts": "1609073631.033300",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "知乎专栏",
+          "title": "书魔的学习方法-1:读书的飞轮",
+          "title_link": "https://zhuanlan.zhihu.com/p/55804099",
+          "text": "这篇文章来自回答： 自学编程需要注意什么？ 看过的就不用看了。（点赞即可 ⁄(⁄ ⁄ ⁄ω⁄ ⁄ ⁄)⁄ ⁄(⁄ ⁄ ⁄ω⁄ ⁄ ⁄)⁄ ⁄(⁄ ⁄ ⁄ω⁄ ⁄ ⁄)⁄ ⁄(⁄ ⁄ ⁄ω⁄ ⁄ ⁄)⁄） …",
+          "fallback": "知乎专栏: 书魔的学习方法-1:读书的飞轮",
+          "image_url": "https://pic4.zhimg.com/v2-27f741cb5aefc90eef90b874bd0b0ced_720w.jpg?source=172ae18b",
+          "from_url": "https://zhuanlan.zhihu.com/p/55804099",
+          "image_width": 410,
+          "image_height": 250,
+          "image_bytes": 97622,
+          "service_icon": "https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.67c7b278.png",
+          "id": 1,
+          "original_url": "https://zhuanlan.zhihu.com/p/55804099"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Cch",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "讲了个读书的飞轮理论，感觉蛮有收获的，现在我看新的东西也是经常会尝试和我已经知道的东西进行类比，但是对于不懂的东西还是会花大量的时间去查证，那像作者说的，一个东西值不值得立刻搞懂，应该是通过一个类似于 pagerank 的算法来决定的\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://zhuanlan.zhihu.com/p/55804099",
+                  "text": "https://zhuanlan.zhihu.com/p/55804099"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BJ60Q2X",
+            "U01D2DSJ7EC",
+            "U019BC1VCM8"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "client_msg_id": "63f204c3-0cd4-412c-bdbb-de8bb3be06f3",
+      "type": "message",
+      "text": "<https://github.com/yew/fudanDaily>",
+      "user": "U018WKP8CJK",
+      "ts": "1609070422.029400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "GitHub",
+          "title": "yew/fudanDaily",
+          "title_link": "https://github.com/yew/fudanDaily",
+          "text": "使用GitHub Actions实现平安复旦全自动打卡. Contribute to yew/fudanDaily development by creating an account on GitHub.",
+          "fallback": "GitHub: yew/fudanDaily",
+          "thumb_url": "https://avatars1.githubusercontent.com/u/12381485?s=400&v=4",
+          "from_url": "https://github.com/yew/fudanDaily",
+          "thumb_width": 400,
+          "thumb_height": 400,
+          "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/github.png",
+          "id": 1,
+          "original_url": "https://github.com/yew/fudanDaily"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nIq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/yew/fudanDaily"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "76412866-4a2f-4a86-a93a-001f7ca49e81",
+      "type": "message",
+      "text": "突然发现清华伯克利的一个实验室也是 RISC-V 基金会成员\n<https://rioslab.org/>",
+      "user": "U018WKP8CJK",
+      "ts": "1609033626.028800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "L/E",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "突然发现清华伯克利的一个实验室也是 RISC-V 基金会成员\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://rioslab.org/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1609033626.028800",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1609035045.029100",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01H42D1HMG",
+          "created": 1608190211,
+          "timestamp": 1608190211,
+          "name": "mmexport1608190191711.jpg",
+          "title": "mmexport1608190191711.jpg",
+          "mimetype": "image/jpeg",
+          "filetype": "jpg",
+          "pretty_type": "JPEG",
+          "user": "U018WKP8CJK",
+          "editable": false,
+          "size": 166111,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01H42D1HMG/mmexport1608190191711.jpg",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01H42D1HMG/download/mmexport1608190191711.jpg",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01H42D1HMG-67dd25a8e1/mmexport1608190191711_64.jpg",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01H42D1HMG-67dd25a8e1/mmexport1608190191711_80.jpg",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01H42D1HMG-67dd25a8e1/mmexport1608190191711_360.jpg",
+          "thumb_360_w": 240,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01H42D1HMG-67dd25a8e1/mmexport1608190191711_480.jpg",
+          "thumb_480_w": 320,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01H42D1HMG-67dd25a8e1/mmexport1608190191711_160.jpg",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01H42D1HMG-67dd25a8e1/mmexport1608190191711_720.jpg",
+          "thumb_720_w": 480,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01H42D1HMG-67dd25a8e1/mmexport1608190191711_800.jpg",
+          "thumb_800_w": 800,
+          "thumb_800_h": 1200,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01H42D1HMG-67dd25a8e1/mmexport1608190191711_960.jpg",
+          "thumb_960_w": 640,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01H42D1HMG-67dd25a8e1/mmexport1608190191711_1024.jpg",
+          "thumb_1024_w": 683,
+          "thumb_1024_h": 1024,
+          "original_w": 1080,
+          "original_h": 1620,
+          "thumb_tiny": "AwAwACCfafQ0u0kHA6DPNPZyDTWO5cMuQaYCYIAOOozTRnuKcMKMKuBRnJ6UwFkk2tgYyOuajdwwBMmz6UtxBIXLR8g8kU6CMxBmkIJPGBzijSxI1UZukxP4ilY+Vyzk+1TqEIztA/Cl8tD/AAqfwouOwHOe1M8oZJ2Jk+1Oy2T0oO4+1SMQRgfwqPwp4znqKQA//rNMYSGUEH5O4zQB/9k=",
+          "permalink": "https://fducslg.slack.com/files/U018WKP8CJK/F01H42D1HMG/mmexport1608190191711.jpg",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01H42D1HMG-4a8f6e79f9",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZeC+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": []
+            }
+          ]
+        }
+      ],
+      "user": "U018WKP8CJK",
+      "display_as_bot": false,
+      "ts": "1608190217.027300",
+      "client_msg_id": "78e6bc96-6acb-47d2-82a3-b7b4944a0ce2",
+      "thread_ts": "1608190217.027300",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1608190384.027800",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U019BJ60Q2X"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "d7eca52f-57cd-4632-a4e4-0cc811fbe177",
+      "type": "message",
+      "text": "<https://github.com/rsd-devel/rsd>\n<http://www.rsg.ci.i.u-tokyo.ac.jp/members/shioya/pdfs/Mashimo-FPT'19.pdf>\n\n一个乱序 RV32IM 的软核。看论文里面说针对 FPGA，用 Replay Queue 和多 RAM 组建 FIFO（所谓 banked RAM）来优化资源使用。看上去和我们知道的乱序结构上差不多:eyes:",
+      "user": "U01A611AJ81",
+      "ts": "1607697464.025700",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "GitHub",
+          "title": "rsd-devel/rsd",
+          "title_link": "https://github.com/rsd-devel/rsd",
+          "text": "RSD: RISC-V Out-of-Order Superscalar Processor. Contribute to rsd-devel/rsd development by creating an account on GitHub.",
+          "fallback": "GitHub: rsd-devel/rsd",
+          "thumb_url": "https://avatars1.githubusercontent.com/u/56767679?s=400&v=4",
+          "from_url": "https://github.com/rsd-devel/rsd",
+          "thumb_width": 420,
+          "thumb_height": 420,
+          "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/github.png",
+          "id": 1,
+          "original_url": "https://github.com/rsd-devel/rsd"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "w7Ubx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/rsd-devel/rsd"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "link",
+                  "url": "http://www.rsg.ci.i.u-tokyo.ac.jp/members/shioya/pdfs/Mashimo-FPT'19.pdf"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n一个乱序 RV32IM 的软核。看论文里面说针对 FPGA，用 Replay Queue 和多 RAM 组建 FIFO（所谓 banked RAM）来优化资源使用。看上去和我们知道的乱序结构上差不多"
+                },
+                {
+                  "type": "emoji",
+                  "name": "eyes"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607697464.025700",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1607704764.026700",
+      "reply_users": [
+        "U019T84PQGK",
+        "U01A611AJ81",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "173bb429-0d9b-41e7-85e5-112de0ca7680",
+      "type": "message",
+      "text": "<https://linkedin.github.io/school-of-sre/>\n\nlinkedin 分享的 sre 教程，对 linux/dev-ops 运维感兴趣的同学不用错过了~",
+      "user": "U019BC1VCM8",
+      "ts": "1607487517.023300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LcXC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://linkedin.github.io/school-of-sre/"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nlinkedin 分享的 sre 教程，对 linux/dev-ops 运维感兴趣的同学不用错过了~"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607094644.021800",
+      "user": "U01G3CW27SR",
+      "text": "<@U01G3CW27SR> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "thread_broadcast",
+      "text": "他们是做 open source 的，而且似乎明年也准备大量招实习生，看着很厉害，可惜我时间不太够:huaji:",
+      "user": "U018WKP8CJK",
+      "ts": "1607059834.021400",
+      "thread_ts": "1607059735.021200",
+      "root": {
+        "client_msg_id": "bb13de03-0495-4bde-828f-134a6fc45c8d",
+        "type": "message",
+        "text": "中科院一个做编译器团队的年度分享，如果我们的 <http://fdxk.info|fdxk.info> 能在未来的一个月达到一定的完成度，我觉得也可以仿照他们这个形式做一个 roadmap 用于 PR，讲一讲 fdxk，6.824 \n<https://b23.tv/CYlnGX|https://b23.tv/CYlnGX>",
+        "user": "U018WKP8CJK",
+        "ts": "1607059735.021200",
+        "team": "T019A14BB9T",
+        "attachments": [
+          {
+            "title": "PLCT OpenDay 2020_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+            "title_link": "https://b23.tv/CYlnGX",
+            "text": "开放日报告的slides：<https://github.com/isrc-cas/PLCT-OpenDay-2020其他的报告https://github.com/isrc-cas/PLCT-Open-Reports>",
+            "fallback": "PLCT OpenDay 2020_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+            "image_url": "http://i2.hdslb.com/bfs/archive/a7e41b7ea850c12f88cfb0e1d6ee32601906f723.jpg",
+            "from_url": "https://b23.tv/CYlnGX",
+            "image_width": 400,
+            "image_height": 250,
+            "image_bytes": 175156,
+            "service_icon": "http://i2.hdslb.com/bfs/archive/a7e41b7ea850c12f88cfb0e1d6ee32601906f723.jpg@57w_57h_1c.png",
+            "service_name": "bilibili.com",
+            "id": 1,
+            "original_url": "https://b23.tv/CYlnGX"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "jp3",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "中科院一个做编译器团队的年度分享，如果我们的 "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://fdxk.info",
+                    "text": "fdxk.info"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 能在未来的一个月达到一定的完成度，我觉得也可以仿照他们这个形式做一个 roadmap 用于 PR，讲一讲 fdxk，6.824 \n"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://b23.tv/CYlnGX",
+                    "text": "https://b23.tv/CYlnGX"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "thread_ts": "1607059735.021200",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1607059834.021400",
+        "reply_users": [
+          "U018WKP8CJK"
+        ],
+        "is_locked": false,
+        "subscribed": false
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "mn2eF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "他们是做 open source 的，而且似乎明年也准备大量招实习生，看着很厉害，可惜我时间不太够"
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "client_msg_id": "7eab2bee-2964-403e-8cc2-513278f4e0d3"
+    },
+    {
+      "client_msg_id": "bb13de03-0495-4bde-828f-134a6fc45c8d",
+      "type": "message",
+      "text": "中科院一个做编译器团队的年度分享，如果我们的 <http://fdxk.info|fdxk.info> 能在未来的一个月达到一定的完成度，我觉得也可以仿照他们这个形式做一个 roadmap 用于 PR，讲一讲 fdxk，6.824 \n<https://b23.tv/CYlnGX|https://b23.tv/CYlnGX>",
+      "user": "U018WKP8CJK",
+      "ts": "1607059735.021200",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "PLCT OpenDay 2020_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+          "title_link": "https://b23.tv/CYlnGX",
+          "text": "开放日报告的slides：<https://github.com/isrc-cas/PLCT-OpenDay-2020其他的报告https://github.com/isrc-cas/PLCT-Open-Reports>",
+          "fallback": "PLCT OpenDay 2020_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+          "image_url": "http://i2.hdslb.com/bfs/archive/a7e41b7ea850c12f88cfb0e1d6ee32601906f723.jpg",
+          "from_url": "https://b23.tv/CYlnGX",
+          "image_width": 400,
+          "image_height": 250,
+          "image_bytes": 175156,
+          "service_icon": "http://i2.hdslb.com/bfs/archive/a7e41b7ea850c12f88cfb0e1d6ee32601906f723.jpg@57w_57h_1c.png",
+          "service_name": "bilibili.com",
+          "id": 1,
+          "original_url": "https://b23.tv/CYlnGX"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jp3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "中科院一个做编译器团队的年度分享，如果我们的 "
+                },
+                {
+                  "type": "link",
+                  "url": "http://fdxk.info",
+                  "text": "fdxk.info"
+                },
+                {
+                  "type": "text",
+                  "text": " 能在未来的一个月达到一定的完成度，我觉得也可以仿照他们这个形式做一个 roadmap 用于 PR，讲一讲 fdxk，6.824 \n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://b23.tv/CYlnGX",
+                  "text": "https://b23.tv/CYlnGX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607059735.021200",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1607059834.021400",
+      "reply_users": [
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "6000bc0b-17d9-480a-a3ee-9e041a95c45f",
+      "type": "message",
+      "text": "推荐 <https://jikeyuedu.cn/hot|https://jikeyuedu.cn/hot> 极客阅读，相当于，国内版的 daily？也有 app",
+      "user": "U01D2DSJ7EC",
+      "ts": "1606877286.015600",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "极客阅读 - 官网",
+          "title_link": "https://jikeyuedu.cn/hot",
+          "text": "汇聚国内外最优质的技术博客、产品动态、公众号文章，一站式的阅读到来自互联网技术大咖的文章。",
+          "fallback": "极客阅读 - 官网",
+          "from_url": "https://jikeyuedu.cn/hot",
+          "service_icon": "https://jikeyuedu.cn/favicon.ico",
+          "service_name": "jikeyuedu.cn",
+          "id": 1,
+          "original_url": "https://jikeyuedu.cn/hot"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "=PDlu",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "推荐 "
+                },
+                {
+                  "type": "link",
+                  "url": "https://jikeyuedu.cn/hot",
+                  "text": "https://jikeyuedu.cn/hot"
+                },
+                {
+                  "type": "text",
+                  "text": " 极客阅读，相当于，国内版的 daily？也有 app"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1606877286.015600",
+      "reply_count": 9,
+      "reply_users_count": 2,
+      "latest_reply": "1606881218.017800",
+      "reply_users": [
+        "U01B4UX4K8T",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U0194L0FW5U",
+            "U01B4UX4K8T"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "client_msg_id": "d178fa59-ab2d-4a24-a889-1b259b539624",
+      "type": "message",
+      "text": "推荐博客 codinghorrer，blogger 是 stackoverflow 和 discourse 的创始人 <https://blog.codinghorror.com/>",
+      "user": "U01D2DSJ7EC",
+      "ts": "1606744142.014300",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "Coding Horror",
+          "title_link": "https://blog.codinghorror.com/",
+          "text": "programming and human factors",
+          "fallback": "Coding Horror",
+          "from_url": "https://blog.codinghorror.com/",
+          "service_icon": "https://blog.codinghorror.com/favicon.png",
+          "service_name": "blog.codinghorror.com",
+          "id": 1,
+          "original_url": "https://blog.codinghorror.com/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8dWG8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "推荐博客 codinghorrer，blogger 是 stackoverflow 和 discourse 的创始人 "
+                },
+                {
+                  "type": "link",
+                  "url": "https://blog.codinghorror.com/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1606744142.014300",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1606744227.014600",
+      "reply_users": [
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01B4UX4K8T"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "4de1b704-fd22-4617-a879-23823c5d6690",
+      "type": "message",
+      "text": "• Unicode 是一个字符集，包含 17 个 Plane，每个 Plane 65536 个码点，Plane0 是 BMP，其他 Plane 是补充字符\n• UTF-8 是一种编码规范，用 1~4 个字节编码 Unicode 字符，兼容 ASCII，中文 3 字节，补充字符如 emoji 需要 4 字节）\n• MySQL 中的 utf8 是阉割版的、只支持 BMP 的编码，以后记得都使用 utf8mb4 ；除了 server 编码，记得也要修改连接的编码（客户端编码）。\n• 除了 utf-8 之外，还有好几个没什么卵用的字符集 /编码。\n<https://www.v2ex.com/t/657248>",
+      "user": "U019BC1VCM8",
+      "ts": "1606204499.013500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "V2EX",
+          "title": "UTF-8：一些好像没什么用的冷知识 - V2EX",
+          "title_link": "https://www.v2ex.com/t/657248",
+          "text": "程序员 - @felix021 - 在乔纳森·斯威夫特的著名讽刺小说《格列夫游记》中，小人国内部分裂成 Big-endian 和 Little-endian 两派，区别在于一派要求从鸡蛋的大头把鸡蛋打破，另一派要求从鸡蛋的小头把鸡蛋打破",
+          "fallback": "V2EX: UTF-8：一些好像没什么用的冷知识 - V2EX",
+          "ts": 1585457310,
+          "from_url": "https://www.v2ex.com/t/657248",
+          "service_icon": "https://www.v2ex.com/static/img/icon_rayps_64.png",
+          "id": 1,
+          "original_url": "https://www.v2ex.com/t/657248"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rHjT",
+          "elements": [
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Unicode 是一个字符集，包含 17 个 Plane，每个 Plane 65536 个码点，Plane0 是 BMP，其他 Plane 是补充字符"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "UTF-8 是一种编码规范，用 1~4 个字节编码 Unicode 字符，兼容 ASCII，中文 3 字节，补充字符如 emoji 需要 4 字节）"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "MySQL 中的 utf8 是阉割版的、只支持 BMP 的编码，以后记得都使用 utf8mb4 ；除了 server 编码，记得也要修改连接的编码（客户端编码）。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "除了 utf-8 之外，还有好几个没什么卵用的字符集 /编码。"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://www.v2ex.com/t/657248"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1606204499.013500",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1606204903.013800",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "3146fbfd-9441-48be-bc2d-0d6e75506f94",
+      "type": "message",
+      "text": "田渊栋的博士回忆录 <http://zhaoxiahust.github.io/blog/five_year_summary_of_PhD.pdf>\n&gt; 研究的本义，是在一个宽松的环境下，由研究者自由探索去寻找未知世界的答案。 再牛的导师，尽管有模糊的直觉，如果不参与研究的每个细节，是不能预知精确答案的。精确答案只能由学生来获得，导师直觉的错误只能由学生来推翻，如果学生没有内心动力，那导师只能看见他能看见的，就不需要学生了，研究也就失败了。",
+      "user": "U018WKP8CJK",
+      "ts": "1605798208.012500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0jg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "田渊栋的博士回忆录 "
+                },
+                {
+                  "type": "link",
+                  "url": "http://zhaoxiahust.github.io/blog/five_year_summary_of_PhD.pdf"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "研究的本义，是在一个宽松的环境下，由研究者自由探索去寻找未知世界的答案。 再牛的导师，尽管有模糊的直觉，如果不参与研究的每个细节，是不能预知精确答案的。精确答案只能由学生来获得，导师直觉的错误只能由学生来推翻，如果学生没有内心动力，那导师只能看见他能看见的，就不需要学生了，研究也就失败了。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1605798208.012500",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1605874637.012800",
+      "reply_users": [
+        "U019T22A1JN",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "c5a73521-6e74-4313-9240-eb4eb9adad03",
+      "type": "message",
+      "text": "这里收录了一些系统领域研究者写的一些博客 <http://zhaoxiahust.github.io/blog/index.html>",
+      "user": "U018WKP8CJK",
+      "ts": "1605715220.009900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "o7DB6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这里收录了一些系统领域研究者写的一些博客 "
+                },
+                {
+                  "type": "link",
+                  "url": "http://zhaoxiahust.github.io/blog/index.html"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1605715220.009900",
+      "reply_count": 3,
+      "reply_users_count": 1,
+      "latest_reply": "1605716547.011000",
+      "reply_users": [
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U01BKHW1V7E",
+            "U01D2DSJ7EC",
+            "U019BJ60Q2X"
+          ],
+          "count": 4
+        }
+      ]
+    },
+    {
+      "client_msg_id": "4ced3236-816f-41dd-ab2b-d6e542020c92",
+      "type": "message",
+      "text": "<https://zhuanlan.zhihu.com/p/25099638>\n&gt; 第一次创业不能说很成功，从中学到几点：一是跟教授开公司一定要注意有太多想法但没死死的掐住一个做，二是找一堆兼职的博士生来干活不是特别靠谱，尤其是产品不明确的时候，三是即使要卖公司也一定要做一个产品出来。我们卖的时候给很多人的感觉是团队人太强但产品太弱，所以他们只想要人而已。四是试图想要通过技术去改变一个非技术公司是很难的事情，尤其是过于新的技术。",
+      "user": "U018WKP8CJK",
+      "ts": "1605698559.004300",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1605698577.000000"
+      },
+      "attachments": [
+        {
+          "service_name": "知乎专栏",
+          "title": "博士这五年",
+          "title_link": "https://zhuanlan.zhihu.com/p/25099638",
+          "text": "前言12年8月提着一个行李箱降落在匹兹堡机场。没找住的地方，也不知道CMU应该怎么去。对未来一片迷茫，但充满乐观。 现在，刚完成了博士期间最后的一场报告，在同样的机场，不过是在等待离开的航班。 回想过去的五…",
+          "fallback": "知乎专栏: 博士这五年",
+          "from_url": "https://zhuanlan.zhihu.com/p/25099638",
+          "service_icon": "https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.67c7b278.png",
+          "id": 1,
+          "original_url": "https://zhuanlan.zhihu.com/p/25099638"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rlYFE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://zhuanlan.zhihu.com/p/25099638"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "第一次创业不能说很成功，从中学到几点：一是跟教授开公司一定要注意有太多想法但没死死的掐住一个做，二是找一堆兼职的博士生来干活不是特别靠谱，尤其是产品不明确的时候，三是即使要卖公司也一定要做一个产品出来。我们卖的时候给很多人的感觉是团队人太强但产品太弱，所以他们只想要人而已。四是试图想要通过技术去改变一个非技术公司是很难的事情，尤其是过于新的技术。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1605698559.004300",
+      "reply_count": 22,
+      "reply_users_count": 2,
+      "latest_reply": "1605714785.009000",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "94912956-225a-4966-ad39-821268f3b956",
+      "type": "message",
+      "text": "南大 AP 蒋炎岩的读博回忆录，我觉得他文中提到的找一个很多人研究过的大方向，然后疯狂自学可能对自己感兴趣的方向没有人能指导有所帮助。\n<https://www.jiqizhixin.com/articles/2019-09-16-17>",
+      "user": "U018WKP8CJK",
+      "ts": "1605506313.003300",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "机器之心",
+          "title": "守住发际线：南大蒋炎岩谈读博那些事儿",
+          "title_link": "https://www.jiqizhixin.com/articles/2019-09-16-17",
+          "text": "本文作者是南京大学博士蒋炎岩，讲述了他读博过程中的经历，并在文末介绍了他的研究成果，机器之心经授权转载自知乎。正式版《读博士的难与易》发表在《中国计算机学会通讯》(CCCF) 2019 年第 8 期 (CCF 优博专题)上。",
+          "fallback": "机器之心: 守住发际线：南大蒋炎岩谈读博那些事儿",
+          "thumb_url": "https://image.jiqizhixin.com/uploads/article/cover_image/f171bf4c-f455-4a8d-8fed-1b819cdf720e/c5db6e7c76df4e7cab331f74de2432a3_th.jpeg",
+          "from_url": "https://www.jiqizhixin.com/articles/2019-09-16-17",
+          "thumb_width": 1024,
+          "thumb_height": 774,
+          "service_icon": "https://www.jiqizhixin.com/favicon.ico",
+          "id": 1,
+          "original_url": "https://www.jiqizhixin.com/articles/2019-09-16-17"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "g14",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "南大 AP 蒋炎岩的读博回忆录，我觉得他文中提到的找一个很多人研究过的大方向，然后疯狂自学可能对自己感兴趣的方向没有人能指导有所帮助。\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.jiqizhixin.com/articles/2019-09-16-17"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1605506313.003300",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1605508688.003800",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1605409672.001800",
+      "user": "U01F4QP7D6D",
+      "text": "<@U01F4QP7D6D> has joined the channel"
+    },
+    {
+      "type": "message",
+      "text": "<https://pingcap.com/blog-cn/how-do-we-build-tidb/>",
+      "user": "U019BC1VCM8",
+      "ts": "1605147519.000100",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "MySQL at Scale. No more manual sharding",
+          "title": "How do we build TiDB | PingCAP",
+          "title_link": "https://pingcap.com/blog-cn/how-do-we-build-tidb/",
+          "text": "首先我们聊聊 Database 的历史，在已经有这么多种数据库的背景下我们为什么要创建另外一个数据库；以及说一下现在方案遇到的困境，说一下 Google Spanner 和 F1，TiKV 和 TiDB，说一下架构的事情，在这里我们会重点聊一下 TiKV。因为我们产品的很多特性是 TiKV 提供的，比如说跨数据中心的复制，Transaction，auto-scale...",
+          "fallback": "MySQL at Scale. No more manual sharding: How do we build TiDB | PingCAP",
+          "thumb_url": "https://pingcap.com/images/pingcap-opengraph.jpg",
+          "from_url": "https://pingcap.com/blog-cn/how-do-we-build-tidb/",
+          "thumb_width": 1200,
+          "thumb_height": 1200,
+          "id": 1,
+          "original_url": "https://pingcap.com/blog-cn/how-do-we-build-tidb/"
+        }
+      ],
+      "thread_ts": "1605147519.000100",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1605147613.001100",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1604630215.000200",
+      "user": "U01BKHW1V7E",
+      "text": "<@U01BKHW1V7E> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1604311511.000400",
+      "user": "U01B4UX4K8T",
+      "text": "<@U01B4UX4K8T> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1604302357.000200",
+      "user": "U019BJ60Q2X",
+      "text": "<@U019BJ60Q2X> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603937578.000200",
+      "user": "U01B6P2EWRL",
+      "text": "<@U01B6P2EWRL> has joined the channel"
+    },
+    {
+      "type": "message",
+      "text": "A Comprehensive Guide To HTTP/2 Server Push — Smashing Magazine\n<https://www.smashingmagazine.com/2017/04/guide-http2-server-push/>\n\n介绍了 http/2 协议下的 server push。\n\n通常而言，浏览器只有在在获取了 html 页面并解析之后，才会去继续拉取其他资源，造成至少两次 round trip，因此出现了 embed css/js 和 uri scheme blob encoding 的 anti pattern 作为不得已的优化；而 http/2 引入的 server push 可以 eargly 地把资源随着 html 预先一起推给 client。\n\n记得之前上计算机网络的时候并没有提到 server push，然而它已经是现代网络优化不得不知道的东西了。",
+      "user": "U019BC1VCM8",
+      "ts": "1603856052.001400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "Smashing Magazine",
+          "title": "A Comprehensive Guide To HTTP/2 Server Push — Smashing Magazine",
+          "title_link": "https://www.smashingmagazine.com/2017/04/guide-http2-server-push/",
+          "text": "The landscape for the performance-minded developer has changed significantly in the last year or so, with the emergence of HTTP/2 being perhaps the most significant of all. No longer is HTTP/2 a feature we pine for. It has arrived, and with it comes server push! Aside from solving common HTTP/1 performance problems (e.g., head of line blocking and uncompressed headers), HTTP/2 also gives us server push! Server push allows you to send site assets to the user before they&amp;rsquo;ve even asked for them. It’s an elegant way to achieve the performance benefits of HTTP/1 optimization practices such as inlining, but without the drawbacks that come with that practice.",
+          "fallback": "Smashing Magazine: A Comprehensive Guide To HTTP/2 Server Push — Smashing Magazine",
+          "image_url": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f9f06121-fb03-42d1-b14c-41641fa19b35/graph-page-load-800w-opt.png",
+          "ts": 1491855835,
+          "from_url": "https://www.smashingmagazine.com/2017/04/guide-http2-server-push/",
+          "image_width": 418,
+          "image_height": 250,
+          "image_bytes": 17320,
+          "id": 1,
+          "original_url": "https://www.smashingmagazine.com/2017/04/guide-http2-server-push/"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "689f853f-b7cb-45eb-a76a-1466d25fd803",
+      "type": "message",
+      "text": "着眼于不同编程语言的耗能而不是速度，更快的语言并不总是最省能量的语言，但是 C 语言的地位是真的稳 :huaji:\n<https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf>",
+      "user": "U01D2DSJ7EC",
+      "ts": "1603851147.000900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "J7Qg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "着眼于不同编程语言的耗能而不是速度，更快的语言并不总是最省能量的语言，但是 C 语言的地位是真的稳 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603851147.000900",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1603856116.001800",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8"
+          ],
+          "count": 1
+        },
+        {
+          "name": "huaji",
+          "users": [
+            "U019BC1VCM8",
+            "U01D2DSJ7EC"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603846734.000200",
+      "user": "U019T22A1JN",
+      "text": "<@U019T22A1JN> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603610410.000200",
+      "user": "U01C37VFWKA",
+      "text": "<@U01C37VFWKA> has joined the channel"
+    },
+    {
+      "client_msg_id": "23e5341e-8586-434b-afd2-818da9dd758a",
+      "type": "message",
+      "text": "Mathematica 设计者 Stephen Wolram <https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/|展示他的日常工作环境> ，跑步机上电脑 + 户外绑带式电脑、比比自行车上 ubuntu 可还行；当然也有其它很多可以借鉴的，文末附上了使用的所有器件，土豪可以学学:dog2:",
+      "user": "U01D2DSJ7EC",
+      "ts": "1603436219.024000",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "Seeking the Productive Life: Some Details of My Personal Infrastructure—Stephen Wolfram Writings",
+          "title_link": "https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/",
+          "text": "Some of Stephen Wolfram’s “productivity hacks” to make his days and projects more productive. Daily life, desk environment, outside the office, presentation setup, filesystem organization, Wolfram Notebook systems, databases, personal analytics.",
+          "fallback": "Seeking the Productive Life: Some Details of My Personal Infrastructure—Stephen Wolfram Writings",
+          "from_url": "https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/",
+          "service_icon": "https://writings.stephenwolfram.com/favicon.ico",
+          "service_name": "writings.stephenwolfram.com",
+          "id": 1,
+          "original_url": "https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CTUn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Mathematica 设计者 Stephen Wolram "
+                },
+                {
+                  "type": "link",
+                  "url": "https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/",
+                  "text": "展示他的日常工作环境"
+                },
+                {
+                  "type": "text",
+                  "text": " ，跑步机上电脑 + 户外绑带式电脑、比比自行车上 ubuntu 可还行；当然也有其它很多可以借鉴的，文末附上了使用的所有器件，土豪可以学学"
+                },
+                {
+                  "type": "emoji",
+                  "name": "dog2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603436219.024000",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1603446975.024900",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "f124fc66-895f-4998-a928-c88500d670ed",
+      "type": "message",
+      "text": "推荐 <http://wakatime.com|wakatime.com> 自动记录撸代码时间，支持大部分编辑器，并且展示成 dashboard\n结合这个 repo <https://github.com/matchai/waka-box> 可以用 github action 自动每 n 个小时(自定义，原始是3)生成 github gist；然后可以再贴到自己主页。。。\n从此再也无法摸鱼 :dog:",
+      "user": "U01D2DSJ7EC",
+      "ts": "1603425133.021100",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "GitHub",
+          "title": "matchai/waka-box",
+          "title_link": "https://github.com/matchai/waka-box",
+          "text": ":bar_chart: Update a pinned gist to contain your weekly WakaTime stats - matchai/waka-box",
+          "fallback": "GitHub: matchai/waka-box",
+          "thumb_url": "https://avatars1.githubusercontent.com/u/4658208?s=400&v=4",
+          "from_url": "https://github.com/matchai/waka-box",
+          "thumb_width": 400,
+          "thumb_height": 400,
+          "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/github.png",
+          "id": 1,
+          "original_url": "https://github.com/matchai/waka-box"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Buun",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "推荐 "
+                },
+                {
+                  "type": "link",
+                  "url": "http://wakatime.com",
+                  "text": "wakatime.com"
+                },
+                {
+                  "type": "text",
+                  "text": " 自动记录撸代码时间，支持大部分编辑器，并且展示成 dashboard\n结合这个 repo "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/matchai/waka-box"
+                },
+                {
+                  "type": "text",
+                  "text": " 可以用 github action 自动每 n 个小时(自定义，原始是3)生成 github gist；然后可以再贴到自己主页。。。\n从此再也无法摸鱼 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "dog"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U0194L0FW5U"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "68324b01-aedd-4f2e-a5be-3193e391e19f",
+      "type": "message",
+      "text": "这里包含了非常多的 vim 插件 <https://vimawesome.com/>，网站体验也非常好；\n但是其实自己一个一个去试插件实在是太慢了，也许更好的是先抄作业上手，然后有时间再去寻找喜欢的插件 --&gt; 乃至自己写一个",
+      "user": "U01D2DSJ7EC",
+      "ts": "1603373704.018100",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "Vim Awesome",
+          "title_link": "https://vimawesome.com/",
+          "text": "Awesome Vim plugins from across the universe",
+          "fallback": "Vim Awesome",
+          "image_url": "https://vimawesome.com/static/img/og.png",
+          "from_url": "https://vimawesome.com/",
+          "image_width": 478,
+          "image_height": 250,
+          "image_bytes": 5097,
+          "service_icon": "https://vimawesome.com/static/favicon.ico",
+          "service_name": "vimawesome.com",
+          "id": 1,
+          "original_url": "https://vimawesome.com/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "AdRy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这里包含了非常多的 vim 插件 "
+                },
+                {
+                  "type": "link",
+                  "url": "https://vimawesome.com/"
+                },
+                {
+                  "type": "text",
+                  "text": "，网站体验也非常好；\n但是其实自己一个一个去试插件实在是太慢了，也许更好的是先抄作业上手，然后有时间再去寻找喜欢的插件 --> 乃至自己写一个"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603373704.018100",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1603373759.018700",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603343789.016400",
+      "user": "U01DT3J2ALQ",
+      "text": "<@U01DT3J2ALQ> has joined the channel"
+    },
+    {
+      "client_msg_id": "47b38e9e-4fe2-444e-b54a-1032c4f4b0c3",
+      "type": "message",
+      "text": "如何查出因为 TCP 中的 Nagle 算法带来的持续的 40 毫秒延迟\n\n<http://rachelbythebay.com/w/2020/10/14/lag/>\n\n作者发现一个网络请求无论如何优化都会有 40 毫秒的延迟，原因是上游的开源软件没有处理 TCP 拥塞的 Nagle 算法。\n\n我只在《计算机网络》课上学过一次 Nagle 算法，TCP 的 header 有 40 个字节，如果 payload 只有一个字节，那么通信效率就会非常低（41 个传输字节中只有一个是有效 payload），而 Nagle 算法则会打包这些小 payload 的包，统一发送。\n\n分享的原因是，Nagle 算法这个 case 我只是粗浅地看过，而这个文章却立刻让我回忆起了细节，不禁反思，1. 如果我遇到这个问题我能否想到是 Nagle 算法的原因；2. 会不会还有这种我粗浅学过但没有深刻认识的知识会在之后的经历中发挥作用？",
+      "user": "U019BC1VCM8",
+      "ts": "1603342299.015500",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U019BC1VCM8",
+        "ts": "1603342314.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "PCM1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "如何查出因为 TCP 中的 Nagle 算法带来的持续的 40 毫秒延迟\n\n"
+                },
+                {
+                  "type": "link",
+                  "url": "http://rachelbythebay.com/w/2020/10/14/lag/"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n作者发现一个网络请求无论如何优化都会有 40 毫秒的延迟，原因是上游的开源软件没有处理 TCP 拥塞的 Nagle 算法。\n\n我只在《计算机网络》课上学过一次 Nagle 算法，TCP 的 header 有 40 个字节，如果 payload 只有一个字节，那么通信效率就会非常低（41 个传输字节中只有一个是有效 payload），而 Nagle 算法则会打包这些小 payload 的包，统一发送。\n\n分享的原因是，Nagle 算法这个 case 我只是粗浅地看过，而这个文章却立刻让我回忆起了细节，不禁反思，1. 如果我遇到这个问题我能否想到是 Nagle 算法的原因；2. 会不会还有这种我粗浅学过但没有深刻认识的知识会在之后的经历中发挥作用？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603342299.015500",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1603856307.002400",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603288638.009900",
+      "user": "U01BDHY4TU3",
+      "text": "<@U01BDHY4TU3> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603276745.009700",
+      "user": "U018WKP8CJK",
+      "text": "<@U018WKP8CJK> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603274928.009500",
+      "user": "U01BARL28RY",
+      "text": "<@U01BARL28RY> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603260371.009300",
+      "user": "U01A611AJ81",
+      "text": "<@U01A611AJ81> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603259482.009100",
+      "user": "U0194L0FW5U",
+      "text": "<@U0194L0FW5U> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603250224.005100",
+      "user": "U01C9KLFJUV",
+      "text": "<@U01C9KLFJUV> has joined the channel"
+    },
+    {
+      "client_msg_id": "93392871-6535-474A-BD65-6163167B80E1",
+      "type": "message",
+      "text": "有几个要求：\n\n1. 分享的内容分享者必须都看过一遍\n2. 分享者分享的时候要带上分享的理由，最好能有一个内容概括\n3. 其他同学在分享条目的下属 thread 进行讨论",
+      "user": "U019BC1VCM8",
+      "ts": "1603250190.003900",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U019BC1VCM8",
+        "ts": "1603250326.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Bk+h",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "有几个要求：\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "分享的内容分享者必须都看过一遍"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "分享者分享的时候要带上分享的理由，最好能有一个内容概括"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "其他同学在分享条目的下属 thread 进行讨论"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603250190.003900",
+      "reply_count": 11,
+      "reply_users_count": 2,
+      "latest_reply": "1603251777.008600",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC",
+            "U01C9KLFJUV"
+          ],
+          "count": 2
+        },
+        {
+          "name": "star-struck",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        },
+        {
+          "name": "bulb",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "07290ccb-c62f-420e-976d-54fc524e0042",
+      "type": "message",
+      "text": "那以后，就不往 <http://fdxk.info|fdxk.info> <#C019HHJ7KAQ|random> 里面扔了？",
+      "user": "U01D2DSJ7EC",
+      "ts": "1603250162.003100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3uI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "那以后，就不往 "
+                },
+                {
+                  "type": "link",
+                  "url": "http://fdxk.info",
+                  "text": "fdxk.info"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C019HHJ7KAQ"
+                },
+                {
+                  "type": "text",
+                  "text": " 里面扔了？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603250162.003100",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1603250200.004500",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "A33BF1C0-5242-4902-9B3C-CEBE789E2D7C",
+      "type": "message",
+      "text": "博客，视频，书籍都可以",
+      "user": "U019BC1VCM8",
+      "ts": "1603250136.002300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XMDx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "博客，视频，书籍都可以"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "4B69FBB3-98EB-4113-B44A-B18A1E3EABAC",
+      "type": "message",
+      "text": "算的",
+      "user": "U019BC1VCM8",
+      "ts": "1603250122.001700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tc/ef",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "算的"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "e6c086a6-1208-4a1b-ac8e-4fd76706f2f5",
+      "type": "message",
+      "text": "╰─ 啥么算有用的资料厽，好的 blog 算不算 :thinking_face:",
+      "user": "U01D2DSJ7EC",
+      "ts": "1603250114.001400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "J6E",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "╰─ 啥么算有用的资料厽，好的 blog 算不算 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "thinking_face"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603250024.000900",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603249997.000700",
+      "user": "U01DC5VTQLQ",
+      "text": "<@U01DC5VTQLQ> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603249950.000500",
+      "user": "U019T84PQGK",
+      "text": "<@U019T84PQGK> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_purpose",
+      "ts": "1603249857.000300",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> set the channel description: 分享你所看到的资料～",
+      "purpose": "分享你所看到的资料～"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603249856.000200",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> has joined the channel"
+    }
+  ]
+}

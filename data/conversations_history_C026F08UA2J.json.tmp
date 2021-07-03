@@ -1,0 +1,451 @@
+{
+  "channel": "C026F08UA2J",
+  "messages": [
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1625313331.007600",
+      "user": "U01TZBL3PH6",
+      "text": "<@U01TZBL3PH6> has joined the channel"
+    },
+    {
+      "client_msg_id": "ecb21f34-e8e3-4364-bea6-dde3b810fb08",
+      "type": "message",
+      "text": "我听完要是觉得不错也可以来分享一下",
+      "user": "U019BC1VCM8",
+      "ts": "1625204101.006900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SbFbt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我听完要是觉得不错也可以来分享一下"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "rockyou",
+          "users": [
+            "U0194L0FW5U",
+            "U01D2DSJ7EC"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "d8f1eb91-c518-4e03-b633-8ddee37aab0f",
+      "type": "message",
+      "text": "sql engine 今天会分享上面那篇论文",
+      "user": "U019BC1VCM8",
+      "ts": "1625204092.006600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/JH1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "sql engine 今天会分享上面那篇论文"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "6af93565-9127-40d8-8a58-fee817f07324",
+      "type": "message",
+      "text": "可以的",
+      "user": "U019BC1VCM8",
+      "ts": "1625204081.006200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "NJB9y",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "可以的"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "ebb059c2-efdc-475a-9137-ec9e33a6760a",
+      "type": "message",
+      "text": "（我下周要在贵司讲一个，题目还没定，你们有啥感兴趣或者推荐的吗",
+      "user": "U0194L0FW5U",
+      "ts": "1625196436.005900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Iy=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "（我下周要在贵司讲一个，题目还没定，你们有啥感兴趣或者推荐的吗"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "33868e3e-5936-40ca-a48a-87c2d3819c5e",
+      "type": "message",
+      "text": "空了可以搞点 sigmod2021 paper reading 之类的",
+      "user": "U0194L0FW5U",
+      "ts": "1625196402.005100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tbSei",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "空了可以搞点 sigmod2021 paper reading 之类的"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a1b2d2ea-b953-4a75-a8e3-e4b35c4f1afd",
+      "type": "message",
+      "text": "<https://15721.courses.cs.cmu.edu/spring2016/papers/p743-leis.pdf>",
+      "user": "U019BC1VCM8",
+      "ts": "1625138938.003900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "d63MM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://15721.courses.cs.cmu.edu/spring2016/papers/p743-leis.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1625138938.003900",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1625190247.004500",
+      "reply_users": [
+        "U01A611AJ81",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "d95a0e35-8619-4bb3-82a1-edd632d8b04e",
+      "type": "message",
+      "text": "画风惊奇",
+      "user": "U019BC1VCM8",
+      "ts": "1625138933.003700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kmJ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "画风惊奇"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "bc997476-8b91-4f73-a4ff-ec66ce258eef",
+      "type": "message",
+      "text": "插图配色感人",
+      "user": "U019BC1VCM8",
+      "ts": "1625138920.003500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5Xm4S",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "插图配色感人"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F0275NFS40H",
+          "created": 1625138877,
+          "timestamp": 1625138877,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 115180,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F0275NFS40H/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F0275NFS40H/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F0275NFS40H-66ce619aaf/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F0275NFS40H-66ce619aaf/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F0275NFS40H-66ce619aaf/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 161,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F0275NFS40H-66ce619aaf/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 215,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F0275NFS40H-66ce619aaf/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F0275NFS40H-66ce619aaf/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 322,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F0275NFS40H-66ce619aaf/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 358,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F0275NFS40H-66ce619aaf/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 430,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F0275NFS40H-66ce619aaf/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 458,
+          "original_w": 1126,
+          "original_h": 504,
+          "thumb_tiny": "AwAVADDSJ9OtAOfrR/Fn2pOvzd6AEkfacU0s23PNOcA7cikYADHYCgBFcnvUgORSMoCdOlCg9TQAjMQTjFJuOMcUN1pO1AD8Egc/pS4PqPypR0FFACYPqPyo59aWigD/2Q==",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F0275NFS40H/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F0275NFS40H-99027014dc",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1625138881.002700",
+      "reactions": [
+        {
+          "name": "pray",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1625063682.002600",
+      "user": "U01A611AJ81",
+      "text": "<@U01A611AJ81> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1625045736.002400",
+      "user": "U018WKP8CJK",
+      "text": "<@U018WKP8CJK> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1625044767.002100",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1625044457.001800",
+      "user": "U019BJ60Q2X",
+      "text": "<@U019BJ60Q2X> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1625043409.001600",
+      "user": "U01B4UX4K8T",
+      "text": "<@U01B4UX4K8T> has joined the channel"
+    },
+    {
+      "client_msg_id": "97e8ba7d-03bd-4ad7-80cc-0e974325fe4a",
+      "type": "message",
+      "text": "（orz",
+      "user": "U019BC1VCM8",
+      "ts": "1625043097.001300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "iReS4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "（orz"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "huaji",
+          "users": [
+            "U0194L0FW5U",
+            "U01D2DSJ7EC"
+          ],
+          "count": 2
+        },
+        {
+          "name": "hj-pants",
+          "users": [
+            "U019BJ60Q2X"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "82eaa905-7fef-4a90-a8c0-e372ffc9d870",
+      "type": "message",
+      "text": "我们没有 sig-database",
+      "user": "U019BC1VCM8",
+      "ts": "1625043091.001000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "QjIw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我们没有 sig-database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "db605f25-7987-4497-9add-2decc9887584",
+      "type": "message",
+      "text": "才发现",
+      "user": "U019BC1VCM8",
+      "ts": "1625043087.000700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "o3nJs",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "才发现"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1625043084.000500",
+      "user": "U0194L0FW5U",
+      "text": "<@U0194L0FW5U> has joined the channel",
+      "inviter": "U019BC1VCM8"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_purpose",
+      "ts": "1625043078.000300",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> set the channel description: all about database",
+      "purpose": "all about database"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1625043078.000200",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> has joined the channel"
+    }
+  ]
+}

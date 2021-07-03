@@ -1,0 +1,5221 @@
+{
+  "channel": "C01BV5JJQF7",
+  "messages": [
+    {
+      "client_msg_id": "015f420f-a680-4647-817d-f19507df0a56",
+      "type": "message",
+      "text": "我想请教一下 lab2 处理 AppendEntries ack 乱序到达的问题。\n我之前是每个 RPC 都新建一个 `context.Context` 。发新的 RPC 之前，先把上一个 RPC 的 context 给 cancel 掉，这样就不会收到上一个 RPC 的 ack 了。\n但是看 log 的时候感觉这种方法 availability 不太行，Figure8 unreliable 那个测试 10h 内挂了一次。\n大家这个地方都是怎么处理的呀:eyes:",
+      "user": "U01A611AJ81",
+      "ts": "1621936433.027900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "daRQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我想请教一下 lab2 处理 AppendEntries ack 乱序到达的问题。\n我之前是每个 RPC 都新建一个 "
+                },
+                {
+                  "type": "text",
+                  "text": "context.Context",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " 。发新的 RPC 之前，先把上一个 RPC 的 context 给 cancel 掉，这样就不会收到上一个 RPC 的 ack 了。\n但是看 log 的时候感觉这种方法 availability 不太行，Figure8 unreliable 那个测试 10h 内挂了一次。\n大家这个地方都是怎么处理的呀"
+                },
+                {
+                  "type": "emoji",
+                  "name": "eyes"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1621936433.027900",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1621947100.028600",
+      "reply_users": [
+        "U019T84PQGK",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "cb99d86c-7219-4660-9803-96b4f46d1db6",
+      "type": "message",
+      "text": "我现在 lab2c 的 churn 测试经常会遇到测试不能结束的问题。求问有没有大佬遇到过类似的情况:eyes:\n\n部分现象如下：\n\n• 最终 5 个节点 lastLog == lastCommit == lastApplied，然后测试一直卡在那没退出。\n• 检查过每个节点 apply 的日志，apply 的数量是对的。顺序还没有检查，看上去也是对的。\n• 日志中 lastCommit = 2506，而 Raft.Start 一共有 2525 个。",
+      "user": "U01A611AJ81",
+      "ts": "1621819218.014500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "siT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我现在 lab2c 的 churn 测试经常会遇到测试不能结束的问题。求问有没有大佬遇到过类似的情况"
+                },
+                {
+                  "type": "emoji",
+                  "name": "eyes"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n部分现象如下：\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "最终 5 个节点 lastLog == lastCommit == lastApplied，然后测试一直卡在那没退出。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "检查过每个节点 apply 的日志，apply 的数量是对的。顺序还没有检查，看上去也是对的。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "日志中 lastCommit = 2506，而 Raft.Start 一共有 2525 个。"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1621819218.014500",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1621927998.024400",
+      "reply_users": [
+        "U01A611AJ81",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "09ae4f37-af27-4c94-94f0-eebfc8a864d2",
+      "type": "message",
+      "text": "求问各位大佬，你们 lab2c churn 这个测试生成的 log 多吗:huaji:",
+      "user": "U01A611AJ81",
+      "ts": "1621609629.008800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "B80F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "求问各位大佬，你们 lab2c churn 这个测试生成的 log 多吗"
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1621609629.008800",
+      "reply_count": 7,
+      "reply_users_count": 2,
+      "latest_reply": "1621611212.010200",
+      "reply_users": [
+        "U01A611AJ81",
+        "U019T84PQGK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "03210b28-adee-4a83-b9c9-a3ab012a2afb",
+      "type": "message",
+      "text": "我 lab2b 跑了 20k+ 轮了，但是遇到了个非常阴间的问题:huaji:",
+      "user": "U01A611AJ81",
+      "ts": "1621556495.001900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rBg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我 lab2b 跑了 20k+ 轮了，但是遇到了个非常阴间的问题"
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1621556495.001900",
+      "reply_count": 26,
+      "reply_users_count": 2,
+      "latest_reply": "1621604165.007900",
+      "reply_users": [
+        "U01A611AJ81",
+        "U019T84PQGK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "e63aab57-50f6-426d-b666-1e63c757ee84",
+      "type": "message",
+      "text": "求问 lab2b 的测试中，log 的 index 默认是从 1 开始的吗:eyes:",
+      "user": "U01A611AJ81",
+      "ts": "1621436735.000600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xzwP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "求问 lab2b 的测试中，log 的 index 默认是从 1 开始的吗"
+                },
+                {
+                  "type": "emoji",
+                  "name": "eyes"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1621436735.000600",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1621482962.001300",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "238f010f-2d8c-42c1-a12b-51f63c36cf52",
+      "type": "message",
+      "text": "如果 Raft 集群里面有一个机子能往外发消息，但是收不到外面的任何消息，那它是不是会一直发起 election，导致整个集群都不能工作了:joy:",
+      "user": "U01A611AJ81",
+      "ts": "1621065092.018700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "JDY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "如果 Raft 集群里面有一个机子能往外发消息，但是收不到外面的任何消息，那它是不是会一直发起 election，导致整个集群都不能工作了"
+                },
+                {
+                  "type": "emoji",
+                  "name": "joy"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1621065092.018700",
+      "reply_count": 25,
+      "reply_users_count": 2,
+      "latest_reply": "1621079202.024200",
+      "reply_users": [
+        "U019T84PQGK",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "c7833b2d-b573-47f0-9645-3d997ae81e61",
+      "type": "message",
+      "text": "labrpc 如果丢包了是不是 RPC 就不会返回了？:eyes:\n（在写 lab2a，发现不应该等 heartbeat RPC 返回了再发下一个 heartbeat。不管上一个 heartbeat 有没有结束都定期发下一个 heartbeat",
+      "user": "U01A611AJ81",
+      "ts": "1620968537.017200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5twtE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "labrpc 如果丢包了是不是 RPC 就不会返回了？"
+                },
+                {
+                  "type": "emoji",
+                  "name": "eyes"
+                },
+                {
+                  "type": "text",
+                  "text": "\n（在写 lab2a，发现不应该等 heartbeat RPC 返回了再发下一个 heartbeat。不管上一个 heartbeat 有没有结束都定期发下一个 heartbeat"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1620968537.017200",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1620996207.017300",
+      "reply_users": [
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "DD90E09B-2F28-461E-8C69-52A9EFB873A7",
+      "type": "message",
+      "text": "大家好~我正在刚刚开始自学MIT 6.824(基础比较薄弱，纯兴趣驱动)，想找几位同学一起讨论学习做lab，有人有同样想法吗，可以组队督促讨论~",
+      "user": "U01U8ADQHJP",
+      "ts": "1618396321.010400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "f8YTc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "大家好~我正在刚刚开始自学MIT 6.824(基础比较薄弱，纯兴趣驱动)，想找几位同学一起讨论学习做lab，有人有同样想法吗，可以组队督促讨论~"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618396321.010400",
+      "reply_count": 8,
+      "reply_users_count": 4,
+      "latest_reply": "1618578639.015500",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01U8ADQHJP",
+        "U01A611AJ81",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01A611AJ81",
+            "U01U8ADQHJP",
+            "U01D2DSJ7EC",
+            "U018WKP8CJK"
+          ],
+          "count": 4
+        },
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "thread_broadcast",
+      "text": "这不是只说了lazily:thinking_face:️怀疑是除非显式声明了（比如退出函数）则不删除锁",
+      "user": "U01BKHW1V7E",
+      "ts": "1617463521.006600",
+      "thread_ts": "1617458287.002700",
+      "root": {
+        "client_msg_id": "71ff1372-0146-4ae4-9892-fa209eda6267",
+        "type": "message",
+        "text": "GFS 论文 4.1 节的最后提到了\n&gt; Since the namespace can have many nodes, _read-write lock objects are allocated lazily and deleted once they are not in use_.\n貌似没有找到更多的细节了。有点好奇能够自动分配的锁大概是个什么操作 :eyes:",
+        "user": "U01A611AJ81",
+        "ts": "1617458287.002700",
+        "team": "T019A14BB9T",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "HdiqQ",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "GFS 论文 4.1 节的最后提到了\n"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_quote",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Since the namespace can have many nodes, "
+                  },
+                  {
+                    "type": "text",
+                    "text": "read-write lock objects are allocated lazily and deleted once they are not in use",
+                    "style": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "貌似没有找到更多的细节了。有点好奇能够自动分配的锁大概是个什么操作 "
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "eyes"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "thread_ts": "1617458287.002700",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1617464713.007100",
+        "reply_users": [
+          "U01BKHW1V7E",
+          "U01A611AJ81"
+        ],
+        "is_locked": false,
+        "subscribed": false
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "bdH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这不是只说了lazily"
+                },
+                {
+                  "type": "emoji",
+                  "name": "thinking_face"
+                },
+                {
+                  "type": "text",
+                  "text": "️怀疑是除非显式声明了（比如退出函数）则不删除锁"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "client_msg_id": "F2BE1CA3-526F-4251-9DB9-BDE69C47E869"
+    },
+    {
+      "client_msg_id": "71ff1372-0146-4ae4-9892-fa209eda6267",
+      "type": "message",
+      "text": "GFS 论文 4.1 节的最后提到了\n&gt; Since the namespace can have many nodes, _read-write lock objects are allocated lazily and deleted once they are not in use_.\n貌似没有找到更多的细节了。有点好奇能够自动分配的锁大概是个什么操作 :eyes:",
+      "user": "U01A611AJ81",
+      "ts": "1617458287.002700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HdiqQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "GFS 论文 4.1 节的最后提到了\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Since the namespace can have many nodes, "
+                },
+                {
+                  "type": "text",
+                  "text": "read-write lock objects are allocated lazily and deleted once they are not in use",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "貌似没有找到更多的细节了。有点好奇能够自动分配的锁大概是个什么操作 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "eyes"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617458287.002700",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1617464713.007100",
+      "reply_users": [
+        "U01BKHW1V7E",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617163876.001000",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617032268.000700",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617013986.000400",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "client_msg_id": "7c2e94a6-0844-4984-a0d0-cc7d76e8742f",
+      "type": "message",
+      "text": "想问一下 MapReduce 里面 worker 分配的问题\n\n是不是先分配 map worker，然后再分配 reduce worker。这时候 reduce worker 开始从 map worker 那里读 intermediate files，_当所有 map worker 完成_并且文件全部读取到后，reduce worker 才开始工作？",
+      "user": "U01A611AJ81",
+      "ts": "1615469764.002000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "mbX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "想问一下 MapReduce 里面 worker 分配的问题\n\n是不是先分配 map worker，然后再分配 reduce worker。这时候 reduce worker 开始从 map worker 那里读 intermediate files，"
+                },
+                {
+                  "type": "text",
+                  "text": "当所有 map worker 完成",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "并且文件全部读取到后，reduce worker 才开始工作？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1615469764.002000",
+      "reply_count": 11,
+      "reply_users_count": 4,
+      "latest_reply": "1615512976.006000",
+      "reply_users": [
+        "U019T84PQGK",
+        "U018WKP8CJK",
+        "U019BC1VCM8",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01NQ8K223B",
+          "created": 1613528686,
+          "timestamp": 1613528686,
+          "name": "Image from iOS.png",
+          "title": "Image from iOS",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 514035,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01NQ8K223B/image_from_ios.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01NQ8K223B/download/image_from_ios.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01NQ8K223B-9d263b3d77/image_from_ios_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01NQ8K223B-9d263b3d77/image_from_ios_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01NQ8K223B-9d263b3d77/image_from_ios_360.png",
+          "thumb_360_w": 202,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01NQ8K223B-9d263b3d77/image_from_ios_480.png",
+          "thumb_480_w": 270,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01NQ8K223B-9d263b3d77/image_from_ios_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01NQ8K223B-9d263b3d77/image_from_ios_720.png",
+          "thumb_720_w": 405,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01NQ8K223B-9d263b3d77/image_from_ios_800.png",
+          "thumb_800_w": 450,
+          "thumb_800_h": 800,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01NQ8K223B-9d263b3d77/image_from_ios_960.png",
+          "thumb_960_w": 540,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01NQ8K223B-9d263b3d77/image_from_ios_1024.png",
+          "thumb_1024_w": 576,
+          "thumb_1024_h": 1024,
+          "image_exif_rotation": 1,
+          "original_w": 750,
+          "original_h": 1334,
+          "thumb_tiny": "AwAwABq6LaL+6KT7LF/cFO85c/db/vk0eeP7rflQA37JD2QVH9hj/vyfnU3nL6N/3yaPOX0b/vk0APDZJ68HHSnCmhlY8Z446UoAHIoAMUtFFACH24pAMHqaWigBc0ZpKMUAf//Z",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01NQ8K223B/image_from_ios.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01NQ8K223B-fbec31ae85",
+          "is_starred": false,
+          "has_rich_preview": false
+        },
+        {
+          "id": "F01NHQDFRSQ",
+          "created": 1613528687,
+          "timestamp": 1613528687,
+          "name": "Image from iOS.png",
+          "title": "Image from iOS",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 472512,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01NHQDFRSQ/image_from_ios.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01NHQDFRSQ/download/image_from_ios.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQDFRSQ-5605d916b0/image_from_ios_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQDFRSQ-5605d916b0/image_from_ios_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQDFRSQ-5605d916b0/image_from_ios_360.png",
+          "thumb_360_w": 202,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQDFRSQ-5605d916b0/image_from_ios_480.png",
+          "thumb_480_w": 270,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQDFRSQ-5605d916b0/image_from_ios_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQDFRSQ-5605d916b0/image_from_ios_720.png",
+          "thumb_720_w": 405,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQDFRSQ-5605d916b0/image_from_ios_800.png",
+          "thumb_800_w": 450,
+          "thumb_800_h": 800,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQDFRSQ-5605d916b0/image_from_ios_960.png",
+          "thumb_960_w": 540,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQDFRSQ-5605d916b0/image_from_ios_1024.png",
+          "thumb_1024_w": 576,
+          "thumb_1024_h": 1024,
+          "image_exif_rotation": 1,
+          "original_w": 750,
+          "original_h": 1334,
+          "thumb_tiny": "AwAwABqaJQYlJ604ovpUwhj6bTj6ml8mP+7+tBVylOoULioSTnrWi1vGeq5/Oj7LD/zz/U0BclI9MfjSYP8As0pOOv8AKjI/yKCQ+b2paTcPf8qWgBCcdcD8aWkP0ooAWijNFAH/2Q==",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01NHQDFRSQ/image_from_ios.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01NHQDFRSQ-6cad26a6ad",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": true,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Guv",
+          "elements": []
+        }
+      ],
+      "user": "U019BC1VCM8",
+      "ts": "1613528691.012500",
+      "client_msg_id": "A9F051C1-428A-4591-BCAB-A0982B5C2C32"
+    },
+    {
+      "client_msg_id": "FD366A0B-F9A6-4429-A5CF-9CC7D2FAA1A9",
+      "type": "message",
+      "text": "我惊了",
+      "user": "U019BC1VCM8",
+      "ts": "1613528660.012400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "oFu",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我惊了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01NHQ0P0E8",
+          "created": 1613528321,
+          "timestamp": 1613528321,
+          "name": "Image from iOS.png",
+          "title": "Image from iOS",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 170269,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01NHQ0P0E8/image_from_ios.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01NHQ0P0E8/download/image_from_ios.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQ0P0E8-352fb298ad/image_from_ios_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQ0P0E8-352fb298ad/image_from_ios_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQ0P0E8-352fb298ad/image_from_ios_360.png",
+          "thumb_360_w": 202,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQ0P0E8-352fb298ad/image_from_ios_480.png",
+          "thumb_480_w": 270,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQ0P0E8-352fb298ad/image_from_ios_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQ0P0E8-352fb298ad/image_from_ios_720.png",
+          "thumb_720_w": 405,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQ0P0E8-352fb298ad/image_from_ios_800.png",
+          "thumb_800_w": 450,
+          "thumb_800_h": 800,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQ0P0E8-352fb298ad/image_from_ios_960.png",
+          "thumb_960_w": 540,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01NHQ0P0E8-352fb298ad/image_from_ios_1024.png",
+          "thumb_1024_w": 576,
+          "thumb_1024_h": 1024,
+          "image_exif_rotation": 1,
+          "original_w": 750,
+          "original_h": 1334,
+          "thumb_tiny": "AwAwABrQ+QHkc/SlLKSP8KTJyQWHtTtw9aAE+8OxH0oCLjoKXcPWloAjKnJwOtGw/SpKKAGeX7/pTx0oooAKKKKACijv0ooA/9k=",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01NHQ0P0E8/image_from_ios.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01NHQ0P0E8-1b7def0a5d",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": true,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DMAl",
+          "elements": []
+        }
+      ],
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1613528324.011800",
+      "client_msg_id": "E541B5E3-78E6-4A4F-B810-8A74F7A49998"
+    },
+    {
+      "client_msg_id": "46257417-7e8d-40bd-8625-24570052d246",
+      "type": "message",
+      "text": ":huaji:有人有兴趣帮忙修改一篇已录用待发的paper么？私我",
+      "user": "U019T22A1JN",
+      "ts": "1613366932.011500",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U019T22A1JN",
+        "ts": "1613367134.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+kuZj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                },
+                {
+                  "type": "text",
+                  "text": "有人有兴趣帮忙修改一篇已录用待发的paper么？私我"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "960d6064-7129-4193-a14b-be4a4ed4716f",
+      "type": "message",
+      "text": "本周日上午 8 时，我们有一次例行的论文讨论活动，讨论的主题是 MIT-6.824 2020 Lec8、Lec9 中的两篇论文 ZooKeeper 和 CRAQ，本周有空参加的同学欢迎 +1 <http://nil.csail.mit.edu/6.824/2020/schedule.html>",
+      "user": "U018WKP8CJK",
+      "ts": "1611908607.003100",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1611908699.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9n73",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "本周日上午 8 时，我们有一次例行的论文讨论活动，讨论的主题是 MIT-6.824 2020 Lec8、Lec9 中的两篇论文 ZooKeeper 和 CRAQ，本周有空参加的同学欢迎 +1 "
+                },
+                {
+                  "type": "link",
+                  "url": "http://nil.csail.mit.edu/6.824/2020/schedule.html"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1611908607.003100",
+      "reply_count": 16,
+      "reply_users_count": 3,
+      "latest_reply": "1612018258.006800",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8",
+        "U019T84PQGK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611798289.001200",
+      "user": "U01A611AJ81",
+      "text": "<@U01A611AJ81> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611709520.001000",
+      "user": "U01KNB3LM0D",
+      "text": "<@U01KNB3LM0D> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611677108.000800",
+      "user": "U01LF900J72",
+      "text": "<@U01LF900J72> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611654873.000600",
+      "user": "U01KALA83DM",
+      "text": "<@U01KALA83DM> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611585102.000400",
+      "user": "U01KRQS3ND8",
+      "text": "<@U01KRQS3ND8> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611579421.000200",
+      "user": "U01KALAHJ0P",
+      "text": "<@U01KALAHJ0P> has joined the channel"
+    },
+    {
+      "client_msg_id": "689b8c8b-e105-4952-afaf-546e21a5c0de",
+      "type": "message",
+      "text": "咱们的论文分享活动下周日重新开始？？？<@U019T84PQGK> <@U019BC1VCM8> <@U0194L0FW5U> <@U019BJ60Q2X>",
+      "user": "U018WKP8CJK",
+      "ts": "1611057919.000700",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1611057974.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "cXpZN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "咱们的论文分享活动下周日重新开始？？？"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019T84PQGK"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019BC1VCM8"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0194L0FW5U"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019BJ60Q2X"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1611057919.000700",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1611143799.001500",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019T84PQGK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1610674238.000200",
+      "user": "U01KD418Y9W",
+      "text": "<@U01KD418Y9W> has joined the channel",
+      "reactions": [
+        {
+          "name": "hj-pants",
+          "users": [
+            "U019BJ60Q2X"
+          ],
+          "count": 1
+        },
+        {
+          "name": "huaji",
+          "users": [
+            "U019T22A1JN"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "cf5bfbe8-92d0-4509-85e1-406922f6582f",
+      "type": "message",
+      "text": "分布式系统已经出分了。。",
+      "user": "U019T84PQGK",
+      "ts": "1609401396.070100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zDJb9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "分布式系统已经出分了。。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "frowning",
+          "users": [
+            "U01BKHW1V7E",
+            "U01C37VFWKA"
+          ],
+          "count": 2
+        },
+        {
+          "name": "fearful",
+          "users": [
+            "U01BARL28RY"
+          ],
+          "count": 1
+        },
+        {
+          "name": "huaji",
+          "users": [
+            "U019BC1VCM8"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "0aa0195a-2962-4398-aedb-93ec54947a9d",
+      "type": "message",
+      "text": "我明天准备上去讲一遍 raft 基础部分，预计 40+ 分钟:huaji:",
+      "user": "U018WKP8CJK",
+      "ts": "1608648820.065600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6Ks",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我明天准备上去讲一遍 raft 基础部分，预计 40+ 分钟"
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1608648820.065600",
+      "reply_count": 14,
+      "reply_users_count": 3,
+      "latest_reply": "1608686005.069700",
+      "reply_users": [
+        "U019T84PQGK",
+        "U018WKP8CJK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "0b27e7a1-4f17-4a3d-8e0b-f46428b1f7d6",
+      "type": "message",
+      "text": "我分布式系统的pj交raft了。lab2的测试能过，但我写的lab3 kvraft有bug",
+      "user": "U019T84PQGK",
+      "ts": "1608643892.062400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CVIgl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我分布式系统的pj交raft了。lab2的测试能过，但我写的lab3 kvraft有bug"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1608643892.062400",
+      "reply_count": 12,
+      "reply_users_count": 4,
+      "latest_reply": "1608648999.066500",
+      "reply_users": [
+        "U019BJ60Q2X",
+        "U018WKP8CJK",
+        "U019T84PQGK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BJ60Q2X",
+            "U018WKP8CJK"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "b288d6fe-cde9-4e48-9243-7fecbac4ee90",
+      "type": "message",
+      "text": "lab2c 确实难调……",
+      "user": "U019BC1VCM8",
+      "ts": "1608566018.059400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kSd",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "lab2c 确实难调……"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "8756c1de-b8d1-465a-adcf-f2be03a4574d",
+      "type": "message",
+      "text": "我100并发跑figure8unreliable2C，一共10k轮，都过了；但20并发跑testrpcbyte2B，append entry会莫名其妙地timeout，然后挂了",
+      "user": "U019T84PQGK",
+      "ts": "1608562531.059000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "EC/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我100并发跑figure8unreliable2C，一共10k轮，都过了；但20并发跑testrpcbyte2B，append entry会莫名其妙地timeout，然后挂了"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1608562531.059000",
+      "reply_count": 7,
+      "reply_users_count": 2,
+      "latest_reply": "1608601722.060800",
+      "reply_users": [
+        "U019T84PQGK",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "adf5c44b-6b1e-4630-9d14-8d2b55f7c6cb",
+      "type": "message",
+      "text": "话说各位对 lab2c 有什么经验么？我这里跑一两轮就会出现 failed to reach agreement，用 time 测了一下显示 CPU time 在 29 秒左右（user）",
+      "user": "U018WKP8CJK",
+      "ts": "1608526904.052400",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1608526921.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ls1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "话说各位对 lab2c 有什么经验么？我这里跑一两轮就会出现 failed to reach agreement，用 time 测了一下显示 CPU time 在 29 秒左右（user）"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1608526904.052400",
+      "reply_count": 25,
+      "reply_users_count": 3,
+      "latest_reply": "1621871671.024000",
+      "reply_users": [
+        "U019T84PQGK",
+        "U018WKP8CJK",
+        "U01A611AJ81"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1608469335.051200",
+      "user": "U01F73964V6",
+      "text": "<@U01F73964V6> has joined the channel"
+    },
+    {
+      "client_msg_id": "c8976ae1-1598-433b-92d2-bf86a504379b",
+      "type": "message",
+      "text": "我lab2B跑到2400轮测试时挂了:tired_face: 另外，我的CPU time很高（15秒的user），文档里要求不能远大于5秒，这个影响lab2C的测试吗？",
+      "user": "U019T84PQGK",
+      "ts": "1608122568.049800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fKwb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我lab2B跑到2400轮测试时挂了"
+                },
+                {
+                  "type": "emoji",
+                  "name": "tired_face"
+                },
+                {
+                  "type": "text",
+                  "text": " 另外，我的CPU time很高（15秒的user），文档里要求不能远大于5秒，这个影响lab2C的测试吗？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1608122568.049800",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1608123898.050700",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019T84PQGK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607759470.047400",
+      "user": "U01G663G3J9",
+      "text": "<@U01G663G3J9> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607214680.047200",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel",
+      "inviter": "U019BC1VCM8"
+    },
+    {
+      "client_msg_id": "300bb5ba-1a22-42b7-ab74-1b0d2e8ab161",
+      "type": "message",
+      "text": "<!channel> 来吧朋友们",
+      "user": "U019BC1VCM8",
+      "ts": "1607212800.047000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xMl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": " 来吧朋友们"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "27b8abb1-d8cd-466f-a528-91e21febd5b9",
+      "type": "message",
+      "text": "虎芷奉 邀请您参加腾讯会议\n会议主题：虎芷奉的快速会议\n会议时间：2020/12/06 07:56-08:56\n\n点击链接直接加入会议：\n<https://meeting.tencent.com/s/iuDmBcu3fzhz>\n\n会议 ID：618 302 459\n\n手机一键拨号入会\n+8675536550000,,618302459#(中国大陆)\n+85230018898,,,2,618302459#(中国香港)\n\n根据您的位置拨号\n<tel:+8675536550000|+8675536550000> 转(中国大陆)\n<tel:+85230018898|+85230018898> 转(中国香港)\n\n与会成员：虎芷奉;",
+      "user": "U019BC1VCM8",
+      "ts": "1607212773.046300",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U019BC1VCM8",
+        "ts": "1607212782.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FDt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "虎芷奉 邀请您参加腾讯会议\n会议主题：虎芷奉的快速会议\n会议时间：2020/12/06 07:56-08:56\n\n点击链接直接加入会议：\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://meeting.tencent.com/s/iuDmBcu3fzhz"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n会议 ID：618 302 459\n\n手机一键拨号入会\n+8675536550000,,618302459#(中国大陆)\n+85230018898,,,2,618302459#(中国香港)\n\n根据您的位置拨号\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+8675536550000",
+                  "text": "+8675536550000"
+                },
+                {
+                  "type": "text",
+                  "text": " 转(中国大陆)\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+85230018898",
+                  "text": "+85230018898"
+                },
+                {
+                  "type": "text",
+                  "text": " 转(中国香港)\n\n与会成员：虎芷奉;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "848c3d0e-964d-4ff8-a689-7038516d28b3",
+      "type": "message",
+      "text": "明天早上八点，大家不见不散，腾讯会议链接我会放到群里",
+      "user": "U019BC1VCM8",
+      "ts": "1607183605.045500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "z6D",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "明天早上八点，大家不见不散，腾讯会议链接我会放到群里"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607183605.045500",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1607194201.046000",
+      "reply_users": [
+        "U0194L0FW5U"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "4524c89d-9e40-4b8c-80ae-1df01126142c",
+      "type": "message",
+      "text": "<@U01G3CW27SR> 欢迎 Jingrong 学长过来指导工作",
+      "user": "U019BC1VCM8",
+      "ts": "1607183031.044800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/klL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01G3CW27SR"
+                },
+                {
+                  "type": "text",
+                  "text": " 欢迎 Jingrong 学长过来指导工作"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607183005.044300",
+      "user": "U01G3CW27SR",
+      "text": "<@U01G3CW27SR> has joined the channel",
+      "inviter": "U019BC1VCM8"
+    },
+    {
+      "client_msg_id": "360950ed-8b38-4246-9032-b7a1f55694d3",
+      "type": "message",
+      "text": "我2b做不完了，等做完了再看回放:tired_face:",
+      "user": "U019T84PQGK",
+      "ts": "1607170761.043700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "EZn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我2b做不完了，等做完了再看回放"
+                },
+                {
+                  "type": "emoji",
+                  "name": "tired_face"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607170761.043700",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1607181480.044000",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "bd529480-1d97-43b7-979e-57e0c4117fed",
+      "type": "message",
+      "text": "大家准备好了吗！",
+      "user": "U019BC1VCM8",
+      "ts": "1607093936.042900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ifv+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "大家准备好了吗！"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U018WKP8CJK",
+            "U0194L0FW5U"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "6611f718-d51c-4636-987b-7bafc49d0ec6",
+      "type": "message",
+      "text": "这周日早上八点",
+      "user": "U019BC1VCM8",
+      "ts": "1607093932.042600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6Yo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这周日早上八点"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "63bdca1f-d4de-4f55-8a8e-9d4707ee3b8a",
+      "type": "message",
+      "text": "下周继续推进课程",
+      "user": "U019BC1VCM8",
+      "ts": "1606722786.042000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ofkH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "下周继续推进课程"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "17a7505c-20eb-4813-b2fe-f9717392cbcc",
+      "type": "message",
+      "text": "然后 raft 就算完了",
+      "user": "U019BC1VCM8",
+      "ts": "1606722779.041700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Knk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "然后 raft 就算完了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "9cb9abf1-c2e9-4c8e-9c2b-e2b28296d242",
+      "type": "message",
+      "text": "我这周会把 lab2c 也搞了",
+      "user": "U019BC1VCM8",
+      "ts": "1606722751.041400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "7H5Pi",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我这周会把 lab2c 也搞了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "806aa09a-631e-43bf-bc18-151126a112c2",
+      "type": "message",
+      "text": "不过大家最好继续把 lab2b 完成",
+      "user": "U019BC1VCM8",
+      "ts": "1606722727.041000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FImq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "不过大家最好继续把 lab2b 完成"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a70fc53d-9461-4fe7-a488-9b7e4702fcc7",
+      "type": "message",
+      "text": "这周日会议我讲 raft 在 tidb 中的应用哈",
+      "user": "U019BC1VCM8",
+      "ts": "1606722708.040500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ht5r+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这周日会议我讲 raft 在 tidb 中的应用哈"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01GEL607R6",
+          "created": 1606617581,
+          "timestamp": 1606617581,
+          "name": "Screenshot from 2020-11-29 10-35-23.png",
+          "title": "Screenshot from 2020-11-29 10-35-23.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U018WKP8CJK",
+          "editable": false,
+          "size": 349991,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01GEL607R6/screenshot_from_2020-11-29_10-35-23.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01GEL607R6/download/screenshot_from_2020-11-29_10-35-23.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01GEL607R6-e8e19e3ea2/screenshot_from_2020-11-29_10-35-23_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01GEL607R6-e8e19e3ea2/screenshot_from_2020-11-29_10-35-23_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01GEL607R6-e8e19e3ea2/screenshot_from_2020-11-29_10-35-23_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 318,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01GEL607R6-e8e19e3ea2/screenshot_from_2020-11-29_10-35-23_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 424,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01GEL607R6-e8e19e3ea2/screenshot_from_2020-11-29_10-35-23_160.png",
+          "original_w": 700,
+          "original_h": 619,
+          "thumb_tiny": "AwAqADDQbJamnPv+tK33v8/4UnB//V/9agBefU/rRz7/AK0n+f8APFGM9v8AP5UALyfX9aVM5Oabx/kf/WpyY3HFACNw5/z/AFpP5f596c2Mnn6803OfX86ADv2/z+NB6f5/xpwb2FG72FADeMdf8/nTk5Y0bvYUqnJPAoAa33j/AJ/rSe3+f51LgelGB6UAR4Pof8/jRg+h/wA/jUlFAEe088H/AD+NOQHJJFOooA//2Q==",
+          "permalink": "https://fducslg.slack.com/files/U018WKP8CJK/F01GEL607R6/screenshot_from_2020-11-29_10-35-23.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01GEL607R6-dc159f2726",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "user": "U018WKP8CJK",
+      "display_as_bot": false,
+      "ts": "1606617585.039300"
+    },
+    {
+      "client_msg_id": "46aac5ca-af22-4afc-9d51-c71b4c06d0d0",
+      "type": "message",
+      "text": "按照这段描述是说加入一个 follower 暂时和外界隔绝开了，这段时间他的 term 疯狂增加（不断 election timeout），当他重新接入外界的时候，他是不能当上 leader 的，并且 leader 也没有办法把自己的 log replicate 到这个新接入的 follower？",
+      "user": "U018WKP8CJK",
+      "ts": "1606617547.039200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "QAJLZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "按照这段描述是说加入一个 follower 暂时和外界隔绝开了，这段时间他的 term 疯狂增加（不断 election timeout），当他重新接入外界的时候，他是不能当上 leader 的，并且 leader 也没有办法把自己的 log replicate 到这个新接入的 follower？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1606617547.039200",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1606617797.039800",
+      "reply_users": [
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01FJNNFPMK",
+          "created": 1606438500,
+          "timestamp": 1606438500,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 242426,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01FJNNFPMK/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01FJNNFPMK/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01FJNNFPMK-b94876cafc/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01FJNNFPMK-b94876cafc/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01FJNNFPMK-b94876cafc/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 197,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01FJNNFPMK-b94876cafc/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 263,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01FJNNFPMK-b94876cafc/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01FJNNFPMK-b94876cafc/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 395,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01FJNNFPMK-b94876cafc/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 438,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01FJNNFPMK-b94876cafc/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 526,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01FJNNFPMK-b94876cafc/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 561,
+          "original_w": 2553,
+          "original_h": 1399,
+          "thumb_tiny": "AwAaADCg/WkpzYzzTeKAClfr+FJTmxnmgBtFHFFACv1pKsYHoKCo9BU8wFelfrU21f7o/KnbR6CjmArUVYKj0FJtX0H5UcwH/9k=",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01FJNNFPMK/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01FJNNFPMK-87604f1ba1",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1606438503.037200"
+    },
+    {
+      "client_msg_id": "b301a24f-b6ed-4837-8c32-4f844773ab66",
+      "type": "message",
+      "text": "请问，下次讨论的内容是“raft 在 tidb 中的应用”还是lab 2B？",
+      "user": "U019T84PQGK",
+      "ts": "1606435450.036900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/NwYE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "请问，下次讨论的内容是“raft 在 tidb 中的应用”还是lab 2B？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1606435450.036900",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1606438497.037000",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "8182ae2d-4cca-43f0-b77e-5a3551e7e0b9",
+      "type": "message",
+      "text": "或者再往后推推，我感觉做 lab 花了比较多时间，还没来得及准备太多内容，贸然讲水平可能不够",
+      "user": "U019BC1VCM8",
+      "ts": "1606411899.036100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3bct",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "或者再往后推推，我感觉做 lab 花了比较多时间，还没来得及准备太多内容，贸然讲水平可能不够"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "89aca965-d0a6-4a61-b111-1d131be3851e",
+      "type": "message",
+      "text": "meeting 改到晚上？",
+      "user": "U019BC1VCM8",
+      "ts": "1606411856.035200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Fl0gE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "meeting 改到晚上？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "7b50f99d-5f55-47ce-b93d-4ff69355084f",
+      "type": "message",
+      "text": "明天早上我估计起不来",
+      "user": "U019BC1VCM8",
+      "ts": "1606411837.034700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZLSg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "明天早上我估计起不来"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "b01cd5b1-b271-4fc1-b7e4-ef91ea127be6",
+      "type": "message",
+      "text": "老天保佑别挂了，万一跑个几百轮挂了，那得调哭了",
+      "user": "U019BC1VCM8",
+      "ts": "1606411075.034300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Z0T",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "老天保佑别挂了，万一跑个几百轮挂了，那得调哭了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "396c6871-3ce5-4989-99e4-ec8d8fd516d5",
+      "type": "message",
+      "text": "45 秒一轮，4 并发，throughput 11 秒一轮，一晚上 8 小时，可以跑 2600 多轮",
+      "user": "U019BC1VCM8",
+      "ts": "1606410927.033600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UPIN2",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "45 秒一轮，4 并发，throughput 11 秒一轮，一晚上 8 小时，可以跑 2600 多轮"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a04924b0-bba8-4526-96f0-cdae388a2ec3",
+      "type": "message",
+      "text": "附赠一个跑 test 的脚本，自动把 log 打到文件里去\n\n```#!/bin/bash\ncnt=0\nwhile [ $? -eq 0 ]; do\n cnt=$((cnt+1))\n echo run round $cnt\n $@ &gt; ${@: -1}-$(printf \"%05d\" $cnt)-$(date +%FT%H-%M-%S.%N).log\ndone```",
+      "user": "U019BC1VCM8",
+      "ts": "1606410851.032700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "z1q1p",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "附赠一个跑 test 的脚本，自动把 log 打到文件里去\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "#!/bin/bash\ncnt=0\nwhile [ $? -eq 0 ]; do\n cnt=$((cnt+1))\n echo run round $cnt\n $@ > ${@: -1}-$(printf \"%05d\" $cnt)-$(date +%FT%H-%M-%S.%N).log\ndone"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "千轮测试跑起来！",
+      "files": [
+        {
+          "id": "F01FMGV11C3",
+          "created": 1606410768,
+          "timestamp": 1606410768,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 378999,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01FMGV11C3/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01FMGV11C3/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMGV11C3-9303b6f4d6/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMGV11C3-9303b6f4d6/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMGV11C3-9303b6f4d6/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 193,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMGV11C3-9303b6f4d6/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 258,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMGV11C3-9303b6f4d6/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMGV11C3-9303b6f4d6/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 387,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMGV11C3-9303b6f4d6/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 430,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMGV11C3-9303b6f4d6/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 516,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMGV11C3-9303b6f4d6/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 550,
+          "original_w": 2538,
+          "original_h": 1363,
+          "thumb_tiny": "AwAZADCl2pppSTTT7mgApSxpKXb70AIST1ooIx3ooAk2j3ppx/k0jdaSgAooooAKKKKAP//Z",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01FMGV11C3/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01FMGV11C3-5f3809124b",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+pxN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "千轮测试跑起来！"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1606410786.032000"
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01FMAS5ASE",
+          "created": 1606410755,
+          "timestamp": 1606410755,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 66894,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01FMAS5ASE/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01FMAS5ASE/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMAS5ASE-ca0cb62053/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMAS5ASE-ca0cb62053/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMAS5ASE-ca0cb62053/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 64,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMAS5ASE-ca0cb62053/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 86,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMAS5ASE-ca0cb62053/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMAS5ASE-ca0cb62053/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 129,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMAS5ASE-ca0cb62053/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 143,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMAS5ASE-ca0cb62053/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 172,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01FMAS5ASE-ca0cb62053/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 183,
+          "original_w": 1202,
+          "original_h": 215,
+          "thumb_tiny": "AwAIADCqQR1BpPwqaX+lQmkndAJ+FG72paYetMB272pppKKAP//Z",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01FMAS5ASE/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01FMAS5ASE-8b2eef8b7a",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1606410759.031600"
+    },
+    {
+      "client_msg_id": "32a60d9a-991f-4cd3-968a-7a514eeb2196",
+      "type": "message",
+      "text": "搞定！",
+      "user": "U019BC1VCM8",
+      "ts": "1606410740.031500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "dUr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "搞定！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "30120e8e-d19e-417a-ae2b-f0eb51d8d178",
+      "type": "message",
+      "text": "2a 一时爽，2b 火葬场",
+      "user": "U019BC1VCM8",
+      "ts": "1606399427.031200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "q9s",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "2a 一时爽，2b 火葬场"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "180fcded-3ce6-40de-80f9-066559051422",
+      "type": "message",
+      "text": "这怎么修啊 orz",
+      "user": "U019BC1VCM8",
+      "ts": "1606399369.030900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Mh7A",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这怎么修啊 orz"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "哭了，2b 跑了 22 秒然后挂了",
+      "files": [
+        {
+          "id": "F01GAP98BT2",
+          "created": 1606399352,
+          "timestamp": 1606399352,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 40122,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01GAP98BT2/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01GAP98BT2/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01GAP98BT2-3c971e5c39/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01GAP98BT2-3c971e5c39/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01GAP98BT2-3c971e5c39/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 40,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01GAP98BT2-3c971e5c39/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 53,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01GAP98BT2-3c971e5c39/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01GAP98BT2-3c971e5c39/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 80,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01GAP98BT2-3c971e5c39/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 89,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01GAP98BT2-3c971e5c39/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 107,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01GAP98BT2-3c971e5c39/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 114,
+          "original_w": 1481,
+          "original_h": 165,
+          "thumb_tiny": "AwAFADCmTyfrSE5oPU/WigBppM0p6fjSUAGaM0UUAf/Z",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01GAP98BT2/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01GAP98BT2-012f335d4a",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wvz8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "哭了，2b 跑了 22 秒然后挂了"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1606399364.030400"
+    },
+    {
+      "client_msg_id": "babca80e-fc9f-4d43-85ee-afe6b1da00bc",
+      "type": "message",
+      "text": "分布式的 PJ 有什么好的 idea 么？",
+      "user": "U018WKP8CJK",
+      "ts": "1606377836.025700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vdlGS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "分布式的 PJ 有什么好的 idea 么？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1606377836.025700",
+      "reply_count": 20,
+      "reply_users_count": 2,
+      "latest_reply": "1606378266.029700",
+      "reply_users": [
+        "U0194L0FW5U",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1606181534.024500",
+      "user": "U01C37VFWKA",
+      "text": "<@U01C37VFWKA> has joined the channel"
+    },
+    {
+      "client_msg_id": "db62440b-cfa9-4a04-a742-9401c49179ab",
+      "type": "message",
+      "text": "<@U018WKP8CJK> <@U019T84PQGK>",
+      "user": "U019BC1VCM8",
+      "ts": "1606003778.023800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VMCzJ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U018WKP8CJK"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019T84PQGK"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "47d698d8-7a36-4dbf-9448-257df5dc0ae7",
+      "type": "message",
+      "text": "来",
+      "user": "U019BC1VCM8",
+      "ts": "1606003692.023500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ypqf",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "来"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "436dbe8b-e434-4783-b55c-3f793826aa5b",
+      "type": "message",
+      "text": "虎芷奉 邀请您参加腾讯会议\n会议主题：虎芷奉的快速会议\n会议时间：2020/11/22 08:07-09:07\n\n点击链接直接加入会议：\n<https://meeting.tencent.com/s/hzNVrOiuu44O>\n\n会议 ID：798 786 061\n\n手机一键拨号入会\n<tel:+8675536550000,,798786061#|+8675536550000,,798786061#> (中国大陆)\n<tel:+85230018898,,,2,798786061#|+85230018898,,,2,798786061#> (中国香港)\n\n根据您的位置拨号\n<tel:+8675536550000|+8675536550000> (中国大陆)\n<tel:+85230018898|+85230018898> (中国香港)",
+      "user": "U019BC1VCM8",
+      "ts": "1606003690.023400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "腾讯会议",
+          "title_link": "https://meeting.tencent.com/s/hzNVrOiuu44O",
+          "text": "基于腾讯21年音视频通讯经验，腾讯会议提供一站式云会议解决方案，高清流畅的会议品质让您随时随地体验沉浸式会议协作。",
+          "fallback": "腾讯会议",
+          "from_url": "https://meeting.tencent.com/s/hzNVrOiuu44O",
+          "service_icon": "https://meeting.tencent.com/favicon.ico",
+          "service_name": "meeting.tencent.com",
+          "id": 1,
+          "original_url": "https://meeting.tencent.com/s/hzNVrOiuu44O"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4Vj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "虎芷奉 邀请您参加腾讯会议\n会议主题：虎芷奉的快速会议\n会议时间：2020/11/22 08:07-09:07\n\n点击链接直接加入会议：\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://meeting.tencent.com/s/hzNVrOiuu44O"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n会议 ID：798 786 061\n\n手机一键拨号入会\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+8675536550000,,798786061#",
+                  "text": "+8675536550000,,798786061#"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国大陆)\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+85230018898,,,2,798786061#",
+                  "text": "+85230018898,,,2,798786061#"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国香港)\n\n根据您的位置拨号\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+8675536550000",
+                  "text": "+8675536550000"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国大陆)\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+85230018898",
+                  "text": "+85230018898"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国香港)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "23415bee-6f79-4fe7-9218-69261ce99ffe",
+      "type": "message",
+      "text": "醒来了醒来了",
+      "user": "U019BC1VCM8",
+      "ts": "1606003608.023300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LXU6d",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "醒来了醒来了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "71853d9b-a26b-4208-bbfd-fe039c85f213",
+      "type": "message",
+      "text": "别骂了别骂了",
+      "user": "U019BC1VCM8",
+      "ts": "1606003604.023100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1v/uU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "别骂了别骂了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "4F42CF37-FD55-4BA2-920F-B33B2BE81210",
+      "type": "message",
+      "text": "我去叫醒 hzf 2333",
+      "user": "U0194L0FW5U",
+      "ts": "1606003349.022900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/q1=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我去叫醒 hzf 2333"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "2573ac73-433a-4f69-8da3-7edc41dca46a",
+      "type": "message",
+      "text": "？？？",
+      "user": "U018WKP8CJK",
+      "ts": "1606003177.022400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "F0i",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "？？？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "3f373958-7ffd-4d4c-9149-50501fba007a",
+      "type": "message",
+      "text": "我的 2A 跑了 2000 次，没看见啥问题:grin:",
+      "user": "U018WKP8CJK",
+      "ts": "1605717683.021600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+XkbQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我的 2A 跑了 2000 次，没看见啥问题"
+                },
+                {
+                  "type": "emoji",
+                  "name": "grin"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U0194L0FW5U"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "9ed1797a-8a04-4c9c-a041-882b7f3547c3",
+      "type": "message",
+      "text": "恩",
+      "user": "U019BC1VCM8",
+      "ts": "1605713323.019600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HS8U",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "恩"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1605713323.019600",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1605713539.021000",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "bf8d4e84-3d85-4641-a987-e0ffc768392e",
+      "type": "message",
+      "text": "这周日讨论之前只需要做完 2A 是么？",
+      "user": "U018WKP8CJK",
+      "ts": "1605713312.019300",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1605713318.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "7J9n",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这周日讨论之前只需要做完 2A 是么？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "这里 Candidate->Follower 的 discovers current leader or new term 中的 new term 是指 candidate 发 requestvote 的时候发现对面的 term 比自己大么？",
+      "files": [
+        {
+          "id": "F01EZTWP56F",
+          "created": 1605682921,
+          "timestamp": 1605682921,
+          "name": "Screenshot from 2020-11-18 15-01-48.png",
+          "title": "Screenshot from 2020-11-18 15-01-48.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U018WKP8CJK",
+          "editable": false,
+          "size": 47191,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01EZTWP56F/screenshot_from_2020-11-18_15-01-48.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01EZTWP56F/download/screenshot_from_2020-11-18_15-01-48.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01EZTWP56F-c746decc9a/screenshot_from_2020-11-18_15-01-48_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01EZTWP56F-c746decc9a/screenshot_from_2020-11-18_15-01-48_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01EZTWP56F-c746decc9a/screenshot_from_2020-11-18_15-01-48_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 146,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01EZTWP56F-c746decc9a/screenshot_from_2020-11-18_15-01-48_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 194,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01EZTWP56F-c746decc9a/screenshot_from_2020-11-18_15-01-48_160.png",
+          "original_w": 509,
+          "original_h": 206,
+          "thumb_tiny": "AwATADDSy2cYFNLMM8cUrgEc8VFsAPDE+lAEhJONvHt0oBO3rknpTWXd8zcfShNq55JzQAoZj9fSnrnHNRiPJzk4qUDAxQAhAPWjaPSlooAQgbcdqbtGT1/OnnpTe5oAcOlFFFAH/9k=",
+          "permalink": "https://fducslg.slack.com/files/U018WKP8CJK/F01EZTWP56F/screenshot_from_2020-11-18_15-01-48.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01EZTWP56F-486b07e570",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "IVa",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这里 Candidate->Follower 的 discovers current leader or new term 中的 new term 是指 candidate 发 requestvote 的时候发现对面的 term 比自己大么？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U018WKP8CJK",
+      "display_as_bot": false,
+      "ts": "1605682990.017500",
+      "thread_ts": "1605682990.017500",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1605713348.019800",
+      "reply_users": [
+        "U019T84PQGK",
+        "U018WKP8CJK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "5bf55fdb-0de9-442c-966d-cfabbe26d00b",
+      "type": "message",
+      "text": "讲的很详细",
+      "user": "U019BC1VCM8",
+      "ts": "1605513315.016200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8KKIQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "讲的很详细"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "180e8cbb-eb9d-4f63-9806-35bfb9b3cdd0",
+      "type": "message",
+      "text": "我主要看了 lease 机制和 quorum 机制",
+      "user": "U019BC1VCM8",
+      "ts": "1605513312.015900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/hBD",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我主要看了 lease 机制和 quorum 机制"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "52e39336-828b-48b0-8ea0-f1a2de8a3b76",
+      "type": "message",
+      "text": "这本书写的特别好~推荐看下",
+      "user": "U019BC1VCM8",
+      "ts": "1605513298.015500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "p1uw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这本书写的特别好~推荐看下"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "8257c63e-0ae9-4e07-afed-e4ff3b6b4094",
+      "type": "message",
+      "text": "<https://lrita.github.io/images/posts/distribution/%E5%88%86%E5%B8%83%E5%BC%8F%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D.pdf>",
+      "user": "U019BC1VCM8",
+      "ts": "1605513284.015200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FdorA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://lrita.github.io/images/posts/distribution/%E5%88%86%E5%B8%83%E5%BC%8F%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BJ60Q2X",
+            "U018WKP8CJK"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "5420F20F-BC42-4D2A-ADCA-FBA3792200E1",
+      "type": "message",
+      "text": "大家明天早上可以吗？如果 lab 都没做的话，再给大家一周时间？",
+      "user": "U019BC1VCM8",
+      "ts": "1605444880.012200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jQY0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "大家明天早上可以吗？如果 lab 都没做的话，再给大家一周时间？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1605444880.012200",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1605447761.014900",
+      "reply_users": [
+        "U019T84PQGK",
+        "U019BC1VCM8",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "7f57197e-8fce-4270-9e56-a0380b30a14b",
+      "type": "message",
+      "text": "我 lab 还差点 :huaji:",
+      "user": "U019BC1VCM8",
+      "ts": "1605366308.006800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SvG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我 lab 还差点 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1605366308.006800",
+      "reply_count": 22,
+      "reply_users_count": 3,
+      "latest_reply": "1605444792.011300",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8",
+        "U019T84PQGK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "c1f7dd41-6b3d-4033-a65d-0c9ed357d660",
+      "type": "message",
+      "text": "我们这次 meeting 放到周一早上 8 点可以吗？",
+      "user": "U019BC1VCM8",
+      "ts": "1605366297.006500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "7fa19",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我们这次 meeting 放到周一早上 8 点可以吗？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "37951017-D164-4456-B29F-F91FC1698D15",
+      "type": "message",
+      "text": "*先围观一下，不一定能跟得上进度QaQ*",
+      "user": "U01BKHW1V7E",
+      "ts": "1605228834.005900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9=We",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "先围观一下，不一定能跟得上进度QaQ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1605228643.005100",
+      "user": "U01BKHW1V7E",
+      "text": "<@U01BKHW1V7E> has joined the channel"
+    },
+    {
+      "type": "message",
+      "text": "据说要稳定跑过 1000 轮才算写对，一次 8s，并行 4，2000 秒跑完",
+      "files": [
+        {
+          "id": "F01EG8Q7UEN",
+          "created": 1605061431,
+          "timestamp": 1605061431,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 323113,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01EG8Q7UEN/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01EG8Q7UEN/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01EG8Q7UEN-fb413538eb/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01EG8Q7UEN-fb413538eb/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01EG8Q7UEN-fb413538eb/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 168,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01EG8Q7UEN-fb413538eb/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 224,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01EG8Q7UEN-fb413538eb/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01EG8Q7UEN-fb413538eb/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 336,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01EG8Q7UEN-fb413538eb/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 374,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01EG8Q7UEN-fb413538eb/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 448,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01EG8Q7UEN-fb413538eb/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 478,
+          "original_w": 2997,
+          "original_h": 1400,
+          "thumb_tiny": "AwAWADCiabTzimGgAp5NMp5xQAw0UGigAyaKKKACjmiigAooooA//9k=",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01EG8Q7UEN/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01EG8Q7UEN-172ae63ee7",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yMkQZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "据说要稳定跑过 1000 轮才算写对，一次 8s，并行 4，2000 秒跑完"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1605061499.003100",
+      "thread_ts": "1605061499.003100",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1605713375.020000",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "aca35519-ebe6-408d-97d7-82c8aa881f03",
+      "type": "message",
+      "text": "刚刚和张奇聊了一下，他表示（引进 MIT-6.824）没戏。他说分布式系统是选修课，不配助教。如果引进 mit-6.824 的课程 lab 的话，肯定需要助教带着",
+      "user": "U018WKP8CJK",
+      "ts": "1605056279.001500",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1605057607.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3hHVG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "刚刚和张奇聊了一下，他表示（引进 MIT-6.824）没戏。他说分布式系统是选修课，不配助教。如果引进 mit-6.824 的课程 lab 的话，肯定需要助教带着"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1605056279.001500",
+      "reply_count": 9,
+      "reply_users_count": 2,
+      "latest_reply": "1605062426.004800",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "1f10faa9-32a8-48ad-ac0b-71f3a8be389b",
+      "type": "message",
+      "text": "<!channel> 这次 meeting 放到周一早上 8 点，大家可以吗？",
+      "user": "U019BC1VCM8",
+      "ts": "1604596777.000600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ln0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": " 这次 meeting 放到周一早上 8 点，大家可以吗？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1604596777.000600",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1604639846.000200",
+      "reply_users": [
+        "U019T84PQGK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "efcacade-2a1f-4085-a515-d79774f1064d",
+      "type": "message",
+      "text": "<http://www.cs.fudan.edu.cn/?p=31675>",
+      "user": "U018WKP8CJK",
+      "ts": "1604370152.000200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "h1elF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "http://www.cs.fudan.edu.cn/?p=31675"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1604370152.000200",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1604370343.002100",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "4568d996-27bf-4965-86e3-08bd985305bf",
+      "type": "message",
+      "text": "<!channel> 明天 meeting 推迟到下周吧，大家可以继续做 lab2",
+      "user": "U019BC1VCM8",
+      "ts": "1604116076.001000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "WVHK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": " 明天 meeting 推迟到下周吧，大家可以继续做 lab2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "E090755F-E655-48CD-BBE1-655D5F0AF6E4",
+      "type": "message",
+      "text": "虎芷奉 邀请您参加腾讯会议\n会议主题：虎芷奉的快速会议\n会议时间：2020/10/25 08:13-09:13\n\n点击链接直接加入会议：\n<https://meeting.tencent.com/s/R9I2pHd1SLPU|https://meeting.tencent.com/s/R9I2pHd1SLPU>\n\n会议 ID：719 171 350\n\n手机一键拨号入会\n+8675536550000,,719171350# (中国大陆)\n+85230018898,,,2,719171350# (中国香港)\n\n根据您的位置拨号\n+8675536550000 (中国大陆)\n+85230018898 (中国香港)\n\n",
+      "user": "U019BC1VCM8",
+      "ts": "1603584833.032800",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "腾讯会议",
+          "title_link": "https://meeting.tencent.com/s/R9I2pHd1SLPU",
+          "text": "基于腾讯21年音视频通讯经验，腾讯会议提供一站式云会议解决方案，高清流畅的会议品质让您随时随地体验沉浸式会议协作。",
+          "fallback": "腾讯会议",
+          "from_url": "https://meeting.tencent.com/s/R9I2pHd1SLPU",
+          "service_icon": "https://meeting.tencent.com/static/favicon.ico",
+          "service_name": "meeting.tencent.com",
+          "id": 1,
+          "original_url": "https://meeting.tencent.com/s/R9I2pHd1SLPU"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sZB50",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "虎芷奉 邀请您参加腾讯会议\n会议主题：虎芷奉的快速会议\n会议时间：2020/10/25 08:13-09:13\n\n点击链接直接加入会议：\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://meeting.tencent.com/s/R9I2pHd1SLPU",
+                  "text": "https://meeting.tencent.com/s/R9I2pHd1SLPU"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n会议 ID：719 171 350\n\n手机一键拨号入会\n+8675536550000,,719171350# (中国大陆)\n+85230018898,,,2,719171350# (中国香港)\n\n根据您的位置拨号\n+8675536550000 (中国大陆)\n+85230018898 (中国香港)\n\n"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "09f0f047-b406-4a3c-9f13-5b37d00f31a4",
+      "type": "message",
+      "text": "稍等一下，Zhifeng 在晾衣服",
+      "user": "U018WKP8CJK",
+      "ts": "1603584141.032600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/ap",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "稍等一下，Zhifeng 在晾衣服"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "dda71a3e-bdfc-4f0c-ab2b-c5492a5d576e",
+      "type": "message",
+      "text": "邯郸路 470 弄 7 号楼 203，8 点到 9 点",
+      "user": "U019BC1VCM8",
+      "ts": "1603545861.026600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "JIUl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "邯郸路 470 弄 7 号楼 203，8 点到 9 点"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603545861.026600",
+      "reply_count": 14,
+      "reply_users_count": 4,
+      "latest_reply": "1603552885.032000",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U019T84PQGK",
+        "U018WKP8CJK",
+        "U01BARL28RY"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "f1f4a465-b125-4417-b01e-9a2961d22439",
+      "type": "message",
+      "text": "来我和 yjy 家",
+      "user": "U019BC1VCM8",
+      "ts": "1603545831.025300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RBi8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "来我和 yjy 家"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603545831.025300",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1603546017.029400",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "125c6cc1-2b2a-4303-8e93-2890e724d38f",
+      "type": "message",
+      "text": "你们方便吗",
+      "user": "U019BC1VCM8",
+      "ts": "1603545822.024900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HAQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "你们方便吗"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "606a717c-281f-480d-9437-0e7d14d5b8dd",
+      "type": "message",
+      "text": "明天早上线下 meet 可以吗",
+      "user": "U019BC1VCM8",
+      "ts": "1603545819.024700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/aPS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "明天早上线下 meet 可以吗"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "7e81f8eb-1a13-47bf-8741-4c92bb6f72a2",
+      "type": "message",
+      "text": "可以算作分布式系统算法的学习指南吧\n<https://alvaro-videla.com/2015/12/learning-about-distributed-systems.html>",
+      "user": "U018WKP8CJK",
+      "ts": "1603541937.024200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ju7",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "可以算作分布式系统算法的学习指南吧\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://alvaro-videla.com/2015/12/learning-about-distributed-systems.html"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603541937.024200",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1603541953.024300",
+      "reply_users": [
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "4B9EA916-25E4-4556-9309-17304E299E82",
+      "type": "message",
+      "text": "第三次介绍 raft 在 tidb 中的应用，一些优化，以及为了支持 tiflash 引入的 raft learner 机制",
+      "user": "U019BC1VCM8",
+      "ts": "1603510492.023700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "E9Q=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "第三次介绍 raft 在 tidb 中的应用，一些优化，以及为了支持 tiflash 引入的 raft learner 机制"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "73A30BB9-D5BB-4C8F-8F36-524055B5DD23",
+      "type": "message",
+      "text": "第二次讲完 paper，成员变更和 log compaction",
+      "user": "U019BC1VCM8",
+      "ts": "1603510451.022400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "7C7hR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "第二次讲完 paper，成员变更和 log compaction"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "73DE6EE5-1D54-49A7-AD33-8EEE16F396AF",
+      "type": "message",
+      "text": "第一次是讲到 section 5，raft basic",
+      "user": "U019BC1VCM8",
+      "ts": "1603510426.021800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ikeUt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "第一次是讲到 section 5，raft basic"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "A38C73D5-E9A4-4A05-8894-03CD9E131DC2",
+      "type": "message",
+      "text": "raft 我会分三次来讲",
+      "user": "U019BC1VCM8",
+      "ts": "1603510408.021200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "mXo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "raft 我会分三次来讲"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "0ED65A34-6B7C-418A-A5ED-BACD5199DEF9",
+      "type": "message",
+      "text": "我问了我们公司专门做 raft 的老哥，太强了，解决了我所有疑问",
+      "user": "U019BC1VCM8",
+      "ts": "1603510023.017800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+ZJZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我问了我们公司专门做 raft 的老哥，太强了，解决了我所有疑问"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1603510023.017800",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1603510222.020600",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01BARL28RY",
+            "U018WKP8CJK"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01CU1EHWQ7",
+          "created": 1603509999,
+          "timestamp": 1603509999,
+          "name": "Image from iOS.png",
+          "title": "Image from iOS",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 722067,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01CU1EHWQ7/image_from_ios.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01CU1EHWQ7/download/image_from_ios.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01CU1EHWQ7-bdd674144d/image_from_ios_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01CU1EHWQ7-bdd674144d/image_from_ios_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01CU1EHWQ7-bdd674144d/image_from_ios_360.png",
+          "thumb_360_w": 202,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01CU1EHWQ7-bdd674144d/image_from_ios_480.png",
+          "thumb_480_w": 270,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01CU1EHWQ7-bdd674144d/image_from_ios_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01CU1EHWQ7-bdd674144d/image_from_ios_720.png",
+          "thumb_720_w": 405,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01CU1EHWQ7-bdd674144d/image_from_ios_800.png",
+          "thumb_800_w": 450,
+          "thumb_800_h": 800,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01CU1EHWQ7-bdd674144d/image_from_ios_960.png",
+          "thumb_960_w": 540,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01CU1EHWQ7-bdd674144d/image_from_ios_1024.png",
+          "thumb_1024_w": 576,
+          "thumb_1024_h": 1024,
+          "image_exif_rotation": 1,
+          "original_w": 750,
+          "original_h": 1334,
+          "thumb_tiny": "AwAwABq+FAOePyoIyRQoIzk55ok3bDsA3dsjpQApxjnpQAMcYqJFZkKyc569s1IFAAA7UALQTgZxmmSkDAOfwpmR/t1LkK4r/MrZRulPX7o4PSomwUbh+nrUq/dHXpTWwIY88anBBJzjgU6NlkXco49xSvF5oxkrg+nWljjKIF3Zx3xTGLgDtRQeMd/pRn2NAH//2Q==",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01CU1EHWQ7/image_from_ios.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01CU1EHWQ7-df30256181",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": true,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ae2XQ",
+          "elements": []
+        }
+      ],
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1603510003.016900",
+      "client_msg_id": "F490C80A-1E9E-44DD-81D5-6A89C2A20DAB"
+    },
+    {
+      "client_msg_id": "F6F94466-6227-4CC1-9FE0-801CAA5D4FF1",
+      "type": "message",
+      "text": "读完 section 5",
+      "user": "U019BC1VCM8",
+      "ts": "1603509995.016700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zHjhF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "读完 section 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "92e8f198-41de-44d2-855b-add534941b4f",
+      "type": "message",
+      "text": "<@U019BC1VCM8> 这周的 Raft 需要读到哪里呀？",
+      "user": "U018WKP8CJK",
+      "ts": "1603465333.016400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MPpVD",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U019BC1VCM8"
+                },
+                {
+                  "type": "text",
+                  "text": " 这周的 Raft 需要读到哪里呀？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "539c9d1f-97ac-4c38-9944-c374d7e9212f",
+      "type": "message",
+      "text": "<@U01D01M9PAN> 新同学你好，欢迎来到 sig-distributed，请问你是对分布式系统感兴趣么？如果有什么想了解的，可以在这个 thread 下一起交流一下。如果能自我介绍一下就更好了",
+      "user": "U018WKP8CJK",
+      "ts": "1603249247.015900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3WULw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01D01M9PAN"
+                },
+                {
+                  "type": "text",
+                  "text": " 新同学你好，欢迎来到 sig-distributed，请问你是对分布式系统感兴趣么？如果有什么想了解的，可以在这个 thread 下一起交流一下。如果能自我介绍一下就更好了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1603241671.014400",
+      "user": "U01D01M9PAN",
+      "text": "<@U01D01M9PAN> has joined the channel"
+    },
+    {
+      "client_msg_id": "a9653179-aa3c-4368-b8ba-3802c2cb5a23",
+      "type": "message",
+      "text": "会提一下 Fault-tolerant VM",
+      "user": "U019BC1VCM8",
+      "ts": "1602993917.014200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CWI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "会提一下 Fault-tolerant VM"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "435a3f4f-4e1e-4c4c-b17f-595c588b3977",
+      "type": "message",
+      "text": "Raft",
+      "user": "U019BC1VCM8",
+      "ts": "1602993908.013900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "t9wrc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Raft"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "29f12c5e-85aa-4276-8f2b-5e497b023f95",
+      "type": "message",
+      "text": "请问下周要讲的论文是Fault-tolerant VM还是Raft(extended)？",
+      "user": "U019T84PQGK",
+      "ts": "1602993899.013700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sAJHt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "请问下周要讲的论文是Fault-tolerant VM还是Raft(extended)？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "4570BB36-F8F2-4676-AD1C-4C46F49D441D",
+      "type": "message",
+      "text": "我错了_(ÒωÓ๑ゝ∠)_",
+      "user": "U0194L0FW5U",
+      "ts": "1602991956.012900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kyMe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我错了_(ÒωÓ๑ゝ∠)_"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "6aa09746-1055-4e95-97f3-e56a043b3b09",
+      "type": "message",
+      "text": "可以啊",
+      "user": "U019BC1VCM8",
+      "ts": "1602990638.012500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LoQG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "可以啊"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "2fa81ef9-31b4-4558-a744-1b9f786c2807",
+      "type": "message",
+      "text": "今天的录屏，我可以截一小段放到B站上做宣传吗",
+      "user": "U019T84PQGK",
+      "ts": "1602990623.012300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Su4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "今天的录屏，我可以截一小段放到B站上做宣传吗"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "d6f5e5a9-a2cd-4e71-a15e-3537bd04f949",
+      "type": "message",
+      "text": "您有一份文件待查收！即刻点击链接获取文件：<https://cowtransfer.com/s/ddb9520c92b948> 或进入 <http://cowtransfer.com|cowtransfer.com> 获取，在首页输入取件码：8gqgdx（24小时内有效）",
+      "user": "U019T84PQGK",
+      "ts": "1602985991.011300",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "奶牛快传 | 传文件 文件下载不限速",
+          "title_link": "https://cowtransfer.com/s/ddb9520c92b948",
+          "text": "无需登录即可完成文件上传下载，上传下载永不限速，3T超大容量网盘空间，最大可支持20GB大文件传输，奶牛已经成为全中国最快的文件传输服务，或者说甚至是全世界。",
+          "fallback": "奶牛快传 | 传文件 文件下载不限速",
+          "from_url": "https://cowtransfer.com/s/ddb9520c92b948",
+          "service_icon": "https://background.cowtransfer.com/apple-icon-57x57.png",
+          "service_name": "cowtransfer.com",
+          "id": 1,
+          "original_url": "https://cowtransfer.com/s/ddb9520c92b948"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "20r9C",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "您有一份文件待查收！即刻点击链接获取文件："
+                },
+                {
+                  "type": "link",
+                  "url": "https://cowtransfer.com/s/ddb9520c92b948"
+                },
+                {
+                  "type": "text",
+                  "text": " 或进入 "
+                },
+                {
+                  "type": "link",
+                  "url": "http://cowtransfer.com",
+                  "text": "cowtransfer.com"
+                },
+                {
+                  "type": "text",
+                  "text": " 获取，在首页输入取件码：8gqgdx（24小时内有效）"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602985991.011300",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1602986322.011500",
+      "reply_users": [
+        "U019T84PQGK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "957fe61d-9f87-448c-8d47-5e5952e854fd",
+      "type": "message",
+      "text": "<https://cowtransfer.com/> <@U019T84PQGK> 用这个网站",
+      "user": "U018WKP8CJK",
+      "ts": "1602984863.010300",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1602984877.000000"
+      },
+      "attachments": [
+        {
+          "title": "奶牛快传 | 传文件 文件下载不限速",
+          "title_link": "https://cowtransfer.com/",
+          "text": "无需登录即可完成文件上传下载，上传下载永不限速，3T超大容量网盘空间，最大可支持20GB大文件传输，奶牛已经成为全中国最快的文件传输服务，或者说甚至是全世界。",
+          "fallback": "奶牛快传 | 传文件 文件下载不限速",
+          "from_url": "https://cowtransfer.com/",
+          "service_icon": "https://background.cowtransfer.com/apple-icon-57x57.png",
+          "service_name": "cowtransfer.com",
+          "id": 1,
+          "original_url": "https://cowtransfer.com/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "gLHWk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://cowtransfer.com/"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019T84PQGK"
+                },
+                {
+                  "type": "text",
+                  "text": " 用这个网站"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602984863.010300",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1602985228.011000",
+      "reply_users": [
+        "U019T84PQGK",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "2fa3d404-03e3-464a-ac48-da29fa7a7c22",
+      "type": "message",
+      "text": "<@U019BC1VCM8> <@U0194L0FW5U> <@U019T84PQGK> 下一周谁来讲？",
+      "user": "U018WKP8CJK",
+      "ts": "1602984080.010100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DR0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U019BC1VCM8"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0194L0FW5U"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019T84PQGK"
+                },
+                {
+                  "type": "text",
+                  "text": " 下一周谁来讲？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "d7d95e00-904c-4e94-81ed-aec12036e6a7",
+      "type": "message",
+      "text": "A work about reader-writer lock done by IPADS <https://www.usenix.org/system/files/conference/atc14/atc14-paper-liu.pdf>",
+      "user": "U018WKP8CJK",
+      "ts": "1602982305.009700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Prt6h",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "A work about reader-writer lock done by IPADS "
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.usenix.org/system/files/conference/atc14/atc14-paper-liu.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "cda35318-8313-4a3b-b8a7-79566bf95fd1",
+      "type": "message",
+      "text": "tanyifan 邀请您加入【tanyifan的个人会议室】\n（仅1.3.5及以上版本才可加入该会议）\n\n点击链接直接加入会议：\n<https://meeting.tencent.com/p/4698692240>\n\n会议 ID：<tel:4698692240|469 869 2240>\n会议密码：815979\n\n手机一键拨号入会\n<tel:+8675536550000,,4698692240#|+8675536550000,,4698692240#> (中国大陆)\n<tel:+85230018898,,,2,4698692240#|+85230018898,,,2,4698692240#> (中国香港)\n\n根据您的位置拨号\n<tel:+8675536550000|+8675536550000> (中国大陆)\n<tel:+85230018898|+85230018898> (中国香港)\n\n最新版本下载地址：\n<https://meeting.tencent.com/download.html>",
+      "user": "U019T84PQGK",
+      "ts": "1602978564.008700",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "腾讯会议",
+          "title_link": "https://meeting.tencent.com/p/4698692240",
+          "text": "基于腾讯21年音视频通讯经验，腾讯会议提供一站式云会议解决方案，高清流畅的会议品质让您随时随地体验沉浸式会议协作。",
+          "fallback": "腾讯会议",
+          "from_url": "https://meeting.tencent.com/p/4698692240",
+          "service_icon": "https://meeting.tencent.com/static/favicon.ico",
+          "service_name": "meeting.tencent.com",
+          "id": 1,
+          "original_url": "https://meeting.tencent.com/p/4698692240"
+        },
+        {
+          "title": "云会议下载_视频会议下载_远程会议下载_语音会议下载-腾讯会议",
+          "title_link": "https://meeting.tencent.com/download.html",
+          "text": "腾讯会议是一款基于腾讯20多年音视频通讯经验积累的高清流畅、便捷易用、安全可靠的多人远程音视频会议产品。目前有多种版本腾讯会议供您下载安装：MacOS、Windows、iOS、Android、微信小程序。",
+          "fallback": "云会议下载_视频会议下载_远程会议下载_语音会议下载-腾讯会议",
+          "from_url": "https://meeting.tencent.com/download.html",
+          "service_icon": "https://meeting.tencent.com/static/favicon.ico",
+          "service_name": "meeting.tencent.com",
+          "id": 2,
+          "original_url": "https://meeting.tencent.com/download.html"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RCp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "tanyifan 邀请您加入【tanyifan的个人会议室】\n（仅1.3.5及以上版本才可加入该会议）\n\n点击链接直接加入会议：\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://meeting.tencent.com/p/4698692240"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n会议 ID："
+                },
+                {
+                  "type": "link",
+                  "url": "tel:4698692240",
+                  "text": "469 869 2240"
+                },
+                {
+                  "type": "text",
+                  "text": "\n会议密码：815979\n\n手机一键拨号入会\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+8675536550000,,4698692240#",
+                  "text": "+8675536550000,,4698692240#"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国大陆)\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+85230018898,,,2,4698692240#",
+                  "text": "+85230018898,,,2,4698692240#"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国香港)\n\n根据您的位置拨号\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+8675536550000",
+                  "text": "+8675536550000"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国大陆)\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+85230018898",
+                  "text": "+85230018898"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国香港)\n\n最新版本下载地址：\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://meeting.tencent.com/download.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "34bc1adf-8e17-4ee3-9461-d0c5b4311df8",
+      "type": "message",
+      "text": "明天参加的大佬们点一个+1",
+      "user": "U019T84PQGK",
+      "ts": "1602948246.007800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zmbg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "明天参加的大佬们点一个+1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602948246.007800",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1602949490.008300",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U0194L0FW5U"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U018WKP8CJK",
+            "U0194L0FW5U",
+            "U019BC1VCM8"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "client_msg_id": "27ca8e85-686b-46ff-8036-b0b78612e54a",
+      "type": "message",
+      "text": "（插播一下）这两天事情有点多，时间安排有点失误，来不及看完到这周为止的课程和论文:disappointed_relieved:，等我一周时间尽力追一下进度，下周追完且时间排得开的话就来参与讨论:sob:",
+      "user": "U01BARL28RY",
+      "ts": "1602948194.007100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Oids",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "（插播一下）这两天事情有点多，时间安排有点失误，来不及看完到这周为止的课程和论文"
+                },
+                {
+                  "type": "emoji",
+                  "name": "disappointed_relieved"
+                },
+                {
+                  "type": "text",
+                  "text": "，等我一周时间尽力追一下进度，下周追完且时间排得开的话就来参与讨论"
+                },
+                {
+                  "type": "emoji",
+                  "name": "sob"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "09a25aef-21d7-49de-a59e-7f7b7a514c27",
+      "type": "message",
+      "text": "（插播一下）非常抱歉，由于最近有点肝不过来了，我可能参与不了分布式课程的讨论了 :huaji:",
+      "user": "U019BJ60Q2X",
+      "ts": "1602929836.004700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fsoR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "（插播一下）非常抱歉，由于最近有点肝不过来了，我可能参与不了分布式课程的讨论了 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "4b533374-d477-4222-9f97-23256e84f6cd",
+      "type": "message",
+      "text": "<https://zhuanlan.zhihu.com/p/105907157>",
+      "user": "U018WKP8CJK",
+      "ts": "1602929658.003800",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "知乎专栏",
+          "title": "简单聊聊对 CAP 的理解",
+          "title_link": "https://zhuanlan.zhihu.com/p/105907157",
+          "text": "小引曾经在一个面试中让谈谈对 CAP 的理解，当时凭着准备面试时谷歌到的N手资料，类似于小学生背书一样，生挤出只言片语。面试官无奈笑笑，简练的概括出他想要听到的要点，听的我心下惭愧。面试自然是挂了，后来工…",
+          "fallback": "知乎专栏: 简单聊聊对 CAP 的理解",
+          "image_url": "https://pic4.zhimg.com/v2-679c1322ba414ff7cd2a3d0f799e602f_720w.jpg?source=172ae18b",
+          "from_url": "https://zhuanlan.zhihu.com/p/105907157",
+          "image_width": 486,
+          "image_height": 250,
+          "image_bytes": 40793,
+          "service_icon": "https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.67c7b278.png",
+          "id": 1,
+          "original_url": "https://zhuanlan.zhihu.com/p/105907157"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "cLYR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://zhuanlan.zhihu.com/p/105907157"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602929658.003800",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1602930283.004800",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "743a537d-d120-4948-85b6-707fb0bf9e27",
+      "type": "message",
+      "text": "明天讨论的主题是Google File System，早上8点开始。我讲的内容在<https://www.notion.so/581b58f4f8dd434e87e5f2821aee0f1f>上（还没写完），大家可以先浏览一下",
+      "user": "U019T84PQGK",
+      "ts": "1602925761.001800",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U019T84PQGK",
+        "ts": "1602925777.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Jia",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "明天讨论的主题是Google File System，早上8点开始。我讲的内容在"
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.notion.so/581b58f4f8dd434e87e5f2821aee0f1f"
+                },
+                {
+                  "type": "text",
+                  "text": "上（还没写完），大家可以先浏览一下"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "89caf342-2c06-4716-972b-558d2d4e21e2",
+      "type": "message",
+      "text": "大佬们带带我:disappointed_relieved:",
+      "user": "U01BARL28RY",
+      "ts": "1602480871.007800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MAa3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "大佬们带带我"
+                },
+                {
+                  "type": "emoji",
+                  "name": "disappointed_relieved"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602480871.007800",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1602489637.009200",
+      "reply_users": [
+        "U019T84PQGK",
+        "U01BARL28RY",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1602480841.007400",
+      "user": "U01BARL28RY",
+      "text": "<@U01BARL28RY> has joined the channel"
+    },
+    {
+      "client_msg_id": "4640e1e5-12cb-4aa9-8b93-30b25e2fad50",
+      "type": "message",
+      "text": "我要去浙江 orz",
+      "user": "U019BC1VCM8",
+      "ts": "1602419615.006800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "dXd",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我要去浙江 orz"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "54a093f2-7ddc-4fc6-bf9f-91164337be4a",
+      "type": "message",
+      "text": "这周末可能没我了",
+      "user": "U019BC1VCM8",
+      "ts": "1602419610.006600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "59U84",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这周末可能没我了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "thread_broadcast",
+      "text": "<http://现在域名直接是ahacad.top|xn--ahacad-2h6j98rcvbg93dk3fep9bv4i.top>，用户名today，密码 cslg20@nextcloud",
+      "user": "U019BC1VCM8",
+      "ts": "1602418153.005200",
+      "thread_ts": "1602417862.002200",
+      "root": {
+        "client_msg_id": "d8678136-32eb-4a42-8e24-98e09e2d73ad",
+        "type": "message",
+        "text": "<@U019BC1VCM8> 我刚刚重新录了一遍 mapreduce 的内容，分享到哪里呢？",
+        "user": "U018WKP8CJK",
+        "ts": "1602417862.002200",
+        "team": "T019A14BB9T",
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "=sta",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "user",
+                    "user_id": "U019BC1VCM8"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 我刚刚重新录了一遍 mapreduce 的内容，分享到哪里呢？"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "thread_ts": "1602417862.002200",
+        "reply_count": 18,
+        "reply_users_count": 2,
+        "latest_reply": "1602419635.006900",
+        "reply_users": [
+          "U019BC1VCM8",
+          "U018WKP8CJK"
+        ],
+        "is_locked": false,
+        "subscribed": false
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "NICL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "现在域名直接是ahacad.top，用户名today，密码 cslg20@nextcloud"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "client_msg_id": "a789902b-b8c9-403f-86f2-936b3220723a"
+    },
+    {
+      "client_msg_id": "d8678136-32eb-4a42-8e24-98e09e2d73ad",
+      "type": "message",
+      "text": "<@U019BC1VCM8> 我刚刚重新录了一遍 mapreduce 的内容，分享到哪里呢？",
+      "user": "U018WKP8CJK",
+      "ts": "1602417862.002200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "=sta",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U019BC1VCM8"
+                },
+                {
+                  "type": "text",
+                  "text": " 我刚刚重新录了一遍 mapreduce 的内容，分享到哪里呢？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602417862.002200",
+      "reply_count": 18,
+      "reply_users_count": 2,
+      "latest_reply": "1602419635.006900",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "af520368-2561-4b7e-875c-54e70f7715b9",
+      "type": "message",
+      "text": "我讲的时候提到的 MapReduce 的第二篇文章 <https://www2.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf>",
+      "user": "U018WKP8CJK",
+      "ts": "1602381820.001100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "PRvg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我讲的时候提到的 MapReduce 的第二篇文章 "
+                },
+                {
+                  "type": "link",
+                  "url": "https://www2.cs.arizona.edu/~bkmoon/papers/sigmodrec11.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602381820.001100",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1602381885.001400",
+      "reply_users": [
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "f45b3889-2528-4402-8ef2-4176bff8dce4",
+      "type": "message",
+      "text": "二立 邀请您参加腾讯会议\n会议主题：二立的快速会议\n会议时间：2020/10/11 07:40-08:40\n\n点击链接直接加入会议：\n<https://meeting.tencent.com/s/n2feoIzR03TJ>\n\n会议 ID：447 150 394\n\n手机一键拨号入会\n<tel:+8675536550000,,447150394#|+8675536550000,,447150394#> (中国大陆)\n<tel:+85230018898,,,2,447150394#|+85230018898,,,2,447150394#> (中国香港)\n\n根据您的位置拨号\n<tel:+8675536550000|+8675536550000> (中国大陆)\n<tel:+85230018898|+85230018898> (中国香港)",
+      "user": "U018WKP8CJK",
+      "ts": "1602373320.000400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "腾讯会议",
+          "title_link": "https://meeting.tencent.com/s/n2feoIzR03TJ",
+          "text": "基于腾讯21年音视频通讯经验，腾讯会议提供一站式云会议解决方案，高清流畅的会议品质让您随时随地体验沉浸式会议协作。",
+          "fallback": "腾讯会议",
+          "from_url": "https://meeting.tencent.com/s/n2feoIzR03TJ",
+          "service_icon": "https://meeting.tencent.com/static/favicon.ico",
+          "service_name": "meeting.tencent.com",
+          "id": 1,
+          "original_url": "https://meeting.tencent.com/s/n2feoIzR03TJ"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "hE=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "二立 邀请您参加腾讯会议\n会议主题：二立的快速会议\n会议时间：2020/10/11 07:40-08:40\n\n点击链接直接加入会议：\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://meeting.tencent.com/s/n2feoIzR03TJ"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n会议 ID：447 150 394\n\n手机一键拨号入会\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+8675536550000,,447150394#",
+                  "text": "+8675536550000,,447150394#"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国大陆)\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+85230018898,,,2,447150394#",
+                  "text": "+85230018898,,,2,447150394#"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国香港)\n\n根据您的位置拨号\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+8675536550000",
+                  "text": "+8675536550000"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国大陆)\n"
+                },
+                {
+                  "type": "link",
+                  "url": "tel:+85230018898",
+                  "text": "+85230018898"
+                },
+                {
+                  "type": "text",
+                  "text": " (中国香港)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a8419f4c-b8b3-488c-a342-1d027eb93f77",
+      "type": "message",
+      "text": "诶，今天的 meeting 大概在讲完 MapReduce 后，应该只会讲一点 FP 了，rpc 相关的内容还没有准备好，我先睡了，期待与各位的 meeting",
+      "user": "U018WKP8CJK",
+      "ts": "1602354560.001200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "P8qkr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "诶，今天的 meeting 大概在讲完 MapReduce 后，应该只会讲一点 FP 了，rpc 相关的内容还没有准备好，我先睡了，期待与各位的 meeting"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602354560.001200",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1602354604.001400",
+      "reply_users": [
+        "U018WKP8CJK"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "huaji",
+          "users": [
+            "U018WKP8CJK"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "14fba83e-acac-404d-8318-837db9ae27e7",
+      "type": "message",
+      "text": "MapReduce论文内容好多啊",
+      "user": "U019T84PQGK",
+      "ts": "1602341540.003900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MJ0GW",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "MapReduce论文内容好多啊"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602341540.003900",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1602342003.004700",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019T84PQGK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "88a074c0-01fe-4238-833a-976cfbd11e2e",
+      "type": "message",
+      "text": "<!channel>想确认一下明天上午 8 点大家都会参加 meeting 么？以及 meeting 的前置任务进行到哪一步了？如果明天不参加，请在 thread 下扣 0，如果明天会参加，但预计明天 meeting 前仅能看完课程视频的扣 1，MapReduce 论文读完的扣 2",
+      "user": "U018WKP8CJK",
+      "ts": "1602299305.002200",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1602299593.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Lgw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": "想确认一下明天上午 8 点大家都会参加 meeting 么？以及 meeting 的前置任务进行到哪一步了？如果明天不参加，请在 thread 下扣 0，如果明天会参加，但预计明天 meeting 前仅能看完课程视频的扣 1，MapReduce 论文读完的扣 2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602299305.002200",
+      "reply_count": 5,
+      "reply_users_count": 4,
+      "latest_reply": "1602303504.003400",
+      "reply_users": [
+        "U019T84PQGK",
+        "U0194L0FW5U",
+        "U018WKP8CJK",
+        "U019BJ60Q2X"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "88d8a245-89e8-4043-ac02-013207921691",
+      "type": "message",
+      "text": "<@U019BC1VCM8> 我把洪嵚拉进来了，你 notion 邀请一下他",
+      "user": "U018WKP8CJK",
+      "ts": "1602060222.008300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "NuKep",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U019BC1VCM8"
+                },
+                {
+                  "type": "text",
+                  "text": " 我把洪嵚拉进来了，你 notion 邀请一下他"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602060222.008300",
+      "reply_count": 6,
+      "reply_users_count": 4,
+      "latest_reply": "1602130334.000900",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BJ60Q2X",
+        "U0194L0FW5U",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1602060106.007700",
+      "user": "U019BJ60Q2X",
+      "text": "<@U019BJ60Q2X> has joined the channel"
+    },
+    {
+      "client_msg_id": "1911418a-572f-48ac-99f5-54c6c2db2c5e",
+      "type": "message",
+      "text": "<@U0194L0FW5U> <@U019T84PQGK> <@U019BC1VCM8> 我们把每周 meeting 的时间定在每周日上午 8：00 可以么？同意的 +1，有事的请给一个其他时间",
+      "user": "U018WKP8CJK",
+      "ts": "1602047336.006800",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1602047368.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kjcrl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0194L0FW5U"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019T84PQGK"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U019BC1VCM8"
+                },
+                {
+                  "type": "text",
+                  "text": " 我们把每周 meeting 的时间定在每周日上午 8：00 可以么？同意的 +1，有事的请给一个其他时间"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019T84PQGK",
+            "U019BC1VCM8",
+            "U018WKP8CJK",
+            "U0194L0FW5U"
+          ],
+          "count": 4
+        }
+      ]
+    },
+    {
+      "client_msg_id": "2e7b22be-afd3-47cc-ae1d-fc5893067bb4",
+      "type": "message",
+      "text": "May I ask, whether is this channel about operating system (MIT 6.828) or distributed system (MIT 6.824)?",
+      "user": "U019T84PQGK",
+      "ts": "1602038021.001500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kae7C",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "May I ask, whether is this channel about operating system (MIT 6.828) or distributed system (MIT 6.824)?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1602038021.001500",
+      "reply_count": 13,
+      "reply_users_count": 3,
+      "latest_reply": "1602043865.005700",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019T84PQGK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1602037540.000200",
+      "user": "U019T84PQGK",
+      "text": "<@U019T84PQGK> has joined the channel"
+    },
+    {
+      "client_msg_id": "de0fdc05-f531-4432-be4e-71fcca72eff5",
+      "type": "message",
+      "text": "在这个 thread 下讨论一下第一周的讨论时间",
+      "user": "U018WKP8CJK",
+      "ts": "1601882257.009600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "E9Eud",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "在这个 thread 下讨论一下第一周的讨论时间"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1601882257.009600",
+      "reply_count": 10,
+      "reply_users_count": 3,
+      "latest_reply": "1602046692.005900",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8",
+        "U019T84PQGK"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "0afc4799-b66e-48ab-972d-b44354e7feb7",
+      "type": "message",
+      "text": "<http://www.notion.so/MIT-6-824-Distributed-Systems-eada51594df24e2c9246b88f45471dd1|www.notion.so/MIT-6-824-Distributed-Systems-eada51594df24e2c9246b88f45471dd1>",
+      "user": "U018WKP8CJK",
+      "ts": "1601881477.001100",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U018WKP8CJK",
+        "ts": "1602038847.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wyPX8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "http://www.notion.so/MIT-6-824-Distributed-Systems-eada51594df24e2c9246b88f45471dd1",
+                  "text": "www.notion.so/MIT-6-824-Distributed-Systems-eada51594df24e2c9246b88f45471dd1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1601881477.001100",
+      "reply_count": 38,
+      "reply_users_count": 2,
+      "latest_reply": "1601882213.008800",
+      "reply_users": [
+        "U018WKP8CJK",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "dd12ed39-b7f0-4ac0-b10d-e58603eeddb9",
+      "type": "message",
+      "text": ":+1:",
+      "user": "U019BC1VCM8",
+      "ts": "1601879782.000800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DtH/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "+1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1601878880.000600",
+      "user": "U0194L0FW5U",
+      "text": "<@U0194L0FW5U> has joined the channel",
+      "inviter": "U018WKP8CJK"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1601878880.000400",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> has joined the channel",
+      "inviter": "U018WKP8CJK"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1601878866.000200",
+      "user": "U018WKP8CJK",
+      "text": "<@U018WKP8CJK> has joined the channel"
+    }
+  ]
+}

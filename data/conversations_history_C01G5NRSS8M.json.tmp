@@ -1,0 +1,1045 @@
+{
+  "channel": "C01G5NRSS8M",
+  "messages": [
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617619940.000200",
+      "user": "U01TZBL3PH6",
+      "text": "<@U01TZBL3PH6> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617163912.000200",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617032309.000600",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617014139.000200",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615435563.021300",
+      "user": "U01LF90L8P2",
+      "text": "<@U01LF90L8P2> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615435563.021100",
+      "user": "U01LF90L8P2",
+      "text": "<@U01LF90L8P2> has joined the channel"
+    },
+    {
+      "client_msg_id": "2E0F01D6-91F0-48BE-BB28-40AC8355D02A",
+      "type": "message",
+      "text": "所以有非常多骚操作",
+      "user": "U019BC1VCM8",
+      "ts": "1615379037.015000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "irHmd",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "所以有非常多骚操作"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "B9119ECC-4B1B-4938-9C9A-A2EACBBC65C4",
+      "type": "message",
+      "text": "可以跑在浏览器里面",
+      "user": "U019BC1VCM8",
+      "ts": "1615379029.014700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xD+Ra",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "可以跑在浏览器里面"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "FBC45A97-AE92-4EF4-BC5F-216DF9D39F64",
+      "type": "message",
+      "text": "纯 js 实现的 git",
+      "user": "U019BC1VCM8",
+      "ts": "1615379021.014400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ja4f",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "纯 js 实现的 git"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "25B7F65E-AE1F-4D45-A56E-12A21A42CB4E",
+      "type": "message",
+      "text": "<@U01B4UX4K8T> 老钟知道这个嘛",
+      "user": "U019BC1VCM8",
+      "ts": "1615379016.014100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Mpvb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01B4UX4K8T"
+                },
+                {
+                  "type": "text",
+                  "text": " 老钟知道这个嘛"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1615379016.014100",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1615388335.020800",
+      "reply_users": [
+        "U01B4UX4K8T"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "FF0B3E4B-BB34-4099-A484-4CF7C847678E",
+      "type": "message",
+      "text": "然后到时候可以用 isomorphic-git 来拉 contributor 的信息",
+      "user": "U019BC1VCM8",
+      "ts": "1615379002.013700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kMf",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "然后到时候可以用 isomorphic-git 来拉 contributor 的信息"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "08B8C2EF-688E-4927-B45E-1D3A0103D81D",
+      "type": "message",
+      "text": "感觉体验更好一些？",
+      "user": "U019BC1VCM8",
+      "ts": "1615378973.012500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "PhZCq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "感觉体验更好一些？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "2BE2B0F7-A20E-44F9-AD38-4C7049262811",
+      "type": "message",
+      "text": "都挺不错的",
+      "user": "U019BC1VCM8",
+      "ts": "1615378944.011300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ugn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "都挺不错的"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "D883FCFC-C834-42CA-912B-FE405F380CD3",
+      "type": "message",
+      "text": "感觉 nextjs 或者 gatsby ",
+      "user": "U019BC1VCM8",
+      "ts": "1615378935.010600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "hFhBm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "感觉 nextjs 或者 gatsby "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "347FD0E4-D86A-42FF-A534-57C12A24B7FC",
+      "type": "message",
+      "text": "我们可以换底下的框架",
+      "user": "U019BC1VCM8",
+      "ts": "1615378923.009900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LMh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我们可以换底下的框架"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "77777F91-3308-4B64-80CC-EFB022DF9409",
+      "type": "message",
+      "text": "<@U01F73964V6> 这个其实如果不是很好修也没关系",
+      "user": "U019BC1VCM8",
+      "ts": "1615378907.009400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RPn5",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01F73964V6"
+                },
+                {
+                  "type": "text",
+                  "text": " 这个其实如果不是很好修也没关系"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1615378907.009400",
+      "reply_count": 27,
+      "reply_users_count": 2,
+      "latest_reply": "1615381636.020500",
+      "reply_users": [
+        "U01F73964V6",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "361828e7-8078-4497-a3f9-84a9678fcc47",
+      "type": "message",
+      "text": "有同学想帮忙修一下吗？",
+      "user": "U019BC1VCM8",
+      "ts": "1615258448.002300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YoD9E",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "有同学想帮忙修一下吗？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "这个本页贡献者是个 bug",
+      "files": [
+        {
+          "id": "F01QH9E4W77",
+          "created": 1615258435,
+          "timestamp": 1615258435,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 25563,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01QH9E4W77/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01QH9E4W77/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01QH9E4W77-9fa88ce40f/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01QH9E4W77-9fa88ce40f/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01QH9E4W77-9fa88ce40f/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 226,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01QH9E4W77-9fa88ce40f/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 301,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01QH9E4W77-9fa88ce40f/image_160.png",
+          "original_w": 718,
+          "original_h": 450,
+          "thumb_tiny": "AwAeADDT7cUmT6UvOKTn2oATLelGW9KdRQA0FsjI4p1FFAAenBxSKevINLTecnn9KAHUUDpzRQAUUUUAf//Z",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01QH9E4W77/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01QH9E4W77-d35d5b5f2a",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rGxl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这个本页贡献者是个 bug"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1615258441.001700",
+      "thread_ts": "1615258441.001700",
+      "reply_count": 19,
+      "reply_users_count": 2,
+      "latest_reply": "1615365614.008800",
+      "reply_users": [
+        "U01F73964V6",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "d6115245-509a-4384-8b7d-0fcdbafed9ca",
+      "type": "message",
+      "text": "<https://cslg.info/blog/2021-03-07-fdxk-env-config/>",
+      "user": "U019BC1VCM8",
+      "ts": "1615258429.001400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "fdxk 后端开发环境配置 - FDUCSLG",
+          "title_link": "https://cslg.info/blog/2021-03-07-fdxk-env-config/",
+          "text": "技术分享、讨论与学习",
+          "fallback": "fdxk 后端开发环境配置 - FDUCSLG",
+          "from_url": "https://cslg.info/blog/2021-03-07-fdxk-env-config/",
+          "service_icon": "https://cslg.info/static/assets/logo.jpg",
+          "service_name": "cslg.info",
+          "id": 1,
+          "original_url": "https://cslg.info/blog/2021-03-07-fdxk-env-config/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Xk7E=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://cslg.info/blog/2021-03-07-fdxk-env-config/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "9b91a4e5-ec77-471f-a7cb-bc56d8df515c",
+      "type": "message",
+      "text": "另外，<@U018WKP8CJK> 也看一眼，给点建议吧",
+      "user": "U019BC1VCM8",
+      "ts": "1615171440.001200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aL6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "另外，"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U018WKP8CJK"
+                },
+                {
+                  "type": "text",
+                  "text": " 也看一眼，给点建议吧"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "9898ad7a-7b05-420a-9956-87f3174327e2",
+      "type": "message",
+      "text": "<@U01BUUXU524> 你的 PR 我提了些 comment <https://github.com/FDUCSLG/fducslg/pull/6#pullrequestreview-605925244> address 一下吧~",
+      "user": "U019BC1VCM8",
+      "ts": "1615171424.000700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FE6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01BUUXU524"
+                },
+                {
+                  "type": "text",
+                  "text": " 你的 PR 我提了些 comment "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/FDUCSLG/fducslg/pull/6#pullrequestreview-605925244"
+                },
+                {
+                  "type": "text",
+                  "text": " address 一下吧~"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "b28a7070-dd42-4f3c-b19d-2c21f1ed7a09",
+      "type": "message",
+      "text": "我感觉我们是不是也可以把周会内容放到周报里面，如\n1. 周五的周会内容提要\n2. 周会之后的总结\n只要提 PR 改改就行",
+      "user": "U019BC1VCM8",
+      "ts": "1612714710.004300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "EBt7b",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我感觉我们是不是也可以把周会内容放到周报里面，如\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "周五的周会内容提要"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "周会之后的总结"
+                    }
+                  ]
+                }
+              ],
+              "style": "ordered",
+              "indent": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "只要提 PR 改改就行"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1612714568.003400",
+      "user": "U01LF90AVL0",
+      "text": "<@U01LF90AVL0> has joined the channel"
+    },
+    {
+      "client_msg_id": "f41089d4-d5ad-4272-92f7-f0634676225f",
+      "type": "message",
+      "text": "（有人想来点 LGTM 吗，没人我待会直接合了（逃",
+      "user": "U019BC1VCM8",
+      "ts": "1612678736.003200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "bFw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "（有人想来点 LGTM 吗，没人我待会直接合了（逃"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "c1619cf3-29e4-4f4b-89b8-b0f5e4ad907d",
+      "type": "message",
+      "text": "这个是 PR",
+      "user": "U019BC1VCM8",
+      "ts": "1612678714.002700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "48R",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "这个是 PR"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "f6992c6e-f45f-497c-9dbe-f50005645556",
+      "type": "message",
+      "text": "把我之前的文章转载到 cslg 博客上了",
+      "user": "U019BC1VCM8",
+      "ts": "1612678712.002400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MXNH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "把我之前的文章转载到 cslg 博客上了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "f2869e29-8cd1-4ebe-9ad6-86161e6cd99f",
+      "type": "message",
+      "text": "<https://github.com/FDUCSLG/fducslg/pull/5>",
+      "user": "U019BC1VCM8",
+      "ts": "1612678681.001800",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "author_name": "ichn-hu",
+          "fallback": "[FDUCSLG/fducslg] #5 add new content",
+          "text": "rt",
+          "title": "#5 add new content",
+          "footer": "<https://github.com/FDUCSLG/fducslg|FDUCSLG/fducslg>",
+          "id": 1,
+          "title_link": "https://github.com/FDUCSLG/fducslg/pull/5",
+          "author_link": "https://github.com/ichn-hu",
+          "author_icon": "https://avatars.githubusercontent.com/u/29735669?v=4",
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1612678640,
+          "color": "36a64f",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/FDUCSLG/fducslg/pull/5",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nxN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/FDUCSLG/fducslg/pull/5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611924484.001600",
+      "user": "U01LPR47XQR",
+      "text": "<@U01LPR47XQR> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611585187.001400",
+      "user": "U01KRQS3ND8",
+      "text": "<@U01KRQS3ND8> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611579428.001200",
+      "user": "U01KALAHJ0P",
+      "text": "<@U01KALAHJ0P> has joined the channel"
+    },
+    {
+      "client_msg_id": "698aa0bc-839d-4907-b6df-5d2bfdf6bd61",
+      "type": "message",
+      "text": "大家 review 一下？",
+      "user": "U019BC1VCM8",
+      "ts": "1611485959.000800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Uu4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "大家 review 一下？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "69b5de52-3566-4729-84a7-24c04371d1fa",
+      "type": "message",
+      "text": "申请发表到博客",
+      "user": "U019BC1VCM8",
+      "ts": "1611485952.000600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Dyk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "申请发表到博客"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "f1f4d43e-9913-4f1e-9d63-845f02615f15",
+      "type": "message",
+      "text": "<https://ichn.xyz/blog/how-to-learn-cs>",
+      "user": "U019BC1VCM8",
+      "ts": "1611485949.000300",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "My Notion Blog",
+          "title_link": "https://ichn.xyz/blog/how-to-learn-cs",
+          "text": "An example Next.js site using Notion for the blog",
+          "fallback": "My Notion Blog",
+          "image_url": "https://notion-blog.now.sh/og-image.png",
+          "from_url": "https://ichn.xyz/blog/how-to-learn-cs",
+          "image_width": 438,
+          "image_height": 250,
+          "image_bytes": 55052,
+          "service_icon": "https://ichn.xyz/favicon.ico",
+          "service_name": "ichn.xyz",
+          "id": 1,
+          "original_url": "https://ichn.xyz/blog/how-to-learn-cs"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Lnj1h",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://ichn.xyz/blog/how-to-learn-cs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607820731.005700",
+      "user": "U01F73964V6",
+      "text": "<@U01F73964V6> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607264543.005500",
+      "user": "U019BJ60Q2X",
+      "text": "<@U019BJ60Q2X> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607260564.005300",
+      "user": "U01C60CQD0E",
+      "text": "<@U01C60CQD0E> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607260379.005100",
+      "user": "U0194L0FW5U",
+      "text": "<@U0194L0FW5U> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607219074.004900",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607217732.004700",
+      "user": "U018WKP8CJK",
+      "text": "<@U018WKP8CJK> has joined the channel"
+    },
+    {
+      "client_msg_id": "d5c107ba-54f2-4137-a789-00fd5dc824af",
+      "type": "message",
+      "text": "给大家试试毒，刚刚录制完一期分布式系统的分享",
+      "user": "U019BC1VCM8",
+      "ts": "1607217538.002200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Raa4s",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "给大家试试毒，刚刚录制完一期分布式系统的分享"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01G23VKDLN",
+          "created": 1607217517,
+          "timestamp": 1607217517,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 191999,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01G23VKDLN/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01G23VKDLN/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01G23VKDLN-538e7c57a5/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01G23VKDLN-538e7c57a5/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01G23VKDLN-538e7c57a5/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 190,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01G23VKDLN-538e7c57a5/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 253,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01G23VKDLN-538e7c57a5/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01G23VKDLN-538e7c57a5/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 379,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01G23VKDLN-538e7c57a5/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 421,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01G23VKDLN-538e7c57a5/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 506,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01G23VKDLN-538e7c57a5/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 539,
+          "original_w": 2551,
+          "original_h": 1344,
+          "thumb_tiny": "AwAZADCr58v/AD0b86POm/56t+dR5o4oC5J58v8Az1b86Y1zMD/rW/OkyKYwyc0Bcf8Aapv+ejfnSi6mH8ZP1qLaaNpoC46iiigAooooAKKKKAP/2Q==",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01G23VKDLN/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01G23VKDLN-2a9d139540",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1607217521.001400"
+    },
+    {
+      "client_msg_id": "73dcdf2e-ad1b-4024-b499-e40809d87f33",
+      "type": "message",
+      "text": "有点东西",
+      "user": "U019BC1VCM8",
+      "ts": "1607217506.001200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2de",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "有点东西"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "12c10880-eda1-432b-8dce-96ccfe1292a8",
+      "type": "message",
+      "text": "b 站搞了个线上视频编辑器",
+      "user": "U019BC1VCM8",
+      "ts": "1607217505.000900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ggl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "b 站搞了个线上视频编辑器"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607217505.000900",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1607217669.004400",
+      "reply_users": [
+        "U01B4UX4K8T",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607217500.000700",
+      "user": "U01B4UX4K8T",
+      "text": "<@U01B4UX4K8T> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_purpose",
+      "ts": "1607217411.000300",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> set the channel description: Work group of content",
+      "purpose": "Work group of content"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1607217411.000200",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> has joined the channel"
+    }
+  ]
+}

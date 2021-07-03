@@ -1,0 +1,445 @@
+{
+  "channel": "C01FPFF1CUU",
+  "reply_threads": [
+    {
+      "ts": "1613530669.001800",
+      "channel": "C01FPFF1CUU",
+      "messages": [
+        {
+          "client_msg_id": "BE0F69D9-705B-4096-AD7E-5196B65F22BB",
+          "type": "message",
+          "text": "有话说同学能让我咨询一下yacc怎么消除移进/归约冲突，和其他相关的问题么？（自己在看虎书，做了三个lab，感觉调试有点小难）（请喝奶茶:cup_with_straw:（cc sig-random",
+          "user": "U01F73964V6",
+          "ts": "1613530669.001800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iKS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "有话说同学能让我咨询一下yacc怎么消除移进/归约冲突，和其他相关的问题么？（自己在看虎书，做了三个lab，感觉调试有点小难）（请喝奶茶"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "cup_with_straw"
+                    },
+                    {
+                      "type": "text",
+                      "text": "（cc sig-random"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "reply_count": 10,
+          "reply_users_count": 2,
+          "latest_reply": "1613536284.007400",
+          "reply_users": [
+            "U019BJ60Q2X",
+            "U01F73964V6"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "e75d1361-9803-4edd-b525-7296ac618f26",
+          "type": "message",
+          "text": "当遇到 shift/reduce 冲突时，yacc 默认用 shift",
+          "user": "U019BJ60Q2X",
+          "ts": "1613534899.002300",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ada+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "当遇到 shift/reduce 冲突时，yacc 默认用 shift"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        },
+        {
+          "client_msg_id": "a4fbfda9-2425-485b-a216-c416a88138f3",
+          "type": "message",
+          "text": "至于如何解决书上 3.4 那边有讲，给个优先级，具体我也没用过 :huaji:",
+          "user": "U019BJ60Q2X",
+          "ts": "1613535231.002500",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "C3a2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "至于如何解决书上 3.4 那边有讲，给个优先级，具体我也没用过 "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "huaji"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        },
+        {
+          "client_msg_id": "46d17613-15c4-4ff0-b7f7-bdfe83f707fd",
+          "type": "message",
+          "text": "（奶茶就不用了",
+          "user": "U019BJ60Q2X",
+          "ts": "1613535254.002700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YAOYZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "（奶茶就不用了"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        },
+        {
+          "client_msg_id": "52A6F483-3ED1-4685-A8F0-D1A06B1AEAA2",
+          "type": "message",
+          "text": "这个我晓得，我再去看看书上吧",
+          "user": "U01F73964V6",
+          "ts": "1613535810.003300",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dnqY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "这个我晓得，我再去看看书上吧"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        },
+        {
+          "client_msg_id": "FC14E11D-1D1F-444D-8EC7-DD108990FC27",
+          "type": "message",
+          "text": "我的语法报了九十多个shift reduce error，lab的操作说明里面让我尽量减少",
+          "user": "U01F73964V6",
+          "ts": "1613535981.004700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1hWD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "我的语法报了九十多个shift reduce error，lab的操作说明里面让我尽量减少"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        },
+        {
+          "client_msg_id": "87A9FF0E-276C-4074-80B6-CBA32E4BBD19",
+          "type": "message",
+          "text": "还有另外一个问题就是我不知道怎么debug这个玩意",
+          "user": "U01F73964V6",
+          "ts": "1613535998.005400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Kno",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "还有另外一个问题就是我不知道怎么debug这个玩意"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        },
+        {
+          "client_msg_id": "B87D023A-CBA4-41D5-9EF4-EA66EE23C67B",
+          "type": "message",
+          "text": "它不work，之后直接看生成的代码我又看不太出来",
+          "user": "U01F73964V6",
+          "ts": "1613536017.006100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "U7t3a",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "它不work，之后直接看生成的代码我又看不太出来"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        },
+        {
+          "client_msg_id": "ceda29b6-e66b-4ceb-aabd-808866f8c07b",
+          "type": "message",
+          "text": "状态不多的话，可以试试 `yacc -v` 查看生成的状态转移图 :huaji:",
+          "user": "U019BJ60Q2X",
+          "ts": "1613536103.006400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GZwu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "状态不多的话，可以试试 "
+                    },
+                    {
+                      "type": "text",
+                      "text": "yacc -v",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 查看生成的状态转移图 "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "huaji"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        },
+        {
+          "client_msg_id": "e57d25d8-ccbf-4f8d-860f-7fdc2d6c31ae",
+          "type": "message",
+          "text": "你可以先把一些等效的终结符去掉再调（比如去掉一条规则里面有形式相同的，如二元运算）",
+          "user": "U019BJ60Q2X",
+          "ts": "1613536212.006600",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PxH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "你可以先把一些等效的终结符去掉再调（比如去掉一条规则里面有形式相同的，如二元运算）"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        },
+        {
+          "client_msg_id": "9EC79348-05D8-464F-9A8F-3FD856C8A794",
+          "type": "message",
+          "text": "哦哦哦\n多谢:pray:我下午搞一下",
+          "user": "U01F73964V6",
+          "ts": "1613536284.007400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jctY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "哦哦哦\n多谢"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray"
+                    },
+                    {
+                      "type": "text",
+                      "text": "我下午搞一下"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1613530669.001800",
+          "parent_user_id": "U01F73964V6"
+        }
+      ]
+    },
+    {
+      "ts": "1622122413.000500",
+      "channel": "C01FPFF1CUU",
+      "messages": [
+        {
+          "client_msg_id": "89add41c-c85b-44a6-9ac8-ef841780f73a",
+          "type": "message",
+          "text": "有人上过颜波的编译吗……",
+          "user": "U01BARL28RY",
+          "ts": "1622122413.000500",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0EiH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "有人上过颜波的编译吗……"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1622122413.000500",
+          "reply_count": 2,
+          "reply_users_count": 1,
+          "latest_reply": "1622182229.000800",
+          "reply_users": [
+            "U0194L0FW5U"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "cbc6a1f7-3347-4d32-a885-33e194713c9a",
+          "type": "message",
+          "text": "老师上课比较认真，但是东西讲的很简单，内容也不多，主要是讲编译器前端，说实话内容很少。。。但是他要点名。",
+          "user": "U0194L0FW5U",
+          "ts": "1622182200.000600",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "49Fo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "老师上课比较认真，但是东西讲的很简单，内容也不多，主要是讲编译器前端，说实话内容很少。。。但是他要点名。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1622122413.000500",
+          "parent_user_id": "U01BARL28RY"
+        },
+        {
+          "client_msg_id": "42e07a66-c802-46bf-81c6-54ed2f53237c",
+          "type": "message",
+          "text": "想听课可以去，（想自己学建议另一个老师",
+          "user": "U0194L0FW5U",
+          "ts": "1622182229.000800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "hp9Lj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "想听课可以去，（想自己学建议另一个老师"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1622122413.000500",
+          "parent_user_id": "U01BARL28RY"
+        }
+      ]
+    }
+  ]
+}

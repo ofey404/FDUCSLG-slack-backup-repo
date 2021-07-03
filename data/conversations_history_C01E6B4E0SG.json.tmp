@@ -1,0 +1,573 @@
+{
+  "channel": "C01E6B4E0SG",
+  "messages": [
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1624564996.000200",
+      "user": "U0264MELANN",
+      "text": "<@U0264MELANN> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1618380559.000200",
+      "user": "U01BUUXU524",
+      "text": "<@U01BUUXU524> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617619938.000200",
+      "user": "U01TZBL3PH6",
+      "text": "<@U01TZBL3PH6> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617163868.000200",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617032264.000600",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617013831.000200",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1614600497.000200",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "type": "message",
+      "text": "假如有新来的对密码学感兴趣的同学可以联系我，有对应的比赛可以打:zany_face:",
+      "files": [
+        {
+          "id": "F01PNFY325R",
+          "created": 1614571586,
+          "timestamp": 1614571586,
+          "name": "塞宁crypto讲义.zip",
+          "title": "塞宁crypto讲义.zip",
+          "mimetype": "application/zip",
+          "filetype": "zip",
+          "pretty_type": "Zip",
+          "user": "U01BKHW1V7E",
+          "editable": false,
+          "size": 8092301,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01PNFY325R/______crypto______.zip",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01PNFY325R/download/______crypto______.zip",
+          "permalink": "https://fducslg.slack.com/files/U01BKHW1V7E/F01PNFY325R/______crypto______.zip",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01PNFY325R-5cf154821a",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UBcQ6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "假如有新来的对密码学感兴趣的同学可以联系我，有对应的比赛可以打"
+                },
+                {
+                  "type": "emoji",
+                  "name": "zany_face"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01BKHW1V7E",
+      "display_as_bot": false,
+      "ts": "1614571636.001100"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_name",
+      "ts": "1614570227.000100",
+      "user": "U01BKHW1V7E",
+      "text": "<@U01BKHW1V7E> has renamed the channel from \"principles-of-information-security-2020\" to \"sig-crypto\"",
+      "old_name": "principles-of-information-security-2020",
+      "name": "sig-crypto"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1612365354.000200",
+      "user": "U01KNB3BKEH",
+      "text": "<@U01KNB3BKEH> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1611924490.000200",
+      "user": "U01LPR47XQR",
+      "text": "<@U01LPR47XQR> has joined the channel"
+    },
+    {
+      "client_msg_id": "12443553-f190-4939-8686-a89b24aeff05",
+      "type": "message",
+      "text": "<https://www.mcafee.com/enterprise/en-sg/threat-center.html>",
+      "user": "U01F4QP7D6D",
+      "ts": "1607682604.000200",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "McAfee Threat Center – Latest Cyberthreats | McAfee",
+          "title_link": "https://www.mcafee.com/enterprise/en-sg/threat-center.html",
+          "text": "The McAfee Threat Center provides information about the latest virus alerts and vulnerabilities.",
+          "fallback": "McAfee Threat Center – Latest Cyberthreats | McAfee",
+          "from_url": "https://www.mcafee.com/enterprise/en-sg/threat-center.html",
+          "service_icon": "https://www.mcafee.com/enterprise/en-us/img/favicon.ico",
+          "service_name": "mcafee.com",
+          "id": 1,
+          "original_url": "https://www.mcafee.com/enterprise/en-sg/threat-center.html"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nhI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://www.mcafee.com/enterprise/en-sg/threat-center.html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "fee89edc-4e10-4112-b840-e12b35d9d237",
+      "type": "message",
+      "text": "<https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2>",
+      "user": "U01C9SUVAHG",
+      "ts": "1607401179.000200",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "衝擊波蠕蟲",
+          "title_link": "https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2",
+          "from_url": "https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2",
+          "author_name": "Wikipedia",
+          "author_link": "https://zh.wikipedia.org/",
+          "text": "衝擊波蠕蟲（Worm.Blaster或Lovesan，也有譯為「疾風病毒」）是一種散播於Microsoft作業系統，Windows XP與Windows 2000的蠕虫病毒，爆發於2003年8月。\n本蠕蟲第一次被注意並如燎原火般散佈，是在2003年的8月11日。它不斷繁殖並感染，在8月13日達到高峰，之後藉助ISP與網路上散佈的治療方法阻止了此蠕蟲的散佈。\n在2003年8月29日，一個來自美國明尼蘇達州的18歲年輕人Jeffrey Lee Parson由於創造了Blaster.B變種而被逮捕；他在2005年被判處十八個月的有期徒刑。",
+          "fallback": "wikipedia: 衝擊波蠕蟲",
+          "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/wikipedia.png",
+          "id": 1,
+          "original_url": "https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "JkK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://zh.wikipedia.org/wiki/%E8%A1%9D%E6%93%8A%E6%B3%A2%E8%A0%95%E8%9F%B2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607401179.000200",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1607401228.000400",
+      "reply_users": [
+        "U01C9SUVAHG"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "13b6fc25-f9e3-4c9c-9e21-0a6accb0fe82",
+      "type": "message",
+      "text": "腾讯安全的病毒研究报告<https://s.tencent.com/research/report/>",
+      "user": "U01BARL28RY",
+      "ts": "1607341823.000500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "威胁研究首页_威胁检测平台_联合实验室_研究报告_威胁通告_荣誉认证 - 腾讯安全",
+          "title_link": "https://s.tencent.com/research/report/",
+          "text": "腾讯安全官网网站威胁研究首页，提供网络病毒木马在线检测中心，在线安全账号保护，申诉举报，诈骗信息查询，全面保护用户电脑安全、财产安全。木马病毒查杀，web互联网在线支付环境安全，腾讯安全提供全方位漏洞分析报告，专业的技术分析文章。",
+          "fallback": "威胁研究首页_威胁检测平台_联合实验室_研究报告_威胁通告_荣誉认证 - 腾讯安全",
+          "from_url": "https://s.tencent.com/research/report/",
+          "service_icon": "https://s.tencent.com/favicon.ico",
+          "service_name": "s.tencent.com",
+          "id": 1,
+          "original_url": "https://s.tencent.com/research/report/"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "h9m",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "腾讯安全的病毒研究报告"
+                },
+                {
+                  "type": "link",
+                  "url": "https://s.tencent.com/research/report/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1607341823.000500",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1607341885.000800",
+      "reply_users": [
+        "U01C9SUVAHG"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "3685c0d2-410b-444a-9e86-6aeced71678d",
+      "type": "message",
+      "text": "可以看最近的计算机病毒<http://www.cverc.org.cn/>",
+      "user": "U01BARL28RY",
+      "ts": "1606789791.000200",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U01BARL28RY",
+        "ts": "1606789899.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8Wh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "可以看最近的计算机病毒"
+                },
+                {
+                  "type": "link",
+                  "url": "http://www.cverc.org.cn/"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1606789791.000200",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1606789855.001300",
+      "reply_users": [
+        "U01C9SUVAHG",
+        "U01BARL28RY"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "text": "中信出版社的合集。",
+      "files": [
+        {
+          "id": "F01EYTUPCGP",
+          "created": 1606189190,
+          "timestamp": 1606189190,
+          "name": "解码区块链全集 by 徐明星 田颖 (z-lib.org).mobi",
+          "title": "解码区块链全集 by 徐明星 田颖 (z-lib.org).mobi",
+          "mimetype": "application/octet-stream",
+          "filetype": "binary",
+          "pretty_type": "Binary",
+          "user": "U01BKHW1V7E",
+          "editable": false,
+          "size": 40354860,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01EYTUPCGP/______________________by___________________z-lib.org_.mobi",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01EYTUPCGP/download/______________________by___________________z-lib.org_.mobi",
+          "permalink": "https://fducslg.slack.com/files/U01BKHW1V7E/F01EYTUPCGP/______________________by___________________z-lib.org_.mobi",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01EYTUPCGP-f4f753c87f",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5cB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "中信出版社的合集。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01BKHW1V7E",
+      "display_as_bot": false,
+      "ts": "1606189376.000600",
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01BARL28RY"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1605847093.000200",
+      "user": "U01F4QP7D6D",
+      "text": "<@U01F4QP7D6D> has joined the channel"
+    },
+    {
+      "client_msg_id": "0f129760-443a-4ff5-8ef6-84c9b2d5357a",
+      "type": "message",
+      "text": "<https://github.com/mjosaarinen/tiny_sha3>\n这个比较可读。",
+      "user": "U01BKHW1V7E",
+      "ts": "1605578618.000500",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "GitHub",
+          "title": "mjosaarinen/tiny_sha3",
+          "title_link": "https://github.com/mjosaarinen/tiny_sha3",
+          "text": "Very small, readable implementation of the SHA3 hash function. - mjosaarinen/tiny_sha3",
+          "fallback": "GitHub: mjosaarinen/tiny_sha3",
+          "thumb_url": "https://avatars0.githubusercontent.com/u/6192929?s=400&v=4",
+          "from_url": "https://github.com/mjosaarinen/tiny_sha3",
+          "thumb_width": 340,
+          "thumb_height": 340,
+          "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/github.png",
+          "id": 1,
+          "original_url": "https://github.com/mjosaarinen/tiny_sha3"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sr7",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/mjosaarinen/tiny_sha3"
+                },
+                {
+                  "type": "text",
+                  "text": "\n这个比较可读。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1605527265.000200",
+      "user": "U01D4V2UV3M",
+      "text": "<@U01D4V2UV3M> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1605511093.000200",
+      "user": "U019T84PQGK",
+      "text": "<@U019T84PQGK> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1604973162.000400",
+      "user": "U01BARL28RY",
+      "text": "<@U01BARL28RY> has joined the channel",
+      "inviter": "U01BKHW1V7E"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1604973162.000300",
+      "user": "U01BARL28RY",
+      "text": "<@U01BARL28RY> has joined the channel",
+      "inviter": "U01BKHW1V7E"
+    },
+    {
+      "client_msg_id": "FA5A7B7C-1AFE-456D-B057-CB3E3F5AF1A4",
+      "type": "message",
+      "text": "6",
+      "user": "U01C9SUVAHG",
+      "ts": "1604582115.000400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aF9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1604582076.000200",
+      "user": "U01C9SUVAHG",
+      "text": "<@U01C9SUVAHG> has joined the channel",
+      "inviter": "U01BKHW1V7E"
+    },
+    {
+      "type": "message",
+      "text": "作业小工具:face_with_monocle:",
+      "files": [
+        {
+          "id": "F01DKE2SG23",
+          "created": 1604496369,
+          "timestamp": 1604496369,
+          "name": "solver_for_ecc.cpp",
+          "title": "solver_for_ecc.cpp",
+          "mimetype": "text/plain",
+          "filetype": "cpp",
+          "pretty_type": "C++",
+          "user": "U01BKHW1V7E",
+          "editable": true,
+          "size": 2804,
+          "mode": "snippet",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01DKE2SG23/solver_for_ecc.cpp",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01DKE2SG23/download/solver_for_ecc.cpp",
+          "permalink": "https://fducslg.slack.com/files/U01BKHW1V7E/F01DKE2SG23/solver_for_ecc.cpp",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01DKE2SG23-7a3d44ccef",
+          "edit_link": "https://fducslg.slack.com/files/U01BKHW1V7E/F01DKE2SG23/solver_for_ecc.cpp/edit",
+          "preview": "#include<cstdio>\r\nusing namespace std;\r\nconst int MAXN = 100;\r\n\r\nint exgcd(int a,int b,int &x,int &y){\r",
+          "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">#include&lt;cstdio&gt;</span></pre></div>\n<div><pre><span class=\"cm-keyword\">using</span> <span class=\"cm-keyword\">namespace</span> <span class=\"cm-def\">std</span>;</pre></div>\n<div><pre><span class=\"cm-keyword\">const</span> <span class=\"cm-type\">int</span> <span class=\"cm-variable\">MAXN</span> <span class=\"cm-operator\">=</span> <span class=\"cm-number\">100</span>;</pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-type\">int</span> <span class=\"cm-def\">exgcd</span>(<span class=\"cm-type\">int</span> <span class=\"cm-variable\">a</span>,<span class=\"cm-type\">int</span> <span class=\"cm-variable\">b</span>,<span class=\"cm-type\">int</span> <span class=\"cm-operator\">&amp;</span><span class=\"cm-variable\">x</span>,<span class=\"cm-type\">int</span> <span class=\"cm-operator\">&amp;</span><span class=\"cm-variable\">y</span>){</pre></div>\n</div>\n</div>\n",
+          "lines": 139,
+          "lines_more": 134,
+          "preview_is_truncated": true,
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZsSUn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "作业小工具"
+                },
+                {
+                  "type": "emoji",
+                  "name": "face_with_monocle"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01BKHW1V7E",
+      "display_as_bot": false,
+      "ts": "1604496389.000500",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "users": [
+            "U01BARL28RY"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1604496293.000200",
+      "user": "U01BKHW1V7E",
+      "text": "<@U01BKHW1V7E> has joined the channel"
+    }
+  ]
+}

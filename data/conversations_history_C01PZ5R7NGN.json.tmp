@@ -1,0 +1,205 @@
+{
+  "channel": "C01PZ5R7NGN",
+  "messages": [
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1624565003.000200",
+      "user": "U0264MELANN",
+      "text": "<@U0264MELANN> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1618380565.000200",
+      "user": "U01BUUXU524",
+      "text": "<@U01BUUXU524> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1618370724.000200",
+      "user": "U01U8ADQHJP",
+      "text": "<@U01U8ADQHJP> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617619941.000200",
+      "user": "U01TZBL3PH6",
+      "text": "<@U01TZBL3PH6> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617361640.000200",
+      "user": "U01SQKS0XFZ",
+      "text": "<@U01SQKS0XFZ> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617164073.000400",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617164069.000200",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615767570.000200",
+      "user": "U01KLTDG64D",
+      "text": "<@U01KLTDG64D> has joined the channel"
+    },
+    {
+      "client_msg_id": "46133595-B186-43DA-A12A-C926AEABF43B",
+      "type": "message",
+      "text": "好像没有吧",
+      "user": "U01BKHW1V7E",
+      "ts": "1615645172.000200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "oG5n",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "好像没有吧"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615532814.000900",
+      "user": "U01BARL28RY",
+      "text": "<@U01BARL28RY> has joined the channel"
+    },
+    {
+      "client_msg_id": "ec3b981e-b957-49e1-a19f-ea6bc9796ac5",
+      "type": "message",
+      "text": "话说这门课有群么？",
+      "user": "U018WKP8CJK",
+      "ts": "1615527156.000700",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kdzHo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "话说这门课有群么？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615527142.000200",
+      "user": "U018WKP8CJK",
+      "text": "<@U018WKP8CJK> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1614927943.000600",
+      "user": "U01C9SUVAHG",
+      "text": "<@U01C9SUVAHG> has joined the channel",
+      "inviter": "U01BKHW1V7E"
+    },
+    {
+      "type": "message",
+      "text": "人工智能A教材",
+      "files": [
+        {
+          "id": "F01QFMX84DS",
+          "created": 1614923204,
+          "timestamp": 1614923204,
+          "name": "Michael Negnevitsky - Artificial Intelligence_ A Guide to Intelligent Systems (2004, Addison Wesley) - libgen.lc.pdf",
+          "title": "Michael Negnevitsky - Artificial Intelligence_ A Guide to Intelligent Systems (2004, Addison Wesley) - libgen.lc.pdf",
+          "mimetype": "application/pdf",
+          "filetype": "pdf",
+          "pretty_type": "PDF",
+          "user": "U01BKHW1V7E",
+          "editable": false,
+          "size": 12813366,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01QFMX84DS/michael_negnevitsky_-_artificial_intelligence__a_guide_to_intelligent_systems__2004__addison_wesley__-_libgen.lc.pdf",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01QFMX84DS/download/michael_negnevitsky_-_artificial_intelligence__a_guide_to_intelligent_systems__2004__addison_wesley__-_libgen.lc.pdf",
+          "thumb_pdf": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFMX84DS-ad4edd8704/michael_negnevitsky_-_artificial_intelligence__a_guide_to_intelligent_systems__2004__addison_wesley__-_libgen.lc_thumb_pdf.png",
+          "thumb_pdf_w": 675,
+          "thumb_pdf_h": 1018,
+          "permalink": "https://fducslg.slack.com/files/U01BKHW1V7E/F01QFMX84DS/michael_negnevitsky_-_artificial_intelligence__a_guide_to_intelligent_systems__2004__addison_wesley__-_libgen.lc.pdf",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01QFMX84DS-3ec1c033d4",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xWiFJ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "人工智能A教材"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01BKHW1V7E",
+      "display_as_bot": false,
+      "ts": "1614923215.000200"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_purpose",
+      "ts": "1614867272.000300",
+      "user": "U01BKHW1V7E",
+      "text": "<@U01BKHW1V7E> set the channel description: This channel is to discuss about machine learning.",
+      "purpose": "This channel is to discuss about machine learning."
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1614867271.000200",
+      "user": "U01BKHW1V7E",
+      "text": "<@U01BKHW1V7E> has joined the channel"
+    }
+  ]
+}

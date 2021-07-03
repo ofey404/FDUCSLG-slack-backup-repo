@@ -1,0 +1,2450 @@
+{
+  "channel": "C01M9DUQ6UA",
+  "messages": [
+    {
+      "client_msg_id": "ff5f8dfe-6f76-4158-978e-5f6136284c66",
+      "type": "message",
+      "text": "<https://github.com/ofey404/slack-backend-sh/runs/2978864881?check_suite_focus=true> 部署在 github actions 上运行起来了！",
+      "user": "U01F73964V6",
+      "ts": "1625315070.001000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "IvgX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/ofey404/slack-backend-sh/runs/2978864881?check_suite_focus=true"
+                },
+                {
+                  "type": "text",
+                  "text": " 部署在 github actions 上运行起来了！"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1625315070.001000",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1625320418.002400",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01B4UX4K8T",
+            "U01D2DSJ7EC"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "f73de22e-0c0a-4790-addb-f59d660f86cb",
+      "type": "message",
+      "text": "话说这个项目好像被鸽:dove_of_peace:了。。。\n我 7.1 以后大概会有一点时间\n如果<@U01F73964V6> 学长想用其它语言写也行，或者我们到时候商量一下改造改造代码",
+      "user": "U01D2DSJ7EC",
+      "ts": "1624108660.001200",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "PJ8yH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "话说这个项目好像被鸽"
+                },
+                {
+                  "type": "emoji",
+                  "name": "dove_of_peace"
+                },
+                {
+                  "type": "text",
+                  "text": "了。。。\n我 7.1 以后大概会有一点时间\n如果"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01F73964V6"
+                },
+                {
+                  "type": "text",
+                  "text": " 学长想用其它语言写也行，或者我们到时候商量一下改造改造代码"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1624108660.001200",
+      "reply_count": 16,
+      "reply_users_count": 2,
+      "latest_reply": "1624161809.009600",
+      "reply_users": [
+        "U01F73964V6",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "509392cc-8e2a-48a8-bd7b-9b01db737bf4",
+      "type": "message",
+      "text": "有没有可能 slack 每发一条消息 bot 实时作一个请求",
+      "user": "U01D2DSJ7EC",
+      "ts": "1618996271.014800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vnvbm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "有没有可能 slack 每发一条消息 bot 实时作一个请求"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618996271.014800",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1618996413.016200",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "4cd76735-b216-4ca4-bf0e-19a2ee44806b",
+      "type": "message",
+      "text": "增量功能完成了！<https://github.com/ofey404/slack-backend-sh> Magically it just works... 感觉已经变成 write only 的代码了（准备部署一下",
+      "user": "U01F73964V6",
+      "ts": "1618880276.013200",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "fallback": "ofey404/slack-backend-sh",
+          "text": "Shell script prototype of <https://github.com/FDUCSLG/slack-backend>, for slack js SDK seems to be broken.",
+          "title": "ofey404/slack-backend-sh",
+          "footer": "<https://github.com/ofey404/slack-backend-sh|ofey404/slack-backend-sh>",
+          "id": 1,
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1618652001,
+          "color": "24292f",
+          "fields": [
+            {
+              "title": "Language",
+              "value": "Shell",
+              "short": true
+            },
+            {
+              "title": "Last updated",
+              "value": "a minute ago",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text",
+            "fields"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/ofey404/slack-backend-sh",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lJKt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "增量功能完成了！"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/ofey404/slack-backend-sh"
+                },
+                {
+                  "type": "text",
+                  "text": " Magically it just works... 感觉已经变成 write only 的代码了（准备部署一下"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618880276.013200",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1618893799.014500",
+      "reply_users": [
+        "U01F73964V6",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC",
+            "U019BC1VCM8",
+            "U01B4UX4K8T"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "client_msg_id": "0d69de48-c16c-488a-ae20-3c6405e39ec8",
+      "type": "message",
+      "text": "写到这个规模，bash 已经有点力不从心了，好想重构成 python/typescript 啊！（我偏好 typescript，学一门没用过的语言）。我打算先用 bash 开发完增量功能之后部署上去，然后立马开始重构，如何 <@U01D2DSJ7EC>",
+      "user": "U01F73964V6",
+      "ts": "1618844162.011000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "gkKqS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "写到这个规模，bash 已经有点力不从心了，好想重构成 python/typescript 啊！（我偏好 typescript，学一门没用过的语言）。我打算先用 bash 开发完增量功能之后部署上去，然后立马开始重构，如何 "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01D2DSJ7EC"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618844162.011000",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1618876375.011900",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "79d9465f-a36d-4854-bb01-7a3eeea2c0e7",
+      "type": "message",
+      "text": "（话说说明一下，之前 slack 的 js 包好像出了问题，见这个 issue: <https://github.com/slackapi/node-slack-sdk/issues/977> 然后我和 runjie 就在商量要不要换语言，然后我就想反正我之前都在用 curl 测试 api，不如用 bash 撸一个糙快猛的版本？然后搞了两天搞出来了……规模再扩大下去的话，就不能用 bash 了（逃",
+      "user": "U01F73964V6",
+      "ts": "1618835206.008700",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U01F73964V6",
+        "ts": "1618835300.000000"
+      },
+      "attachments": [
+        {
+          "fallback": "[slackapi/node-slack-sdk] #977 Slack Internal Error when using chat.postEphemeral with the new bot tokens.",
+          "image_url": "https://user-images.githubusercontent.com/50601399/77186518-3da0ba80-6a90-11ea-94e7-bdac6a59ecb5.png",
+          "image_width": 934,
+          "image_height": 808,
+          "image_bytes": 104014,
+          "author_name": "andrewyalung",
+          "text": "*Description*\n\nSlack API is throwing a `slack_webapi_platform_error` when using `chat.postEphemeral` with the new bot tokens in a public channel where the bot is *not* a member. This seems like a bug and should be able to send an ephemeral message to a user in a public channel even when the bot user is not a member. I also have the `chat:write.public` scope.\n\n*What type of issue is this? (place an `x` in one of the `[ ]`)*\n\n☑︎ bug\n☐ enhancement (feature request)\n☐ question\n☐ documentation related\n☐ testing related\n☐ discussion\n\n*Requirements (place an `x` in each of the `[ ]`)*\n\n☑︎ I've read and understood the <https://github.com/slackapi/node-slack-sdk/blob/master/.github/contributing.md|Contributing guidelines> and have done my best effort to follow them.\n☑︎ I've read and agree to the <https://slackhq.github.io/code-of-conduct|Code of Conduct>.\n☑︎ I've searched for any related issues and avoided creating a duplicate issue.\n\n* Makefile README.md api_conversations_history.sh api_conversations_join.sh api_conversations_list.sh api_conversations_replies.sh api_users_list.sh assert.sh data data-repo main.sh output.json slack.sh test_data tmp util.sh util_test.sh *\n\n*Bug Report*\n\nFilling out the following details about bugs will help us solve your issue sooner.\n\n*Packages:*\n\nSelect all that apply:\n\n☑︎ `@slack/web-api`\n☐ `@slack/events-api`\n☐ `@slack/interactive-messages`\n☐ `@slack/rtm-api`\n☐ `@slack/webhooks`\n☐ I don't know\n\n*Reproducible in:*\n\npackage version: 5.8.0\n\nnode version: 12.13.1\n\nOS version(s): Mac\n\n*Steps to reproduce:*\n\n1. Have the new granular bot token.\n2. Send a `chat.postEphemeral` message to a user in a public channel where the bot is not a member.\n3. See the platform error.\n\n*Expected result:*\n\nI expect the ephemeral message to be sent.\n\n*Actual result:*\n\nThere is a platform error thrown.\n\n*Attachments:*\n\n<https://user-images.githubusercontent.com/50601399/77186518-3da0ba80-6a90-11ea-94e7-bdac6a59ecb5.png|Screen Shot 2020-03-20 at 9 11 08 AM>",
+          "title": "#977 Slack Internal Error when using chat.postEphemeral with the new bot tokens.",
+          "footer": "<https://github.com/slackapi/node-slack-sdk|slackapi/node-slack-sdk>",
+          "id": 1,
+          "title_link": "https://github.com/slackapi/node-slack-sdk/issues/977",
+          "author_link": "https://github.com/andrewyalung",
+          "author_icon": "https://avatars.githubusercontent.com/u/50601399?v=4",
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1584723038,
+          "color": "36a64f",
+          "fields": [
+            {
+              "title": "Labels",
+              "value": "pkg:web-api, server-side-issue",
+              "short": true
+            },
+            {
+              "title": "Comments",
+              "value": "4",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/slackapi/node-slack-sdk/issues/977",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UWcSb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "（话说说明一下，之前 slack 的 js 包好像出了问题，见这个 issue: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/slackapi/node-slack-sdk/issues/977"
+                },
+                {
+                  "type": "text",
+                  "text": " 然后我和 runjie 就在商量要不要换语言，然后我就想反正我之前都在用 curl 测试 api，不如用 bash 撸一个糙快猛的版本？然后搞了两天搞出来了……规模再扩大下去的话，就不能用 bash 了（逃"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618835206.008700",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1618876401.012100",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "4de42612-6bc3-4b9b-9fd4-db9f580c537b",
+      "type": "message",
+      "text": "能够支持全量备份的 v0.1.0 版本完成了：<https://github.com/ofey404/slack-backend-sh> 准备搞一下增量备份（我再也不要用 bash 写 500 行以上的程序了呜呜呜……）",
+      "user": "U01F73964V6",
+      "ts": "1618835031.006400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HJvDw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "能够支持全量备份的 v0.1.0 版本完成了："
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/ofey404/slack-backend-sh"
+                },
+                {
+                  "type": "text",
+                  "text": " 准备搞一下增量备份（我再也不要用 bash 写 500 行以上的程序了呜呜呜……）"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "slack 的 conversations.history api 是有一个 reply_count 这种提示里面究竟有没有回复的项的，例如 `'reply_count': 4, 'reply_users_count': 2, 'latest_reply': '1616421725.011200'` 这样的回复。我之前是用 python 的 api 试出来有这个（文档上没有），今晚打算在 javascript 里面试出这个功能，然后用起来。附件是 python api 的输出。",
+      "files": [
+        {
+          "id": "F01V7QVPT4G",
+          "created": 1618560276,
+          "timestamp": 1618560276,
+          "name": "test-output.txt",
+          "title": "test-output.txt",
+          "mimetype": "text/plain",
+          "filetype": "text",
+          "pretty_type": "Plain Text",
+          "user": "U01F73964V6",
+          "editable": true,
+          "size": 1075,
+          "mode": "snippet",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01V7QVPT4G/test-output.txt",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01V7QVPT4G/download/test-output.txt",
+          "permalink": "https://fducslg.slack.com/files/U01F73964V6/F01V7QVPT4G/test-output.txt",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01V7QVPT4G-5de1837026",
+          "edit_link": "https://fducslg.slack.com/files/U01F73964V6/F01V7QVPT4G/test-output.txt/edit",
+          "preview": "{'client_msg_id': '84969eb2-19a9-4de5-98b7-0529f266c19b', 'type': 'message', 'text': '我在想，前端、后端和数据的代码是保存在同一个 repo 里面，还是分开不同的 repo 保存？同一个 repo 项目易用性、整体性会好一些，但是每天更新数据是不是会污染提交记录（考虑把数据放到一个孤儿分支里面去？）','user': 'U01F73964V6', 'ts': '1616420914.010500', 'team': 'T019A14BB9T', 'blocks': [{'type': 'rich_text', 'block_id': '4ZM', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '我在想，前端、后端和数据的代码是保存在同一个 repo 里面，还是分开不同的 repo 保存？同一个 repo 项目易用性、整体性会好一些，但是每天更新数据是不是会污染提交记录（考虑把数据放到一个孤儿分支里面去？）'}]}]}], 'thread_ts': '1616420914.010500', 'reply_count': 4, 'reply_users_count': 2, 'latest_reply': '1616421725.011200', 'reply_users': ['U01F73964V6', 'U01D2DSJ7EC'], 'is_locked': False, 'subscribed': False}\n",
+          "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>{'client_msg_id': '84969eb2-19a9-4de5-98b7-0529f266c19b', 'type': 'message', 'text': '我在想，前端、后端和数据的代码是保存在同一个 repo 里面，还是分开不同的 repo 保存？同一个 repo 项目易用性、整体性会好一些，但是每天更新数据是不是会污染提交记录（考虑把数据放到一个孤儿分支里面去？）','user': 'U01F73964V6', 'ts': '1616420914.010500', 'team': 'T019A14BB9T', 'blocks': [{'type': 'rich_text', 'block_id': '4ZM', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '我在想，前端、后端和数据的代码是保存在同一个 repo 里面，还是分开不同的 repo 保存？同一个 repo 项目易用性、整体性会好一些，但是每天更新数据是不是会污染提交记录（考虑把数据放到一个孤儿分支里面去？）'}]}]}], 'thread_ts': '1616420914.010500', 'reply_count': 4, 'reply_users_count': 2, 'latest_reply': '1616421725.011200', 'reply_users': ['U01F73964V6', 'U01D2DSJ7EC'], 'is_locked': False, 'subscribed': False}</pre></div>\n<div><pre></pre></div>\n</div>\n</div>\n",
+          "lines": 2,
+          "lines_more": 0,
+          "preview_is_truncated": false,
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "txc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "slack 的 conversations.history api 是有一个 reply_count 这种提示里面究竟有没有回复的项的，例如 "
+                },
+                {
+                  "type": "text",
+                  "text": "'reply_count': 4, 'reply_users_count': 2, 'latest_reply': '1616421725.011200'",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " 这样的回复。我之前是用 python 的 api 试出来有这个（文档上没有），今晚打算在 javascript 里面试出这个功能，然后用起来。附件是 python api 的输出。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01F73964V6",
+      "display_as_bot": false,
+      "ts": "1618560283.003300",
+      "thread_ts": "1618560283.003300",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1618562850.003700",
+      "reply_users": [
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC",
+            "U019BC1VCM8"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "7c3d61c1-9bfb-455b-9455-d17c43bb337a",
+      "type": "message",
+      "text": "备份在这里了",
+      "user": "U019BC1VCM8",
+      "ts": "1618371156.003900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "csiP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "备份在这里了"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618371156.003900",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1618648687.004100",
+      "reply_users": [
+        "U01F73964V6",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "text": "<@U01F73964V6>",
+      "files": [
+        {
+          "id": "F01UEB76CN8",
+          "created": 1618371146,
+          "timestamp": 1618371146,
+          "name": "FDUCSLG Slack export Aug 23 2020 - Apr 14 2021.zip",
+          "title": "FDUCSLG Slack export Aug 23 2020 - Apr 14 2021.zip",
+          "mimetype": "application/zip",
+          "filetype": "zip",
+          "pretty_type": "Zip",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 1300918,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01UEB76CN8/fducslg_slack_export_aug_23_2020_-_apr_14_2021.zip",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01UEB76CN8/download/fducslg_slack_export_aug_23_2020_-_apr_14_2021.zip",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01UEB76CN8/fducslg_slack_export_aug_23_2020_-_apr_14_2021.zip",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01UEB76CN8-1dac82ed84",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vlgWB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01F73964V6"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1618371151.003500"
+    },
+    {
+      "client_msg_id": "2fff5480-47ec-4828-84eb-a81cb82b1bd4",
+      "type": "message",
+      "text": "有管理员权限的同学能先从网页端/客户端下载一个备份么 :heart: 时间好像来不及了:huaji:",
+      "user": "U01F73964V6",
+      "ts": "1618293580.002900",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "S8i",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "有管理员权限的同学能先从网页端/客户端下载一个备份么 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heart"
+                },
+                {
+                  "type": "text",
+                  "text": " 时间好像来不及了"
+                },
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1618293580.002900",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1618357697.003200",
+      "reply_users": [
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "CF24AF84-2F88-428D-8296-043593EDEFD8",
+      "type": "message",
+      "text": "或许可以用 Github.js 实现文件上传 github <https://github.com/github-tools/github|https://github.com/github-tools/github>",
+      "user": "U01F73964V6",
+      "ts": "1617963132.001100",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "fallback": "github-tools/github",
+          "text": "A higher-level wrapper around the Github API. Intended for the browser.",
+          "title": "github-tools/github",
+          "footer": "<https://github.com/github-tools/github|github-tools/github>",
+          "id": 1,
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1331057333,
+          "color": "24292f",
+          "fields": [
+            {
+              "title": "Stars",
+              "value": "3302",
+              "short": true
+            },
+            {
+              "title": "Language",
+              "value": "JavaScript",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text",
+            "fields"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/github-tools/github",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xXZY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "或许可以用 Github.js 实现文件上传 github "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/github-tools/github",
+                  "text": "https://github.com/github-tools/github"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        },
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8"
+          ],
+          "count": 1
+        },
+        {
+          "name": "cslg",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a7562d27-5a88-4c6f-8345-9f7afb52d665",
+      "type": "message",
+      "text": "bottleneck 现在是 thread 的保存，因为 channel 里的每一条 message 都需要分别去拉取 thread，然而 thread api 有上限 50/minute，所以拉起来会非常慢",
+      "user": "U01D2DSJ7EC",
+      "ts": "1617774126.003000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Vzk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "bottleneck 现在是 thread 的保存，因为 channel 里的每一条 message 都需要分别去拉取 thread，然而 thread api 有上限 50/minute，所以拉起来会非常慢"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617774126.003000",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1617779160.004000",
+      "reply_users": [
+        "U01F73964V6",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "6c6d9983-3899-4997-8a4b-e99700bd6107",
+      "type": "message",
+      "text": "现在还需要做好数据分页（就是把新拉取的和旧的粘在一起）和定时跑（可以用 GitHUb Action），然后就可以扔在那里跑着了",
+      "user": "U01D2DSJ7EC",
+      "ts": "1617768589.001000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0kM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "现在还需要做好数据分页（就是把新拉取的和旧的粘在一起）和定时跑（可以用 GitHUb Action），然后就可以扔在那里跑着了"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617768589.001000",
+      "reply_count": 14,
+      "reply_users_count": 2,
+      "latest_reply": "1617778297.003200",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "e83174c3-324b-4838-935d-8f9b369a52f4",
+      "type": "message",
+      "text": "我增加了自动加入所有可见 channel 的功能，PR：<https://github.com/FDUCSLG/slack-backend/pull/1> （前两天有点消沉，消失了一段时间，抱歉啦）来 review 一下么<@U01D2DSJ7EC>",
+      "user": "U01F73964V6",
+      "ts": "1617621602.001200",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "author_name": "ofey404",
+          "fallback": "[FDUCSLG/slack-backend] #1 feat: add joinChannel",
+          "text": "Make our backend automatically joins all visible channels.\n\nReference: <https://api.slack.com/methods/conversations.join|https://api.slack.com/methods/conversations.join>",
+          "title": "#1 feat: add joinChannel",
+          "footer": "<https://github.com/FDUCSLG/slack-backend|FDUCSLG/slack-backend>",
+          "id": 1,
+          "title_link": "https://github.com/FDUCSLG/slack-backend/pull/1",
+          "author_link": "https://github.com/ofey404",
+          "author_icon": "https://avatars.githubusercontent.com/u/35857538?v=4",
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1617621304,
+          "color": "36a64f",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/FDUCSLG/slack-backend/pull/1",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8rbW",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我增加了自动加入所有可见 channel 的功能，PR："
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/FDUCSLG/slack-backend/pull/1"
+                },
+                {
+                  "type": "text",
+                  "text": " （前两天有点消沉，消失了一段时间，抱歉啦）来 review 一下么"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U01D2DSJ7EC"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617621602.001200",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1617773612.000100",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617619941.000200",
+      "user": "U01TZBL3PH6",
+      "text": "<@U01TZBL3PH6> has joined the channel"
+    },
+    {
+      "client_msg_id": "1f468b7b-e159-4922-b49e-7708c5d1352f",
+      "type": "message",
+      "text": "ㄟ周五了，我的进度就写到可用之后没动了:sweat_smile:",
+      "user": "U01D2DSJ7EC",
+      "ts": "1617368303.001100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2YJIk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ㄟ周五了，我的进度就写到可用之后没动了"
+                },
+                {
+                  "type": "emoji",
+                  "name": "sweat_smile"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617368303.001100",
+      "reply_count": 3,
+      "reply_users_count": 1,
+      "latest_reply": "1617371227.000100",
+      "reply_users": [
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "huaji",
+          "users": [
+            "U01F73964V6"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "90aa68f7-15a8-4d44-ac08-a9f1895a6183",
+      "type": "message",
+      "text": "现在爬虫已经可用了，使用方法写在了 repo README 里面 <https://github.com/FDUCSLG/slack-backend>",
+      "user": "U01D2DSJ7EC",
+      "ts": "1617169512.000700",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "fallback": "FDUCSLG/slack-backend",
+          "title": "FDUCSLG/slack-backend",
+          "footer": "<https://github.com/FDUCSLG/slack-backend|FDUCSLG/slack-backend>",
+          "id": 1,
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1617020517,
+          "color": "24292f",
+          "fields": [
+            {
+              "title": "Language",
+              "value": "JavaScript",
+              "short": true
+            },
+            {
+              "title": "Last updated",
+              "value": "5 minutes ago",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text",
+            "fields"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/FDUCSLG/slack-backend",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "A1Pr0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "现在爬虫已经可用了，使用方法写在了 repo README 里面 "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/FDUCSLG/slack-backend"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617169512.000700",
+      "reply_count": 13,
+      "reply_users_count": 2,
+      "latest_reply": "1617194456.002400",
+      "reply_users": [
+        "U01F73964V6",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U019BC1VCM8",
+            "U01F73964V6"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "b2dfcc8c-b260-4789-88a3-83bc0b44b052",
+      "type": "message",
+      "text": "遇到第二个问题，slack app 安装后每过一段时间会自己 uninstall 掉，导致我需要重新安装、生成 token、invite bot 到每一个 channel 非常麻烦，有否解决方案",
+      "user": "U01D2DSJ7EC",
+      "ts": "1617165341.001400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RP+j6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "遇到第二个问题，slack app 安装后每过一段时间会自己 uninstall 掉，导致我需要重新安装、生成 token、invite bot 到每一个 channel 非常麻烦，有否解决方案"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617165341.001400",
+      "reply_count": 11,
+      "reply_users_count": 2,
+      "latest_reply": "1617165828.008200",
+      "reply_users": [
+        "U01F73964V6",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617163918.000200",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "text": "昨晚爬的数据",
+      "files": [
+        {
+          "id": "F01SD5VL38X",
+          "created": 1617110734,
+          "timestamp": 1617110734,
+          "name": "data.tar",
+          "title": "data.tar",
+          "mimetype": "application/x-tar",
+          "filetype": "tar",
+          "pretty_type": "Tarball",
+          "user": "U01D2DSJ7EC",
+          "editable": false,
+          "size": 5713920,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01SD5VL38X/data.tar",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01SD5VL38X/download/data.tar",
+          "permalink": "https://fducslg.slack.com/files/U01D2DSJ7EC/F01SD5VL38X/data.tar",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01SD5VL38X-dd7599ab44",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "7ij",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "昨晚爬的数据"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01D2DSJ7EC",
+      "display_as_bot": false,
+      "ts": "1617110747.006300"
+    },
+    {
+      "client_msg_id": "aef08caf-0497-41dd-b316-041b13148a1f",
+      "type": "message",
+      "text": "我没太搞清楚 slack 返回的 message 中 ts 是怎么计算的，现在只找的了：这个东西就是 message 的 id，然后是 per-channel unique 的，问题是怎么用这东西计算出来具体时间，貌似缺少了一个基准时间？",
+      "user": "U01D2DSJ7EC",
+      "ts": "1617109699.001400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2vx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我没太搞清楚 slack 返回的 message 中 ts 是怎么计算的，现在只找的了：这个东西就是 message 的 id，然后是 per-channel unique 的，问题是怎么用这东西计算出来具体时间，貌似缺少了一个基准时间？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617109699.001400",
+      "reply_count": 20,
+      "reply_users_count": 3,
+      "latest_reply": "1617111577.010500",
+      "reply_users": [
+        "U01B4UX4K8T",
+        "U01F73964V6",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617032315.002500",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "type": "message",
+      "text": ":huaji:",
+      "files": [
+        {
+          "id": "F01SPK6GC9Y",
+          "created": 1617018028,
+          "timestamp": 1617018028,
+          "name": "20210329-19:40:18.png",
+          "title": "20210329-19:40:18.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U01D2DSJ7EC",
+          "editable": false,
+          "size": 114371,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01SPK6GC9Y/20210329-19_40_18.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01SPK6GC9Y/download/20210329-19_40_18.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01SPK6GC9Y-c041f1ea1a/20210329-19_40_18_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01SPK6GC9Y-c041f1ea1a/20210329-19_40_18_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01SPK6GC9Y-c041f1ea1a/20210329-19_40_18_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 248,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01SPK6GC9Y-c041f1ea1a/20210329-19_40_18_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 330,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01SPK6GC9Y-c041f1ea1a/20210329-19_40_18_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01SPK6GC9Y-c041f1ea1a/20210329-19_40_18_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 495,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01SPK6GC9Y-c041f1ea1a/20210329-19_40_18_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 550,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01SPK6GC9Y-c041f1ea1a/20210329-19_40_18_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 661,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01SPK6GC9Y-c041f1ea1a/20210329-19_40_18_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 705,
+          "original_w": 1696,
+          "original_h": 1167,
+          "thumb_tiny": "AwAhADDQWnZpox7UoHpj8qAF3UZowfX9KKADdQDmlooAav0pfwpopaAHUUgpaACiiigCE0lKaSgBwpw6iminDqKAH0UUUAf/2Q==",
+          "permalink": "https://fducslg.slack.com/files/U01D2DSJ7EC/F01SPK6GC9Y/20210329-19_40_18.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01SPK6GC9Y-bedd6eee09",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8aXS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "huaji"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "user": "U01D2DSJ7EC",
+      "display_as_bot": false,
+      "ts": "1617018034.002000",
+      "reactions": [
+        {
+          "name": "rockyou",
+          "users": [
+            "U01F73964V6"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "client_msg_id": "e66adaba-3a7a-460a-ac2b-dd5d56cdb296",
+      "type": "message",
+      "text": "`const { WebClient, LogLevel } = require(\"@slack/web-api\");`\n`const fs = require(\"fs\");`\n\n`const client = new WebClient(`\n `\"xoxb-1316038385333-1913162831956-AN8YLgAIFumOFH5XEXBvvYr9\",`\n `{`\n `logLevel: LogLevel.DEBUG,`\n `}`\n`);`\n`let channelIds = {`\n `general: \"C0194KZD6P8\",`\n `random: \"C019HHJ7KAQ\",`\n `\"wg-slack-bot\": \"C01M9DUQ6UA\",`\n`};`\n\n`async function saveConversationHistory(channelId, savePath, limit = 100000) {`\n `try {`\n `const result = await client.conversations.history({`\n `channel: channelId,`\n `limit,`\n `});`\n `const history = result.messages;`\n `console.log(`${history.length} messages found in ${channelId}`);`\n `fs.writeFileSync(savePath, JSON.stringify(history, null, 2));`\n `console.log(`history saved to: ${savePath}`);`\n `} catch (err) {`\n `console.log(err);`\n `}`\n`}`\n\n`for (const [channelName, channelId] of Object.entries(channelIds)) {`\n `saveConversationHistory(channelId, `./${channelName}.json`);`\n`}`",
+      "user": "U01D2DSJ7EC",
+      "ts": "1617008207.001600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TW0d",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "const { WebClient, LogLevel } = require(\"@slack/web-api\");",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "const fs = require(\"fs\");",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "const client = new WebClient(",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " \"xoxb-1316038385333-1913162831956-AN8YLgAIFumOFH5XEXBvvYr9\",",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " {",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " logLevel: LogLevel.DEBUG,",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " }",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": ");",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "let channelIds = {",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " general: \"C0194KZD6P8\",",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " random: \"C019HHJ7KAQ\",",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " \"wg-slack-bot\": \"C01M9DUQ6UA\",",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "};",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "async function saveConversationHistory(channelId, savePath, limit = 100000) {",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " try {",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " const result = await client.conversations.history({",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " channel: channelId,",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " limit,",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " });",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " const history = result.messages;",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " console.log(`${history.length} messages found in ${channelId}`);",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " fs.writeFileSync(savePath, JSON.stringify(history, null, 2));",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " console.log(`history saved to: ${savePath}`);",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " } catch (err) {",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " console.log(err);",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " }",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "}",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "for (const [channelName, channelId] of Object.entries(channelIds)) {",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " saveConversationHistory(channelId, `./${channelName}.json`);",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "}",
+                  "style": {
+                    "code": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1617008207.001600",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1617008222.001700",
+      "reply_users": [
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01SGBVNEUE",
+          "created": 1617007121,
+          "timestamp": 1617007121,
+          "name": "20210329-16:38:40.png",
+          "title": "20210329-16:38:40.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U01D2DSJ7EC",
+          "editable": false,
+          "size": 142222,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01SGBVNEUE/20210329-16_38_40.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01SGBVNEUE/download/20210329-16_38_40.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01SGBVNEUE-3644c0722d/20210329-16_38_40_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01SGBVNEUE-3644c0722d/20210329-16_38_40_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01SGBVNEUE-3644c0722d/20210329-16_38_40_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 350,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01SGBVNEUE-3644c0722d/20210329-16_38_40_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 466,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01SGBVNEUE-3644c0722d/20210329-16_38_40_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01SGBVNEUE-3644c0722d/20210329-16_38_40_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 699,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01SGBVNEUE-3644c0722d/20210329-16_38_40_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 777,
+          "original_w": 875,
+          "original_h": 850,
+          "thumb_tiny": "AwAuADC9ht/3k61IRznvUeH3/wCrTGeueakP0FIL3EPbvRk0Hgcim8en60wHDPqKUZ9aZx6frSrjP/16AE3tu6pjPrT856YxUZtoSSTEhJ9qkVVUAKAAOmKAEOfTNAz/AHaH7U3j0oAcM+gpR74pn4CnIO/FAC8+1HPtS0UANboM0n4U5hmk20AJn2pykmk2ilAAoA//2Q==",
+          "permalink": "https://fducslg.slack.com/files/U01D2DSJ7EC/F01SGBVNEUE/20210329-16_38_40.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01SGBVNEUE-d0af9bb84f",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "user": "U01D2DSJ7EC",
+      "display_as_bot": false,
+      "ts": "1617007124.001000"
+    },
+    {
+      "bot_id": "B01TCPJJ54Y",
+      "type": "message",
+      "text": "I hope the tour went well, Mr. Wonka.",
+      "user": "U01SV4SQFU4",
+      "ts": "1617006394.000800",
+      "team": "T019A14BB9T",
+      "bot_profile": {
+        "id": "B01TCPJJ54Y",
+        "deleted": false,
+        "name": "test1",
+        "updated": 1617198594,
+        "app_id": "A01SV4BERRS",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "team_id": "T019A14BB9T"
+      },
+      "attachments": [
+        {
+          "callback_id": "select_simple_1234",
+          "fallback": "You could be telling the computer exactly what it can do with a lifetime supply of chocolate.",
+          "text": "Who wins the lifetime supply of chocolate?",
+          "id": 1,
+          "color": "3AA3E3",
+          "actions": [
+            {
+              "id": "1",
+              "name": "winners_list",
+              "text": "Who should win?",
+              "type": "select",
+              "data_source": "users"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1617006389.000700",
+      "user": "U01SV4SQFU4",
+      "text": "<@U01SV4SQFU4> has joined the channel",
+      "inviter": "U01D2DSJ7EC"
+    },
+    {
+      "client_msg_id": "ac48d2e9-f472-451d-8242-97209d71e68b",
+      "type": "message",
+      "text": "我有一个问题：对于一万条消息的限制，如果有一个不断更新的老 thread，它最早的一条消息已经超过了一万条的限制，但是它的回复还没有超过，那么它的回复是否也会一并消失？",
+      "user": "U01F73964V6",
+      "ts": "1616564063.018100",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "c5O",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我有一个问题：对于一万条消息的限制，如果有一个不断更新的老 thread，它最早的一条消息已经超过了一万条的限制，但是它的回复还没有超过，那么它的回复是否也会一并消失？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616564063.018100",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1616685516.000100",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "59dbb791-5d55-41b0-bf09-24d3e7df6e45",
+      "type": "message",
+      "text": "数据拉取已经有点眉目了。数据里面有很多内部的变量，例如 `'user': 'U0194L0FW5U'` 这种。我对数据存储的想法是，尽量尊重数据的原本结构，internal id 到 username 这一类转换，推后到展示端来执行。大家觉得如何？（另一个点子是尽量裁减掉对恢复聊天不必要的元信息，减少数据的存储量，和理解数据结构的成本）",
+      "user": "U01F73964V6",
+      "ts": "1616563681.016600",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U01F73964V6",
+        "ts": "1616564981.000000"
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8U9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "数据拉取已经有点眉目了。数据里面有很多内部的变量，例如 "
+                },
+                {
+                  "type": "text",
+                  "text": "'user': 'U0194L0FW5U'",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " 这种。我对数据存储的想法是，尽量尊重数据的原本结构，internal id 到 username 这一类转换，推后到展示端来执行。大家觉得如何？（另一个点子是尽量裁减掉对恢复聊天不必要的元信息，减少数据的存储量，和理解数据结构的成本）"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616563681.016600",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1616587110.018900",
+      "reply_users": [
+        "U01F73964V6",
+        "U01B4UX4K8T"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "231ff6bb-ca63-4328-b1c2-57d49669918c",
+      "type": "message",
+      "text": "开了一个 repo 存放工作成果：<https://github.com/ofey404/slack-message-backup-bot>",
+      "user": "U01F73964V6",
+      "ts": "1616424294.011900",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "fallback": "ofey404/slack-message-backup-bot",
+          "text": "A bot to backup slack message and generate a static history site.",
+          "title": "ofey404/slack-message-backup-bot",
+          "footer": "<https://github.com/ofey404/slack-message-backup-bot|ofey404/slack-message-backup-bot>",
+          "id": 1,
+          "footer_icon": "https://github.githubassets.com/favicon.ico",
+          "ts": 1616424112,
+          "color": "24292f",
+          "fields": [
+            {
+              "title": "Language",
+              "value": "Python",
+              "short": true
+            },
+            {
+              "title": "Last updated",
+              "value": "a minute ago",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text",
+            "fields"
+          ],
+          "bot_id": "B01LUHTT622",
+          "app_unfurl_url": "https://github.com/ofey404/slack-message-backup-bot",
+          "is_app_unfurl": true
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "=9e",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "开了一个 repo 存放工作成果："
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/ofey404/slack-message-backup-bot"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616424294.011900",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1616424550.013700",
+      "reply_users": [
+        "U01D2DSJ7EC",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01F73964V6",
+            "U01D2DSJ7EC"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "client_msg_id": "84969eb2-19a9-4de5-98b7-0529f266c19b",
+      "type": "message",
+      "text": "我在想，前端、后端和数据的代码是保存在同一个 repo 里面，还是分开不同的 repo 保存？同一个 repo 项目易用性、整体性会好一些，但是每天更新数据是不是会污染提交记录（考虑把数据放到一个孤儿分支里面去？）",
+      "user": "U01F73964V6",
+      "ts": "1616420914.010500",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4ZM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我在想，前端、后端和数据的代码是保存在同一个 repo 里面，还是分开不同的 repo 保存？同一个 repo 项目易用性、整体性会好一些，但是每天更新数据是不是会污染提交记录（考虑把数据放到一个孤儿分支里面去？）"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616420914.010500",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1616421725.011200",
+      "reply_users": [
+        "U01F73964V6",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "94b9d453-61fb-4e68-95d4-2299e206e476",
+      "type": "message",
+      "text": "试了一下感觉 api 可以满足我们的需求。有 oldest/latest 参数可以控制拉取范围。 计划明晚把拉数据的部分写完，调研一下 github actions 能怎么让这种脚本动起来。",
+      "user": "U01F73964V6",
+      "ts": "1616338636.007300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "F5YfZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "试了一下感觉 api 可以满足我们的需求。有 oldest/latest 参数可以控制拉取范围。 计划明晚把拉数据的部分写完，调研一下 github actions 能怎么让这种脚本动起来。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "+1",
+          "users": [
+            "U01D2DSJ7EC",
+            "U01B4UX4K8T",
+            "U019BC1VCM8"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "client_msg_id": "e8810b8d-2cff-473e-b738-80d19c90dcca",
+      "type": "message",
+      "text": "开一个 thread 记录一下有用的资料。",
+      "user": "U01F73964V6",
+      "ts": "1616337525.004300",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "otX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "开一个 thread 记录一下有用的资料。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616337525.004300",
+      "reply_count": 5,
+      "reply_users_count": 1,
+      "latest_reply": "1616564006.016700",
+      "reply_users": [
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "365d252e-7339-456c-8dbe-b5312ee5b9c0",
+      "type": "message",
+      "text": "我开了 #slack-bot-test，bot 的测试会放到那个 channel 里面去。",
+      "user": "U01F73964V6",
+      "ts": "1616335685.004000",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KH+bD",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我开了 #slack-bot-test，bot 的测试会放到那个 channel 里面去。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bot_id": "B01RZ2YE8GK",
+      "type": "message",
+      "text": "Hello from ofey404's app! :tada:",
+      "user": "U01S51JHGQL",
+      "ts": "1616335453.003200",
+      "team": "T019A14BB9T",
+      "bot_profile": {
+        "id": "B01RZ2YE8GK",
+        "deleted": false,
+        "name": "Starter Bot of ofey404",
+        "updated": 1616327879,
+        "app_id": "A01RS2B9XJA",
+        "icons": {
+          "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+          "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+          "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+        },
+        "team_id": "T019A14BB9T"
+      }
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1616335387.003100",
+      "user": "U01S51JHGQL",
+      "text": "<@U01S51JHGQL> has joined the channel"
+    },
+    {
+      "client_msg_id": "549e3ee6-f61f-4b05-85c8-66fe0f6fc495",
+      "type": "message",
+      "text": "直播学习 slack bot <https://live.bilibili.com/5467799>",
+      "user": "U01F73964V6",
+      "ts": "1616334307.002400",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "title": "哔哩哔哩直播，二次元弹幕直播平台",
+          "title_link": "https://live.bilibili.com/5467799",
+          "text": "哔哩哔哩（bilibili）直播，在这里看见最年轻的生活方式，学习、游戏、电竞、宅舞、唱见、绘画、美食等等应有尽有，快来捕捉你最喜欢的up主最真实的一面吧！",
+          "fallback": "哔哩哔哩直播，二次元弹幕直播平台",
+          "from_url": "https://live.bilibili.com/5467799",
+          "service_icon": "https://live.bilibili.com/favicon.ico",
+          "service_name": "哔哩哔哩直播",
+          "id": 1,
+          "original_url": "https://live.bilibili.com/5467799"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Fnz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "直播学习 slack bot "
+                },
+                {
+                  "type": "link",
+                  "url": "https://live.bilibili.com/5467799"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616334307.002400",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1616334314.002600",
+      "reply_users": [
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "328b9d68-d5b3-464b-b32d-349b544ed821",
+      "type": "message",
+      "text": "我在看这个：<https://www.fullstackpython.com/blog/build-first-slack-bot-python.html> （这个资料太老了，请看官方文档！）",
+      "user": "U01F73964V6",
+      "ts": "1616325066.000500",
+      "team": "T019A14BB9T",
+      "edited": {
+        "user": "U01F73964V6",
+        "ts": "1616337654.000000"
+      },
+      "attachments": [
+        {
+          "title": "How to Build Your First Slack Bot with Python",
+          "title_link": "https://www.fullstackpython.com/blog/build-first-slack-bot-python.html",
+          "text": "Learn how to build a simple Slack bot in Python, no prior bot experience needed. Great post on <http://fullstackpython.com|fullstackpython.com>!",
+          "fallback": "How to Build Your First Slack Bot with Python",
+          "thumb_url": "https://www.fullstackpython.com/img/160604-simple-python-slack-bot/header.jpg",
+          "from_url": "https://www.fullstackpython.com/blog/build-first-slack-bot-python.html",
+          "thumb_width": 500,
+          "thumb_height": 250,
+          "service_icon": "https://www.fullstackpython.com/img/fsp-fav.png",
+          "service_name": "fullstackpython.com",
+          "id": 1,
+          "original_url": "https://www.fullstackpython.com/blog/build-first-slack-bot-python.html"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4rt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "我在看这个："
+                },
+                {
+                  "type": "link",
+                  "url": "https://www.fullstackpython.com/blog/build-first-slack-bot-python.html"
+                },
+                {
+                  "type": "text",
+                  "text": " （这个资料太老了，请看官方文档！）"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1616325066.000500",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1616337619.004700",
+      "reply_users": [
+        "U01F73964V6",
+        "U01D2DSJ7EC"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U01D2DSJ7EC"
+          ],
+          "count": 1
+        },
+        {
+          "name": "thumbsup_all",
+          "users": [
+            "U01F73964V6"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1616071387.000200",
+      "user": "U01B4UX4K8T",
+      "text": "<@U01B4UX4K8T> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615858958.000200",
+      "user": "U01D2DSJ7EC",
+      "text": "<@U01D2DSJ7EC> has joined the channel"
+    },
+    {
+      "client_msg_id": "a2c60961-51fd-4e37-a47a-d2f8806ffae5",
+      "type": "message",
+      "text": "<@U01F73964V6> 似乎 export 是可以 export 所有历史数据的",
+      "user": "U019BC1VCM8",
+      "ts": "1615775716.000600",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wA1oM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U01F73964V6"
+                },
+                {
+                  "type": "text",
+                  "text": " 似乎 export 是可以 export 所有历史数据的"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "",
+      "files": [
+        {
+          "id": "F01QSFVN72T",
+          "created": 1615775701,
+          "timestamp": 1615775701,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U019BC1VCM8",
+          "editable": false,
+          "size": 37897,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01QSFVN72T/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01QSFVN72T/download/image.png",
+          "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01QSFVN72T-456555fa88/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01QSFVN72T-456555fa88/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01QSFVN72T-456555fa88/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 111,
+          "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01QSFVN72T-456555fa88/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 148,
+          "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01QSFVN72T-456555fa88/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01QSFVN72T-456555fa88/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 223,
+          "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01QSFVN72T-456555fa88/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 247,
+          "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01QSFVN72T-456555fa88/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 297,
+          "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01QSFVN72T-456555fa88/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 316,
+          "original_w": 1126,
+          "original_h": 348,
+          "thumb_tiny": "AwAOADDSJOeMUvbmkxznAoxxjigBaM0gGPSjaO9AC0UUdKAP/9k=",
+          "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01QSFVN72T/image.png",
+          "permalink_public": "https://slack-files.com/T019A14BB9T-F01QSFVN72T-eb3187808f",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": false,
+      "user": "U019BC1VCM8",
+      "display_as_bot": false,
+      "ts": "1615775704.000100"
+    },
+    {
+      "client_msg_id": "d3ed3d13-bc5c-4def-a980-e6133779217a",
+      "type": "message",
+      "text": "&gt; *Exports:* Workspace Owners and Admins can <https://slack.com/help/articles/201658943-Export-your-workspace-data|export data> from public channels. Data exports will include links to files, but not the files themselves. <https://slack.com/help/articles/204897248-Guide-to-Slack-import-and-export-tools>\n有 owner 或者 admin 能导出一份数据给我看看长啥样么？我想，如果只能导出最近的一万条的话，是不是可以每次快到一万条的时候导出，然后删除一部分历史数据，在外面给导出的数据做一个 viewer 来看历史。",
+      "user": "U01F73964V6",
+      "ts": "1615623353.002200",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "Slack Help Center",
+          "title": "Export your workspace data",
+          "title_link": "https://slack.com/help/articles/201658943-Export-your-workspace-data",
+          "text": "With Slack, you can export data from your workspace or Enterprise Grid organization. Depending on your plan, you may have a few options for data exports:   Free Standard Plus Enterprise Grid ...",
+          "fallback": "Slack Help Center: Export your workspace data",
+          "thumb_url": "https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png",
+          "from_url": "https://slack.com/help/articles/201658943-Export-your-workspace-data",
+          "thumb_width": 256,
+          "thumb_height": 256,
+          "service_icon": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png",
+          "id": 1,
+          "original_url": "https://slack.com/help/articles/201658943-Export-your-workspace-data"
+        },
+        {
+          "service_name": "Slack Help Center",
+          "title": "Guide to Slack import and export tools",
+          "title_link": "https://slack.com/help/articles/204897248-Guide-to-Slack-import-and-export-tools",
+          "text": "Slack offers import and export tools for customers on every plan. This guide covers what you need to know about how content in your Slack workspace or Enterprise Grid organization may be accessed u...",
+          "fallback": "Slack Help Center: Guide to Slack import and export tools",
+          "thumb_url": "https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png",
+          "from_url": "https://slack.com/help/articles/204897248-Guide-to-Slack-import-and-export-tools",
+          "thumb_width": 256,
+          "thumb_height": 256,
+          "service_icon": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png",
+          "id": 2,
+          "original_url": "https://slack.com/help/articles/204897248-Guide-to-Slack-import-and-export-tools"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sQ=",
+          "elements": [
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Exports: ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "Workspace Owners and Admins can "
+                },
+                {
+                  "type": "link",
+                  "url": "https://slack.com/help/articles/201658943-Export-your-workspace-data",
+                  "text": "export data"
+                },
+                {
+                  "type": "text",
+                  "text": " from public channels. Data exports will include links to files, but not the files themselves. "
+                },
+                {
+                  "type": "link",
+                  "url": "https://slack.com/help/articles/204897248-Guide-to-Slack-import-and-export-tools"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "有 owner 或者 admin 能导出一份数据给我看看长啥样么？我想，如果只能导出最近的一万条的话，是不是可以每次快到一万条的时候导出，然后删除一部分历史数据，在外面给导出的数据做一个 viewer 来看历史。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1615623353.002200",
+      "reply_count": 8,
+      "reply_users_count": 2,
+      "latest_reply": "1615699029.001000",
+      "reply_users": [
+        "U019BC1VCM8",
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "c1fb9627-c233-4ebd-b6c7-2e60d4b5c051",
+      "type": "message",
+      "text": "Slack 有一个 export workspace data 的功能，功能和限制如下：<https://slack.com/help/articles/201658943-Export-your-workspace-data>\n\nFree: Export data (messages and links to files) from public channels in your workspace\n- Only **Public** Channels\n- No:\n - Private Channels\n - Direct Messages\n - Schedule or other advanced functions",
+      "user": "U01F73964V6",
+      "ts": "1615203276.002200",
+      "team": "T019A14BB9T",
+      "attachments": [
+        {
+          "service_name": "Slack Help Center",
+          "title": "Export your workspace data",
+          "title_link": "https://slack.com/help/articles/201658943-Export-your-workspace-data",
+          "text": "With Slack, you can export data from your workspace or Enterprise Grid organization. Depending on your plan, you may have a few options for data exports:   Free Standard Plus Enterprise Grid ...",
+          "fallback": "Slack Help Center: Export your workspace data",
+          "thumb_url": "https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png",
+          "from_url": "https://slack.com/help/articles/201658943-Export-your-workspace-data",
+          "thumb_width": 256,
+          "thumb_height": 256,
+          "service_icon": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png",
+          "id": 1,
+          "original_url": "https://slack.com/help/articles/201658943-Export-your-workspace-data"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8y6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Slack 有一个 export workspace data 的功能，功能和限制如下："
+                },
+                {
+                  "type": "link",
+                  "url": "https://slack.com/help/articles/201658943-Export-your-workspace-data"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nFree: Export data (messages and links to files) from public channels in your workspace\n- Only **Public** Channels\n- No:\n - Private Channels\n - Direct Messages\n - Schedule or other advanced functions"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1615203276.002200",
+      "reply_count": 12,
+      "reply_users_count": 2,
+      "latest_reply": "1615208737.005500",
+      "reply_users": [
+        "U01F73964V6",
+        "U019BC1VCM8"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "client_msg_id": "E5036D84-BEC2-4237-9621-801F8ABDDFA4",
+      "type": "message",
+      "text": "对的",
+      "user": "U019BC1VCM8",
+      "ts": "1615177839.001400",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LqX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "对的"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "ae6ea699-16bb-4045-841c-086b5d93a108",
+      "type": "message",
+      "text": "话说现在的 TODO 是可行性调研么，我去看看",
+      "user": "U01F73964V6",
+      "ts": "1615175152.000800",
+      "team": "T019A14BB9T",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "mIY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "话说现在的 TODO 是可行性调研么，我去看看"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "thread_ts": "1615175152.000800",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1615175177.001000",
+      "reply_users": [
+        "U01F73964V6"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1615169380.000200",
+      "user": "U01F73964V6",
+      "text": "<@U01F73964V6> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1612771642.000500",
+      "user": "U01L0SS1U79",
+      "text": "<@U01L0SS1U79> has joined the channel"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_topic",
+      "ts": "1612714442.000300",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> set the channel topic: <https://fducslg.slack.com/archives/C0194KZD6P8/p1612714352083200>",
+      "topic": "<https://fducslg.slack.com/archives/C0194KZD6P8/p1612714352083200>"
+    },
+    {
+      "type": "message",
+      "subtype": "channel_join",
+      "ts": "1612714411.000200",
+      "user": "U019BC1VCM8",
+      "text": "<@U019BC1VCM8> has joined the channel"
+    }
+  ]
+}

@@ -1,0 +1,1233 @@
+{
+  "channel": "C01BHNM7K4Z",
+  "reply_threads": [
+    {
+      "ts": "1607440547.001300",
+      "channel": "C01BHNM7K4Z",
+      "messages": [
+        {
+          "client_msg_id": "96dee785-19a8-468a-a3c4-0033dddebab1",
+          "type": "message",
+          "text": "这周大家都有啥开发任务呀？",
+          "user": "U01G663G3J9",
+          "ts": "1607440547.001300",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EeIve",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "这周大家都有啥开发任务呀？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607440547.001300",
+          "reply_count": 1,
+          "reply_users_count": 1,
+          "latest_reply": "1607484272.001400",
+          "reply_users": [
+            "U019BC1VCM8"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "de9eb848-58e4-48f7-a5ea-0bb9620e495d",
+          "type": "message",
+          "text": "在 notion 上可以看到",
+          "user": "U019BC1VCM8",
+          "ts": "1607484272.001400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jptTc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "在 notion 上可以看到"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607440547.001300",
+          "parent_user_id": "U01G663G3J9"
+        }
+      ]
+    },
+    {
+      "ts": "1614737663.001400",
+      "channel": "C01BHNM7K4Z",
+      "messages": [
+        {
+          "client_msg_id": "acd18814-4a45-4798-ab51-9f3549c46a8e",
+          "type": "message",
+          "text": "譬如我们的会议记录啥的",
+          "user": "U019BC1VCM8",
+          "ts": "1614737663.001400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rM1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "譬如我们的会议记录啥的"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614737663.001400",
+          "reply_count": 2,
+          "reply_users_count": 1,
+          "latest_reply": "1614738058.002000",
+          "reply_users": [
+            "U018WKP8CJK"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "1242af2c-c762-4cf5-85c6-60b97b8ea72d",
+          "type": "message",
+          "text": "我觉得放一些阶段性成果（比如昨天向钟做的骨架屏）和开发流程以及我们踩了这么多坑之后能给可能的准备用我们这套框架进行开发的同学提供的一些 bootstrap 的建议，感兴趣的同学可以在这里和我们讨论？",
+          "user": "U018WKP8CJK",
+          "ts": "1614738028.001800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "IGSyr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "我觉得放一些阶段性成果（比如昨天向钟做的骨架屏）和开发流程以及我们踩了这么多坑之后能给可能的准备用我们这套框架进行开发的同学提供的一些 bootstrap 的建议，感兴趣的同学可以在这里和我们讨论？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614737663.001400",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "3155ad50-d996-4847-9d79-2d2df0678c84",
+          "type": "message",
+          "text": "但目前我感觉后端还是一团乱码，或者说我目前还看不到自己在这个项目上能有啥输出的",
+          "user": "U018WKP8CJK",
+          "ts": "1614738058.002000",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "hBIa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "但目前我感觉后端还是一团乱码，或者说我目前还看不到自己在这个项目上能有啥输出的"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614737663.001400",
+          "parent_user_id": "U019BC1VCM8"
+        }
+      ]
+    },
+    {
+      "ts": "1615171671.000400",
+      "channel": "C01BHNM7K4Z",
+      "messages": [
+        {
+          "type": "message",
+          "text": "<@U018WKP8CJK> 简单 show case 一下，用 typeorm 比不用的好处（",
+          "files": [
+            {
+              "id": "F01QFPYTQHG",
+              "created": 1615171656,
+              "timestamp": 1615171656,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U019BC1VCM8",
+              "editable": false,
+              "size": 154191,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01QFPYTQHG/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01QFPYTQHG/download/image.png",
+              "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 168,
+              "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 224,
+              "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 336,
+              "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 373,
+              "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 448,
+              "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01QFPYTQHG-d143667d57/image_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 478,
+              "original_w": 2250,
+              "original_h": 1050,
+              "thumb_tiny": "AwAWADDQpaSloGFLSUooAMUUtFAhNtGKWigBMUc0tFACc0tFFAH/2Q==",
+              "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01QFPYTQHG/image.png",
+              "permalink_public": "https://slack-files.com/T019A14BB9T-F01QFPYTQHG-7009143fd5",
+              "is_starred": false,
+              "has_rich_preview": false
+            }
+          ],
+          "upload": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eXYT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U018WKP8CJK"
+                    },
+                    {
+                      "type": "text",
+                      "text": " 简单 show case 一下，用 typeorm 比不用的好处（"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "user": "U019BC1VCM8",
+          "display_as_bot": false,
+          "ts": "1615171671.000400",
+          "thread_ts": "1615171671.000400",
+          "reply_count": 1,
+          "reply_users_count": 1,
+          "latest_reply": "1615171685.000700",
+          "reply_users": [
+            "U019BC1VCM8"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "3f2b9647-a219-40ad-83a1-410e4e15eaaa",
+          "type": "message",
+          "text": "本来一大坨，现在只要两行就搞定了）",
+          "user": "U019BC1VCM8",
+          "ts": "1615171685.000700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wwt+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "本来一大坨，现在只要两行就搞定了）"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1615171671.000400",
+          "parent_user_id": "U019BC1VCM8"
+        }
+      ]
+    },
+    {
+      "ts": "1617265845.001000",
+      "channel": "C01BHNM7K4Z",
+      "messages": [
+        {
+          "client_msg_id": "e44cca94-fb72-40f5-a60f-52ef1714d3d2",
+          "type": "message",
+          "text": "<https://github.com/FDUCSLG/fducslg/pull/8> <@U01BUUXU524> <@U01RFM0F9T2> <@U01QXR6CA0L> 三位麻烦也一起帮忙 review 一下吧~ 因为你们是目标受众，如果有觉得没讲清楚的地方我好修改~",
+          "user": "U019BC1VCM8",
+          "ts": "1617265845.001000",
+          "team": "T019A14BB9T",
+          "attachments": [
+            {
+              "author_name": "ichn-hu",
+              "fallback": "[FDUCSLG/fducslg] #8 Create 2021-03-12-dockerfile.md WIP DNM",
+              "text": "rt",
+              "title": "#8 Create 2021-03-12-dockerfile.md WIP DNM",
+              "footer": "<https://github.com/FDUCSLG/fducslg|FDUCSLG/fducslg>",
+              "id": 1,
+              "title_link": "https://github.com/FDUCSLG/fducslg/pull/8",
+              "author_link": "https://github.com/ichn-hu",
+              "author_icon": "https://avatars.githubusercontent.com/u/29735669?v=4",
+              "footer_icon": "https://github.githubassets.com/favicon.ico",
+              "ts": 1615509987,
+              "color": "36a64f",
+              "fields": [
+                {
+                  "title": "Comments",
+                  "value": "1",
+                  "short": true
+                }
+              ],
+              "mrkdwn_in": [
+                "text"
+              ],
+              "bot_id": "B01LUHTT622",
+              "app_unfurl_url": "https://github.com/FDUCSLG/fducslg/pull/8",
+              "is_app_unfurl": true
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PX9p=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/FDUCSLG/fducslg/pull/8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01BUUXU524"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01RFM0F9T2"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01QXR6CA0L"
+                    },
+                    {
+                      "type": "text",
+                      "text": " 三位麻烦也一起帮忙 review 一下吧~ 因为你们是目标受众，如果有觉得没讲清楚的地方我好修改~"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1617265845.001000",
+          "reply_count": 7,
+          "reply_users_count": 2,
+          "latest_reply": "1617869888.000300",
+          "reply_users": [
+            "U01BUUXU524",
+            "U019BC1VCM8"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "type": "message",
+          "text": "现在好像有个bug就是这个侧边栏直接点只会出一个欢迎和主页，得点一下主页才会出博客:eyes:",
+          "files": [
+            {
+              "id": "F01T5ED90H1",
+              "created": 1617354771,
+              "timestamp": 1617354771,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U01BUUXU524",
+              "editable": false,
+              "size": 871902,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01T5ED90H1/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01T5ED90H1/download/image.png",
+              "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01T5ED90H1-adc8231ca8/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01T5ED90H1-adc8231ca8/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01T5ED90H1-adc8231ca8/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 204,
+              "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01T5ED90H1-adc8231ca8/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 272,
+              "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01T5ED90H1-adc8231ca8/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01T5ED90H1-adc8231ca8/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 408,
+              "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01T5ED90H1-adc8231ca8/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 453,
+              "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01T5ED90H1-adc8231ca8/image_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 544,
+              "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01T5ED90H1-adc8231ca8/image_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 580,
+              "original_w": 2436,
+              "original_h": 1380,
+              "thumb_tiny": "AwAbADDR21m3ESNcOSuTmtSs24/17/WgCHyI/wC5R5Mf92nUtADPJj/u0eTH/dp9FAGrWbP/AK9/rWlWdP8A69/rQBHRRRQAUUUUAf/Z",
+              "permalink": "https://fducslg.slack.com/files/U01BUUXU524/F01T5ED90H1/image.png",
+              "permalink_public": "https://slack-files.com/T019A14BB9T-F01T5ED90H1-3db37f9252",
+              "is_starred": false,
+              "has_rich_preview": false
+            }
+          ],
+          "upload": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xeT+3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "现在好像有个bug就是这个侧边栏直接点只会出一个欢迎和主页，得点一下主页才会出博客"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "eyes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "user": "U01BUUXU524",
+          "display_as_bot": false,
+          "ts": "1617354951.000200",
+          "thread_ts": "1617265845.001000",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "7d080aca-b8e2-4a32-ac8c-151ae9488fb9",
+          "type": "message",
+          "text": "好像是这么回事",
+          "user": "U019BC1VCM8",
+          "ts": "1617439228.000600",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9tqna",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "好像是这么回事"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1617265845.001000",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "644556ce-dae8-4e52-8c63-d4e32a7707c5",
+          "type": "message",
+          "text": "确实是 bug",
+          "user": "U019BC1VCM8",
+          "ts": "1617439232.000800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "scy",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "确实是 bug"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1617265845.001000",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "9365b69c-9ea3-4dbc-b7cd-346b7b83e582",
+          "type": "message",
+          "text": "你有兴趣看看吗？",
+          "user": "U019BC1VCM8",
+          "ts": "1617439241.001000",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OWS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "你有兴趣看看吗？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1617265845.001000",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "11621935-0c08-46d5-a6a9-e4d377d6afa8",
+          "type": "message",
+          "text": "博客用的是 mkdocs，然后 theme 是<https://squidfunk.github.io/mkdocs-material/>",
+          "user": "U019BC1VCM8",
+          "ts": "1617439267.001200",
+          "team": "T019A14BB9T",
+          "attachments": [
+            {
+              "title": "Material for MkDocs",
+              "title_link": "https://squidfunk.github.io/mkdocs-material/",
+              "text": "Create a branded static site from a set of Markdown files to host the documentation of your Open Source or commercial project – customizable, searchable, mobile-friendly, 40+ languages",
+              "fallback": "Material for MkDocs",
+              "image_url": "https://squidfunk.github.io/mkdocs-material/assets/images/banner.png",
+              "image_width": 475,
+              "image_height": 250,
+              "from_url": "https://squidfunk.github.io/mkdocs-material/",
+              "image_bytes": 177892,
+              "service_name": "squidfunk.github.io",
+              "id": 1,
+              "original_url": "https://squidfunk.github.io/mkdocs-material/"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8mc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "博客用的是 mkdocs，然后 theme 是"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://squidfunk.github.io/mkdocs-material/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1617265845.001000",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "ddfc39e7-97ed-4fc3-a3bc-05715dfcb180",
+          "type": "message",
+          "text": "啊啊啊sorry 前两天slack不知道为啥不弹出通知了",
+          "user": "U01BUUXU524",
+          "ts": "1617869865.000100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xRpa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "啊啊啊sorry 前两天slack不知道为啥不弹出通知了"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1617265845.001000",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "81d30adf-6fe2-4401-b83c-a23578cf7be5",
+          "type": "message",
+          "text": "好呀让我康康",
+          "user": "U01BUUXU524",
+          "ts": "1617869888.000300",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Kdiy",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "好呀让我康康"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1617265845.001000",
+          "parent_user_id": "U019BC1VCM8"
+        }
+      ]
+    },
+    {
+      "ts": "1618041574.003200",
+      "channel": "C01BHNM7K4Z",
+      "messages": [
+        {
+          "client_msg_id": "43c4a48e-b35b-42b7-9c0c-50b0ba79dd5c",
+          "type": "message",
+          "text": "fdxk 后端需求：通过 decorator 给 controller 的所有调用加 log\n\n要求：\n\n1. 通过装饰器修饰的所有 controller 的 API 接口在被调用的时候打印调用日志，包括调用者和参数\n2. 开发模式日志输出到屏幕，production 模式日志输出到 rotational log file\n技能需求及难度：需要对 ts 的 decorator 以及对代码中的日志模块的了解（可以学），3 星难度",
+          "user": "U019BC1VCM8",
+          "ts": "1618041574.003200",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "XCO7b",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "fdxk 后端需求：通过 decorator 给 controller 的所有调用加 log\n\n要求：\n\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "通过装饰器修饰的所有 controller 的 API 接口在被调用的时候打印调用日志，包括调用者和参数"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "开发模式日志输出到屏幕，production 模式日志输出到 rotational log file"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "ordered",
+                  "indent": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\n技能需求及难度：需要对 ts 的 decorator 以及对代码中的日志模块的了解（可以学），3 星难度"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618041574.003200",
+          "reply_count": 5,
+          "reply_users_count": 1,
+          "latest_reply": "1618445923.000700",
+          "reply_users": [
+            "U019BC1VCM8"
+          ],
+          "is_locked": false,
+          "subscribed": false,
+          "pinned_to": [
+            "C01BHNM7K4Z"
+          ],
+          "pinned_info": {
+            "channel": "C01BHNM7K4Z",
+            "pinned_by": "U019BC1VCM8",
+            "pinned_ts": 1618042061
+          }
+        },
+        {
+          "client_msg_id": "2a5c240c-2c11-4a54-9472-9e905af36675",
+          "type": "message",
+          "text": "<@U01QXR6CA0L> <@U01RFM0F9T2> <@U01BUUXU524> PTAL",
+          "user": "U019BC1VCM8",
+          "ts": "1618042032.006400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "34HL0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01QXR6CA0L"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01RFM0F9T2"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01BUUXU524"
+                    },
+                    {
+                      "type": "text",
+                      "text": " PTAL"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618041574.003200",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "ec798524-d89b-43ad-ad1b-430de1d97cb5",
+          "type": "message",
+          "text": "上次 <@U01BUUXU524> 那个 PR 算 2 星难度",
+          "user": "U019BC1VCM8",
+          "ts": "1618042051.006600",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2E3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "上次 "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01BUUXU524"
+                    },
+                    {
+                      "type": "text",
+                      "text": " 那个 PR 算 2 星难度"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618041574.003200",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "type": "message",
+          "text": "我们代码中很多地方都是像 43 行这样",
+          "files": [
+            {
+              "id": "F01TXNHSNUX",
+              "created": 1618445851,
+              "timestamp": 1618445851,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U019BC1VCM8",
+              "editable": false,
+              "size": 46598,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T019A14BB9T-F01TXNHSNUX/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T019A14BB9T-F01TXNHSNUX/download/image.png",
+              "thumb_64": "https://files.slack.com/files-tmb/T019A14BB9T-F01TXNHSNUX-edc2d77a97/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T019A14BB9T-F01TXNHSNUX-edc2d77a97/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T019A14BB9T-F01TXNHSNUX-edc2d77a97/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 117,
+              "thumb_480": "https://files.slack.com/files-tmb/T019A14BB9T-F01TXNHSNUX-edc2d77a97/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 156,
+              "thumb_160": "https://files.slack.com/files-tmb/T019A14BB9T-F01TXNHSNUX-edc2d77a97/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T019A14BB9T-F01TXNHSNUX-edc2d77a97/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 234,
+              "thumb_800": "https://files.slack.com/files-tmb/T019A14BB9T-F01TXNHSNUX-edc2d77a97/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 260,
+              "thumb_960": "https://files.slack.com/files-tmb/T019A14BB9T-F01TXNHSNUX-edc2d77a97/image_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 312,
+              "thumb_1024": "https://files.slack.com/files-tmb/T019A14BB9T-F01TXNHSNUX-edc2d77a97/image_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 332,
+              "original_w": 1078,
+              "original_h": 350,
+              "thumb_tiny": "AwAPADCiMZ5pSB2pBS7jQAn5UfhRuNG40AH4UlLuNJmgD//Z",
+              "permalink": "https://fducslg.slack.com/files/U019BC1VCM8/F01TXNHSNUX/image.png",
+              "permalink_public": "https://slack-files.com/T019A14BB9T-F01TXNHSNUX-7d58779b60",
+              "is_starred": false,
+              "has_rich_preview": false
+            }
+          ],
+          "upload": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eoao",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "我们代码中很多地方都是像 43 行这样"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "user": "U019BC1VCM8",
+          "display_as_bot": false,
+          "ts": "1618445863.000100",
+          "thread_ts": "1618041574.003200",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "41c9b76a-29ac-4e96-aaec-fee63e1bb0f4",
+          "type": "message",
+          "text": "手动输出一个日志",
+          "user": "U019BC1VCM8",
+          "ts": "1618445870.000500",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "R7y",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "手动输出一个日志"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618041574.003200",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "03f86c09-c765-4b65-89b4-c1956d91c930",
+          "type": "message",
+          "text": "这个工作项是希望能像上面 @Put 那样, 用一个 @Log 的 decorator 来实现, 并且自动捕获参数",
+          "user": "U019BC1VCM8",
+          "ts": "1618445923.000700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rgFF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "这个工作项是希望能像上面 @Put 那样, 用一个 @Log 的 decorator 来实现, 并且自动捕获参数"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618041574.003200",
+          "parent_user_id": "U019BC1VCM8"
+        }
+      ]
+    },
+    {
+      "ts": "1618041996.006100",
+      "channel": "C01BHNM7K4Z",
+      "messages": [
+        {
+          "client_msg_id": "50174bfb-2e74-4e5c-b370-4804ece073ce",
+          "type": "message",
+          "text": "fdxk 后端需求：参照前端，给后端的 husky 添加 commit message 检查和提交 PR 的 template参照：\n\n要求：\n\n1. 前端提交 commit 的时候会通过 husky 检查 commit message，规范化 commit message；后端目前已经有 husky，希望参照前端 husky 配置引入 commit message 检查，参考：<https://github.com/CLDXiang/today-frontend/tree/master/.husky> (前端 husky） <https://github.com/conventional-changelog/commitlint/#what-is-commitlint> （commitlint）\n2. 为后端的 issue 和 PR 添加 github 模板，参考 <https://github.com/CLDXiang/today-frontend/tree/master/.github>\n技能需求及难度：了解基础的 git 工作流程，了解 github 工作流程，1 星难度",
+          "user": "U019BC1VCM8",
+          "ts": "1618041996.006100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+PP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "fdxk 后端需求：参照前端，给后端的 husky 添加 commit message 检查和提交 PR 的 template参照：\n\n要求：\n\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_list",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "前端提交 commit 的时候会通过 husky 检查 commit message，规范化 commit message；后端目前已经有 husky，希望参照前端 husky 配置引入 commit message 检查，参考："
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://github.com/CLDXiang/today-frontend/tree/master/.husky"
+                        },
+                        {
+                          "type": "text",
+                          "text": " (前端 husky） "
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://github.com/conventional-changelog/commitlint/#what-is-commitlint"
+                        },
+                        {
+                          "type": "text",
+                          "text": " （commitlint）"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "为后端的 issue 和 PR 添加 github 模板，参考 "
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://github.com/CLDXiang/today-frontend/tree/master/.github"
+                        }
+                      ]
+                    }
+                  ],
+                  "style": "ordered",
+                  "indent": 0
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\n技能需求及难度：了解基础的 git 工作流程，了解 github 工作流程，1 星难度"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618041996.006100",
+          "reply_count": 3,
+          "reply_users_count": 3,
+          "latest_reply": "1618140857.008100",
+          "reply_users": [
+            "U019BC1VCM8",
+            "U01QXR6CA0L",
+            "U01BUUXU524"
+          ],
+          "is_locked": false,
+          "subscribed": false,
+          "pinned_to": [
+            "C01BHNM7K4Z"
+          ],
+          "pinned_info": {
+            "channel": "C01BHNM7K4Z",
+            "pinned_by": "U019BC1VCM8",
+            "pinned_ts": 1618042064
+          }
+        },
+        {
+          "client_msg_id": "ab010c72-dda4-4591-985a-58d76455513d",
+          "type": "message",
+          "text": "<@U01QXR6CA0L> <@U01BUUXU524> <@U01RFM0F9T2> PTAL",
+          "user": "U019BC1VCM8",
+          "ts": "1618042018.006200",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GIpy",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01QXR6CA0L"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01BUUXU524"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U01RFM0F9T2"
+                    },
+                    {
+                      "type": "text",
+                      "text": " PTAL"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618041996.006100",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "2bb39a28-9eb9-48bc-8598-b34bb804e268",
+          "type": "message",
+          "text": "收到！",
+          "user": "U01QXR6CA0L",
+          "ts": "1618063485.007900",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "m=zh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "收到！"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618041996.006100",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "5e6d699a-49b9-48d4-888d-eb326d87acb8",
+          "type": "message",
+          "text": "收到～",
+          "user": "U01BUUXU524",
+          "ts": "1618140857.008100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "b7MM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "收到～"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618041996.006100",
+          "parent_user_id": "U019BC1VCM8"
+        }
+      ]
+    },
+    {
+      "ts": "1618042074.007200",
+      "channel": "C01BHNM7K4Z",
+      "messages": [
+        {
+          "client_msg_id": "0b12a3a4-d285-48d0-8e62-01fa9aadb9f7",
+          "type": "message",
+          "text": "这类需求等后端开源就做成 issue 放出来",
+          "user": "U019BC1VCM8",
+          "ts": "1618042074.007200",
+          "team": "T019A14BB9T",
+          "edited": {
+            "user": "U019BC1VCM8",
+            "ts": "1618042096.000000"
+          },
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "z9I",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "这类需求等后端开源就做成 issue 放出来"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618042074.007200",
+          "reply_count": 1,
+          "reply_users_count": 1,
+          "latest_reply": "1618042084.007500",
+          "reply_users": [
+            "U019BC1VCM8"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "217e7db5-7938-4f5f-b99e-d21e67dbe1c6",
+          "type": "message",
+          "text": "<@U01B4UX4K8T> 到时候记得 push 下我",
+          "user": "U019BC1VCM8",
+          "ts": "1618042084.007500",
+          "team": "T019A14BB9T",
+          "edited": {
+            "user": "U019BC1VCM8",
+            "ts": "1618042091.000000"
+          },
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qhUH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01B4UX4K8T"
+                    },
+                    {
+                      "type": "text",
+                      "text": " 到时候记得 push 下我"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1618042074.007200",
+          "parent_user_id": "U019BC1VCM8"
+        }
+      ]
+    }
+  ]
+}

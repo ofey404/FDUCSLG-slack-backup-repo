@@ -1,0 +1,914 @@
+{
+  "channel": "C01FU5GKBAT",
+  "reply_threads": [
+    {
+      "ts": "1607260349.001100",
+      "channel": "C01FU5GKBAT",
+      "messages": [
+        {
+          "client_msg_id": "3d9f1999-9114-4f0e-a738-1112103866ab",
+          "type": "message",
+          "text": "<http://flomo.app|flomo.app>",
+          "user": "U019BC1VCM8",
+          "ts": "1607260349.001100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aSj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "flomo.app"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607260349.001100",
+          "reply_count": 2,
+          "reply_users_count": 1,
+          "latest_reply": "1607266535.009300",
+          "reply_users": [
+            "U0194L0FW5U"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "b53e0bdc-6f32-44ff-8bb7-33f54245773c",
+          "type": "message",
+          "text": "求个内测码",
+          "user": "U0194L0FW5U",
+          "ts": "1607262844.008400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NMvPO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "求个内测码"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607260349.001100",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "05c8987a-166b-409a-8125-dee31083af5a",
+          "type": "message",
+          "text": "我已注册",
+          "user": "U0194L0FW5U",
+          "ts": "1607266535.009300",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "492S=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "我已注册"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607260349.001100",
+          "parent_user_id": "U019BC1VCM8"
+        }
+      ]
+    },
+    {
+      "ts": "1607262159.002900",
+      "channel": "C01FU5GKBAT",
+      "messages": [
+        {
+          "client_msg_id": "1c2fcdd0-e445-4abd-a8fc-862c7446598f",
+          "type": "message",
+          "text": "我感觉我陷入一种，事情太多不知道要怎么安排的困境之中，对完成所有身上的事情有点看不到希望，大家有什么经验和方法可以分享吗 ovo",
+          "user": "U0194L0FW5U",
+          "ts": "1607262159.002900",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GDoP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "我感觉我陷入一种，事情太多不知道要怎么安排的困境之中，对完成所有身上的事情有点看不到希望，大家有什么经验和方法可以分享吗 ovo"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607262159.002900",
+          "reply_count": 1,
+          "reply_users_count": 1,
+          "latest_reply": "1607262311.005400",
+          "reply_users": [
+            "U018WKP8CJK"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "50519741-de4b-49e7-ac44-d2b6f5bfd452",
+          "type": "message",
+          "text": "我前端时间也是这样的，但感觉用上计划表、打钩之后，每周都可以清楚地知道自己做完了什么事情，虽然每次都不能全部完成，但总是有推进，就改善了一点（甚至在做一个事情状态不好的时候，去做一些简单的事情来攒 √，也让我感觉蛮欣慰的。。。）",
+          "user": "U018WKP8CJK",
+          "ts": "1607262311.005400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WKtGV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "我前端时间也是这样的，但感觉用上计划表、打钩之后，每周都可以清楚地知道自己做完了什么事情，虽然每次都不能全部完成，但总是有推进，就改善了一点（甚至在做一个事情状态不好的时候，去做一些简单的事情来攒 √，也让我感觉蛮欣慰的。。。）"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607262159.002900",
+          "parent_user_id": "U0194L0FW5U"
+        }
+      ]
+    },
+    {
+      "ts": "1607262700.006800",
+      "channel": "C01FU5GKBAT",
+      "messages": [
+        {
+          "client_msg_id": "34BE5723-4AAA-4C30-9706-678ACD923B6E",
+          "type": "message",
+          "text": "<@U01D2DSJ7EC> <@U019BC1VCM8> 求推荐信息源",
+          "user": "U01B4UX4K8T",
+          "ts": "1607262700.006800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "chSdO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U01D2DSJ7EC"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U019BC1VCM8"
+                    },
+                    {
+                      "type": "text",
+                      "text": " 求推荐信息源"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607262700.006800",
+          "reply_count": 4,
+          "reply_users_count": 3,
+          "latest_reply": "1607263220.008600",
+          "reply_users": [
+            "U0194L0FW5U",
+            "U01B4UX4K8T",
+            "U01D2DSJ7EC"
+          ],
+          "is_locked": false,
+          "subscribed": false,
+          "reactions": [
+            {
+              "name": "eyes",
+              "users": [
+                "U0194L0FW5U"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6aff2c10-0a39-45f5-afd3-f1778fbacaf5",
+          "type": "message",
+          "text": "什么信息源啊",
+          "user": "U0194L0FW5U",
+          "ts": "1607262754.007000",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "l7+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "什么信息源啊"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607262700.006800",
+          "parent_user_id": "U01B4UX4K8T"
+        },
+        {
+          "client_msg_id": "04914DD0-93AD-4F69-BA03-C73D2D75C3B4",
+          "type": "message",
+          "text": "youtube 推特 知乎之类的平台上可以关注的人，或是一些质量比较高的博客之类的",
+          "user": "U01B4UX4K8T",
+          "ts": "1607262795.008000",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lUE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "youtube 推特 知乎之类的平台上可以关注的人，或是一些质量比较高的博客之类的"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607262700.006800",
+          "parent_user_id": "U01B4UX4K8T"
+        },
+        {
+          "client_msg_id": "cc9623a0-5075-48c7-84a6-353f8cdb91f6",
+          "type": "message",
+          "text": "+10086",
+          "user": "U0194L0FW5U",
+          "ts": "1607262811.008200",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "cQW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "+10086"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607262700.006800",
+          "parent_user_id": "U01B4UX4K8T"
+        },
+        {
+          "client_msg_id": "525dd3cb-e218-4af4-afce-c7ddaa58a405",
+          "type": "message",
+          "text": "好多，我整理整理。。。一个是我现在读得东西全部都往这个 <http://github.com/ahacad/learning|repo> 里面扔了，然后有好多书逐渐放到<http://106.15.248.99:60001|这个网站> ，其它的得好好整理一下 ...... 或许可以讨论一下:huaji:",
+          "user": "U01D2DSJ7EC",
+          "ts": "1607263220.008600",
+          "team": "T019A14BB9T",
+          "attachments": [
+            {
+              "service_name": "GitHub",
+              "title": "Ahacad/learning",
+              "title_link": "http://github.com/ahacad/learning",
+              "text": "Learn more everyday. Contribute to Ahacad/learning development by creating an account on GitHub.",
+              "fallback": "GitHub: Ahacad/learning",
+              "thumb_url": "https://avatars1.githubusercontent.com/u/51874356?s=400&v=4",
+              "from_url": "http://github.com/ahacad/learning",
+              "thumb_width": 300,
+              "thumb_height": 300,
+              "service_icon": "https://github.com/favicon.ico",
+              "id": 1,
+              "original_url": "http://github.com/ahacad/learning"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PZfy",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "好多，我整理整理。。。一个是我现在读得东西全部都往这个 "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://github.com/ahacad/learning",
+                      "text": "repo"
+                    },
+                    {
+                      "type": "text",
+                      "text": " 里面扔了，然后有好多书逐渐放到"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://106.15.248.99:60001",
+                      "text": "这个网站"
+                    },
+                    {
+                      "type": "text",
+                      "text": " ，其它的得好好整理一下 ...... 或许可以讨论一下"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "huaji"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607262700.006800",
+          "parent_user_id": "U01B4UX4K8T",
+          "reactions": [
+            {
+              "name": "+1",
+              "users": [
+                "U019BC1VCM8",
+                "U01B4UX4K8T"
+              ],
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "1607305752.010000",
+      "channel": "C01FU5GKBAT",
+      "messages": [
+        {
+          "client_msg_id": "2E46A2A7-F266-411F-8FEC-1D0EBEAFA4DF",
+          "type": "message",
+          "text": "flomo 用 <https://flomoapp.com/register2/?Mg|https://flomoapp.com/register2/?Mg> 注册就好",
+          "user": "U019BC1VCM8",
+          "ts": "1607305752.010000",
+          "team": "T019A14BB9T",
+          "attachments": [
+            {
+              "title": "flomo",
+              "title_link": "https://flomoapp.com/register2/?Mg",
+              "text": "无压笔记，随机漫步，记录你想法的川流",
+              "fallback": "flomo",
+              "from_url": "https://flomoapp.com/register2/?Mg",
+              "service_name": "flomoapp.com",
+              "id": 1,
+              "original_url": "https://flomoapp.com/register2/?Mg"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "saEk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "flomo 用 "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://flomoapp.com/register2/?Mg",
+                      "text": "https://flomoapp.com/register2/?Mg"
+                    },
+                    {
+                      "type": "text",
+                      "text": " 注册就好"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607305752.010000",
+          "reply_count": 3,
+          "reply_users_count": 1,
+          "latest_reply": "1607348568.011800",
+          "reply_users": [
+            "U01D2DSJ7EC"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "3a32af66-751c-44e2-bf9e-7108465b97f4",
+          "type": "message",
+          "text": "推荐书，how to take smart notes",
+          "user": "U01D2DSJ7EC",
+          "ts": "1607348520.011400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eI/zC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "推荐书，how to take smart notes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607305752.010000",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "741000b5-9258-48f2-87c1-e54b45a83ee3",
+          "type": "message",
+          "text": "不知道 flomo 的作者有没有读过，但是两者本质很相似",
+          "user": "U01D2DSJ7EC",
+          "ts": "1607348543.011600",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "d3zX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "不知道 flomo 的作者有没有读过，但是两者本质很相似"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607305752.010000",
+          "parent_user_id": "U019BC1VCM8"
+        },
+        {
+          "client_msg_id": "22e5530e-a3f3-477a-9b7f-0a09b9e2d710",
+          "type": "message",
+          "text": "卡片法学习和写东西",
+          "user": "U01D2DSJ7EC",
+          "ts": "1607348568.011800",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rdaA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "卡片法学习和写东西"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1607305752.010000",
+          "parent_user_id": "U019BC1VCM8"
+        }
+      ]
+    },
+    {
+      "ts": "1614764368.002100",
+      "channel": "C01FU5GKBAT",
+      "messages": [
+        {
+          "client_msg_id": "14a13e97-891e-47a4-a966-45a0bbd862c5",
+          "type": "message",
+          "text": "请问大家，如果想要将电脑上的打开的网页标签发送到手机，有没有啥便捷的方法；发到一个 IM 再打开当然可以，但是感觉有点太麻烦了:sweat_smile:",
+          "user": "U01D2DSJ7EC",
+          "ts": "1614764368.002100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Yt6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "请问大家，如果想要将电脑上的打开的网页标签发送到手机，有没有啥便捷的方法；发到一个 IM 再打开当然可以，但是感觉有点太麻烦了"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sweat_smile"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "reply_count": 12,
+          "reply_users_count": 3,
+          "latest_reply": "1614774960.004700",
+          "reply_users": [
+            "U01B4UX4K8T",
+            "U0194L0FW5U",
+            "U01D2DSJ7EC"
+          ],
+          "is_locked": false,
+          "subscribed": false
+        },
+        {
+          "client_msg_id": "f2d9f636-40ff-4ffd-8bbc-6f8c09386abd",
+          "type": "message",
+          "text": "用有同步功能的浏览器，chrome 登录同一个账号就可以，apple 生态同一 icloud 也会直接显示其他设备打开的网页",
+          "user": "U01B4UX4K8T",
+          "ts": "1614764435.002200",
+          "team": "T019A14BB9T",
+          "edited": {
+            "user": "U01B4UX4K8T",
+            "ts": "1614764462.000000"
+          },
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ccE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "用有同步功能的浏览器，chrome 登录同一个账号就可以，apple 生态同一 icloud 也会直接显示其他设备打开的网页"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "3d17039b-57f3-426a-af08-bea5477ecbd5",
+          "type": "message",
+          "text": "Edge 也可以",
+          "user": "U0194L0FW5U",
+          "ts": "1614764676.002500",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Kpt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Edge 也可以"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "09016899-71d2-4e0e-b9e2-a064bca57fca",
+          "type": "message",
+          "text": "chrome 要翻墙，icloud 要全家桶，edge Linux 下没有用户系统",
+          "user": "U0194L0FW5U",
+          "ts": "1614764721.002700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TqeTk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "chrome 要翻墙，icloud 要全家桶，edge Linux 下没有用户系统"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "900e9bb9-9d0a-44de-9ffc-664672d32425",
+          "type": "message",
+          "text": "一个大写的 草",
+          "user": "U0194L0FW5U",
+          "ts": "1614764730.002900",
+          "team": "T019A14BB9T",
+          "edited": {
+            "user": "U0194L0FW5U",
+            "ts": "1614764739.000000"
+          },
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8nuzS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "一个大写的 草"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "603a34ef-37bc-4935-9ff3-1cf7b4d95825",
+          "type": "message",
+          "text": "edge linux 好像有了",
+          "user": "U01D2DSJ7EC",
+          "ts": "1614764827.003200",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+FA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "edge linux 好像有了"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "9b6cdb4f-cebe-443f-a695-86c3761af515",
+          "type": "message",
+          "text": "有的，但是不能登陆，用户系统还没上线",
+          "user": "U0194L0FW5U",
+          "ts": "1614764862.003400",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uZG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "有的，但是不能登陆，用户系统还没上线"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC",
+          "reactions": [
+            {
+              "name": "sweat_smile",
+              "users": [
+                "U01D2DSJ7EC"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "client_msg_id": "70a3b37d-8fab-498d-891a-dc0b3548d9de",
+          "type": "message",
+          "text": "（去年年底是这个情况，现在不清楚",
+          "user": "U0194L0FW5U",
+          "ts": "1614764897.003700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vie=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "（去年年底是这个情况，现在不清楚"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "b01b7b47-68ca-4014-812d-f16fdb2255e2",
+          "type": "message",
+          "text": "你可以去看看",
+          "user": "U0194L0FW5U",
+          "ts": "1614764903.003900",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "608q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "你可以去看看"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "b76f9409-13d8-4360-a251-a8bda397b3fc",
+          "type": "message",
+          "text": ":huaji:",
+          "user": "U0194L0FW5U",
+          "ts": "1614764907.004100",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Sqe",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "huaji"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "ae973613-9fbc-46e8-ad4f-145ff936f5a3",
+          "type": "message",
+          "text": "算了，还是别 edge 了，装太多浏览器也烦。。",
+          "user": "U01D2DSJ7EC",
+          "ts": "1614765017.004300",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "P2U",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "算了，还是别 edge 了，装太多浏览器也烦。。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "30cf9868-873b-4740-b5cc-a485ca99eaf9",
+          "type": "message",
+          "text": "确实",
+          "user": "U0194L0FW5U",
+          "ts": "1614765041.004500",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BL/V",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "确实"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        },
+        {
+          "client_msg_id": "6d478016-728e-4505-b91e-c51bf2f9bf6b",
+          "type": "message",
+          "text": "不知道能不能 WebRTC 做一个简单的小页面当作全端工作站，或者说剪贴板，但我不太确定这样做有没有意义（",
+          "user": "U01B4UX4K8T",
+          "ts": "1614774960.004700",
+          "team": "T019A14BB9T",
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xLLbv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "不知道能不能 WebRTC 做一个简单的小页面当作全端工作站，或者说剪贴板，但我不太确定这样做有没有意义（"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "thread_ts": "1614764368.002100",
+          "parent_user_id": "U01D2DSJ7EC"
+        }
+      ]
+    }
+  ]
+}
